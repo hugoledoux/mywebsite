@@ -89,7 +89,7 @@ a:after {
 
 #headerwrap {
 	/*background: url(../../map.png) no-repeat center top;*/
-  background: #009FE4;
+  background: #00A6D6;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -143,7 +143,7 @@ a:after {
 }
 
 #f a {
-  color: #009FE4;
+  color: #00A6D6;
 }
 
 #f h2 {
@@ -156,7 +156,7 @@ a:after {
 }
 
 #f h3 {
-  /*color: #009FE4;*/
+  /*color: #00A6D6;*/
   color: black;
   font-size: 36px;
   text-align: left;
