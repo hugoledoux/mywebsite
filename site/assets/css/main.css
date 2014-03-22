@@ -32,11 +32,10 @@ h2 {
 
 
 /* Paragraph & Typographic */
-p {
+p, ul {
     font-family: 'Ubuntu', sans-serif;
-    /*line-height: 28px;*/
+    font-size: 20px;
     margin-bottom: 20px;
-    font-size: 18px;
     color: #323232;
     margin-left: 0px;
     margin-right: 0px;
@@ -169,10 +168,10 @@ a:after {
   padding: 3px;
 }*/
 
-#f p {
+/*#f p {
 	font-size: 20px;
 	color: #black;
-}
+}*/
 
 #f img {
 	text-align: center;

@@ -22,6 +22,9 @@ def main():
   s = write_pubs()
   fOut.write(s.getvalue())
 
+  s = write_students()
+  fOut.write(s.getvalue())
+
   f = open('phdthesis.html')
   fOut.write(f.read())
 
@@ -141,6 +144,7 @@ def write_navbar():
       <a href="#about" class="smoothScroll">about</a>
       <a href="#code" class="smoothScroll">code</a>
       <a href="#pubs" class="smoothScroll">publications</a>
+      <a href="#students" class="smoothScroll">students</a>
       <a href="#phdthesis" class="smoothScroll">PhD thesis</a>
       <a href="#contact" class="smoothScroll">contact</a>
       <a href="https://github.com/hugoledoux"><i class="icon-github icon-4X"></i></a>
@@ -154,6 +158,25 @@ def write_navbar():
     <!-- <div id="menuToggle"><i class="fa fa-bars"></i></div> -->
   </nav>
   """
+
+def write_students():
+  s = StringIO.StringIO()
+  s1 = """
+  <div id="f">
+  <!-- ========== STUDENTS SECTION ========== -->
+  <section id="students"></section>
+    <div class="container">
+      <div class="row">
+        <h2>supervised students</h2>
+        <p class="centered"><i class="icon-ellipsis-horizontal icon-large"></i></p>
+        <div class="col-lg-10 col-lg-offset-1">
+  """
+  print >>s, s1
+  f = codecs.open('students.md', mode='r', encoding="utf-8")
+  html = markdown.markdown(f.read(), extensions=['smartypants(entities=named)'])
+  print >>s, html
+  print >>s, '</div></div></div>'
+  return s  
 
 def write_about():
   s = StringIO.StringIO()
