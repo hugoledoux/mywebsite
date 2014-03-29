@@ -3,7 +3,7 @@ import os
 import sys
 import string
 import StringIO
-import markdown
+import markdown2
 import codecs
 
 def main():
@@ -173,7 +173,7 @@ def write_students():
   """
   print >>s, s1
   f = codecs.open('students.md', mode='r', encoding="utf-8")
-  html = markdown.markdown(f.read(), extensions=['smartypants(entities=named)'])
+  html = markdown2.markdown(f.read(), extras=["smarty-pants"])
   print >>s, html
   print >>s, '</div></div></div>'
   return s  
@@ -192,7 +192,7 @@ def write_about():
   """
   print >>s, s1
   f = codecs.open('about.md', mode='r', encoding="utf-8")
-  html = markdown.markdown(f.read(), extensions=['smartypants(entities=named)'])
+  html = markdown2.markdown(f.read(), extras=["smarty-pants"])
   print >>s, html
   print >>s, '</div></div></div>'
   return s   
