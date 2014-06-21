@@ -67,7 +67,7 @@ def write_home():
         <img class="img-circle" src="assets/img/hugo.jpg" width="200" height="200" alt="">
         <h1>Hugo Ledoux</h1>
         <!-- <br> -->
-        <h3>I am an assistant-professor in the <a href="http://www.gdmc.nl">GIS technology group</a><br>of the <a href="http://www.tudelft.nl">Delft University of Technology</a>.</h3>
+        <h3>I am an assistant-professor in the GIS technology group of the <a href="http://www.tudelft.nl">Delft University of Technology</a></h3>
         <br>
         <br>
         <div class="col-lg-6 col-lg-offset-3">
