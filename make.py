@@ -110,12 +110,9 @@ def write_header():
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
-
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/modernizr.custom.js"></script>
   
 
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
@@ -137,9 +134,7 @@ def write_navbar():
   <nav class="menu" id="theMenu">
     <div class="menu-wrap">
       <h1 class="logo"><a href="index.html#home"></a></h1>
-      <i class="icon-remove menu-close"></i>
-      <!-- <i class="icon-github menu-close"></i> -->
-      <!-- <i class="fa fa-times menu-close"></i> -->
+      <i class="fa fa-times menu-close"></i>
       <a href="#home" class="smoothScroll">home</a>
       <a href="#about" class="smoothScroll">about</a>
       <a href="#code" class="smoothScroll">code</a>
@@ -147,15 +142,11 @@ def write_navbar():
       <a href="#students" class="smoothScroll">students</a>
       <a href="#phdthesis" class="smoothScroll">PhD thesis</a>
       <a href="#contact" class="smoothScroll">contact</a>
-      <a href="https://github.com/hugoledoux"><i class="icon-github icon-4X"></i></a>
-      <a href="https://twitter.com/hugoledoux"><i class="icon-twitter icon-4x"></i></a>
-      <!-- <a href="https://github.com/hugoledoux"><i class="fa fa-home"></i></a> -->
-      <!-- <a href="https://twitter.com/hugoledoux"><i class="fa fa-home fa-4x"></i></a> -->
+      <a href="https://github.com/hugoledoux"><i class="fa fa-github fa-lg"></i></a>
+      <a href="https://twitter.com/hugoledoux"><i class="fa fa-twitter fa-lg"></i></a>
     </div>
-    
     <!-- Menu button -->
-    <div id="menuToggle"><i class="icon-reorder"></i></div>
-    <!-- <div id="menuToggle"><i class="fa fa-bars"></i></div> -->
+    <div id="menuToggle"><i class="fa fa-bars"></i></div>
   </nav>
   """
 
@@ -177,6 +168,7 @@ def write_students():
   print >>s, html
   print >>s, '</div></div></div>'
   return s  
+
 
 def write_about():
   s = StringIO.StringIO()
