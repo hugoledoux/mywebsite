@@ -220,14 +220,14 @@ def write_code():
             <img src="img/3dsm.png" alt="">
           </a>
           <h3>3DSM</h3>
-          Smart simplification of digitial surface models
+          Smart simplification of LiDAR datasets
         </div>
         <div class="col-lg-4">
           <a href="http://3dsm.bk.tudelft.nl/matahn" class="thumbnail">
             <img src="img/matahn.png" alt="">
           </a>
           <h3>MATAHN</h3>
-          A user-friendly way to download parts of the <a href="https://www.ahn.nl">AHN2 datasets</a>
+          A user-friendly way to download parts of the <a href="http://www.ahn.nl">AHN2 datasets</a>
         </div>
         <div class="col-lg-4">
           <a href="http://www.geo5d.nl" class="thumbnail">
