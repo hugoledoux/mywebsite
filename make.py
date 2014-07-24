@@ -43,7 +43,6 @@ def write_pubs():
     <div class="container">
       <div class="row">
         <h2>publications</h2>
-        <p class="centered"><i class="icon-ellipsis-horizontal icon-large"></i></p>
         <div class="col-lg-10 col-lg-offset-1">
   """
   print >>s, s1
@@ -137,7 +136,7 @@ def write_navbar():
       <i class="fa fa-times menu-close"></i>
       <a href="#home" class="smoothScroll">home</a>
       <a href="#about" class="smoothScroll">about</a>
-      <a href="#code" class="smoothScroll">code</a>
+      <a href="#projects" class="smoothScroll">projects</a>
       <a href="#pubs" class="smoothScroll">publications</a>
       <a href="#students" class="smoothScroll">students</a>
       <a href="#phdthesis" class="smoothScroll">PhD thesis</a>
@@ -159,7 +158,6 @@ def write_students():
     <div class="container">
       <div class="row">
         <h2>supervised students</h2>
-        <p class="centered"><i class="icon-ellipsis-horizontal icon-large"></i></p>
         <div class="col-lg-10 col-lg-offset-1">
   """
   print >>s, s1
@@ -179,7 +177,6 @@ def write_about():
     <div class="container">
       <div class="row">
         <h2>about</h2>
-        <p class="centered"><i class="icon-ellipsis-horizontal icon-large"></i></p>
         <div class="col-lg-10 col-lg-offset-1">
   """
   print >>s, s1
@@ -192,33 +189,54 @@ def write_about():
 
 def write_code():
   return """
-  <!-- ========== CODE ========== -->
-  <section id="code"></section>
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects"></section>
     <div class="container">
       <div class="row">
-        <h2>open-source code</h2>
-        <p class="centered"><i class="icon-ellipsis-horizontal icon-large"></i></p>       
+        <h2>projects I'm currently working on</h2>
         <div class="col-lg-10 col-lg-offset-1">
-        <div class="col-lg-4">
-          <a href="https://github.com/tudelft-gist/pprepair" class="thumbnail">
-            <img src="img/pprepair_logo2.png" alt=""></a>
-          <h3>pprepair</h3>
-          Automatic repair of "broken" GIS planar partitions stored in <em>shapefiles</em>
-        </div>
         <div class="col-lg-4">
           <a href="https://github.com/tudelft-gist/prepair" class="thumbnail">
             <img src="img/prepair_logo.png" alt="">
           </a>
           <h3>prepair</h3>
-          Automatic repair of invalid polygons according to the standards ISO 19107
+          Automatic repair of invalid polygons acc. to the international standard ISO19107
        </div>
         <div class="col-lg-4">
-          <a href="https://github.com/tudelft-gist/val3dity" class="thumbnail">
+          <a href="https://github.com/tudelft-gist/pprepair" class="thumbnail">
+            <img src="img/pprepair_logo2.png" alt=""></a>
+          <h3>pprepair</h3>
+          Automatic repair of GIS planar partitions
+        </div>
+        <div class="col-lg-4">
+          <a href="http://geovalidation.bk.tudelft.nl/val3dity" class="thumbnail">
             <img src="img/val3dity_logo.png" alt="">
           </a>
           <h3>val3dity</h3>
-          Validation of solids according to the international standard ISO 19107
+          Validation of solids acc. to the international standard ISO19107
         </div>
+        <div class="col-lg-4">
+          <a href="http://3dsm.bk.tudelft.nl" class="thumbnail">
+            <img src="img/3dsm.png" alt="">
+          </a>
+          <h3>3DSM</h3>
+          Smart simplification of digitial surface models
+        </div>
+        <div class="col-lg-4">
+          <a href="http://3dsm.bk.tudelft.nl/matahn" class="thumbnail">
+            <img src="img/matahn.png" alt="">
+          </a>
+          <h3>MATAHN</h3>
+          A user-friendly way to download parts of the <a href="https://www.ahn.nl">AHN2 datasets</a>
+        </div>
+        <div class="col-lg-4">
+          <a href="http://www.geo5d.nl" class="thumbnail">
+            <img src="img/geo5d.png" alt="">
+          </a>
+          <h3>geo5D</h3>
+          Higher-dimensional modelling of geographical information (ie 4D+)
+        </div>
+
       </div>
       </div>
     </div>
