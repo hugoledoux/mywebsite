@@ -3,15 +3,21 @@
 
 ---
 
-  **Ravi Peters** (2013@now). Feature-aware DSM analysis and generalisation based on the 3D Medial Axis Transform. 
+  [**Ravi Peters**](http://3dgeoinfo.bk.tudelft.nl/rypeters) (2013@now). Feature-aware DSM analysis and generalisation based on the 3D Medial Axis Transform. 
 
-  [**Filip Biljecki**](http://www.gdmc.nl/biljecki) (2012@now). The concept of level of detail in 3D city modelling. [<i class="fa fa-external-link"></i>](http://www.gdmc.nl/biljecki/phd.html)
+  [**Filip Biljecki**](http://3dgeoinfo.bk.tudelft.nl/biljecki) (2012@now). The concept of level of detail in 3D city modelling. [<i class="fa fa-external-link"></i>](http://www.gdmc.nl/biljecki/phd.html)
 
-  [**Ken Arroyo Ohori**](http://www.gdmc.nl/ken) (2011@now). Realising the foundations of a higher-dimensional GIS. [<i class="fa fa-external-link"></i>](http://www.gdmc.nl/ken/current.php)
+  [**Ken Arroyo Ohori**](http://3dgeoinfo.bk.tudelft.nl/ken) (2011@now). Realising the foundations of a higher-dimensional GIS. [<i class="fa fa-external-link"></i>](http://www.gdmc.nl/ken/current.php)
 
 ### MSc students 
 
 ---
+
+  **Kees Jonker** (ongoing). Improving the web-based AHN2 map.
+
+  **Damien Mulder** (ongoing). A voxel-based method for automatic repair of CityGML models.
+
+  **Maarten Pronk** (ongoing). Storage of massive TINs in a DBMS with a star-based data structure.
 
   **Sjors Donkers** (2013). Automatic generation of CityGML LoD3 building models from IFC models. [<i class="fa fa-external-link"></i>](http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/)
 
