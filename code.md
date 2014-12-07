@@ -54,6 +54,9 @@ title: code
 <i class="fa fa-github fa-lg"></i>
 <a href="https://github.com/tudelft3d/prepair">github.com/tudelft3d/prepair</a>
 
+<i class="fa fa-external-link"></i>
+<a href="http://geovalidation.bk.tudelft.nl/prepair">geovalidation.bk.tudelft.nl/prepair</a>
+
 <p><strong>A triangulation-based approach to automatically repair GIS polygons</strong>. Hugo Ledoux, Ken Arroyo Ohori and Martijn Meijers. <em>Computers &amp; Geosciences</em> 66, 2014, pp. 121&ndash;131.  <a href="pdfs/14cgeo_prepair.pdf"><i class="fa fa-file-pdf-o"></i></a> <a href="http://dx.doi.org/10.1016/j.cageo.2014.01.009"><i class="fa fa-external-link"></i></a> <a href="#bib14cgeo_prepair" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a><div id="bib14cgeo_prepair" class="collapse"  tabindex="-1"><pre class="bibtex">@article{14cgeo_prepair,
   author = {Hugo Ledoux and Ken {Arroyo Ohori} and Martijn Meijers},
   title = {A triangulation-based approach to automatically repair {GIS} polygons},
