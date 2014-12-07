@@ -1,0 +1,39 @@
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar-about img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar-about img.me{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*.sidebar-about h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: 900;
+}
+*/
+div .collapse {
+  display: none;
+}
+
+pre.bibtex {
+  font-size: 60%;
+}
+
+/* Red */
+.theme-base-hugo .sidebar {
+  background-color: #339966;
+}
+.theme-base-hugo .content a,
+.theme-base-hugo .related-posts li a:hover {
+  color: #339966;
+}
+

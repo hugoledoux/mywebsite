@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         kramdown #redcarpet
+highlighter:      pygments
+excerpt_separator: "<!--more-->"
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Hugo Ledoux
+tagline:          'Homepage'
+description:      'Assistant-professor in 3D geoinfomation at TU Delft'
+url:              http://3dgeoinfo.bk.tudelft.nl/hledoux
+baseurl:          /
+
+author:
+  name:           'Hugo Ledoux'
+  url:            https://twitter.com/hugoledoux
+
+paginate:         5
+
+# Custom vars
+# version:          2.1.0
+
+# github:
+  # repo:           https://github.com/poole/hyde
