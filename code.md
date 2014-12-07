@@ -3,9 +3,53 @@ layout: page
 title: code
 ---
 
-# prepair
+# Open-source programmes
 
-(**p**olygon repair) Automatic repair of GIS polygons according to the OGC Simple Features and ISO 19107 rules.
+
+## val3dity
+
+<span class="post-date">Geometric validation of 3D primitives according to ISO 19107.</span>
+
+<i class="fa fa-github fa-lg"></i>
+<a href="https://github.com/tudelft3d/val3dity">github.com/tudelft3d/val3dity</a>
+  
+<i class="fa fa-external-link"></i>
+<a href="http://geovalidation.bk.tudelft.nl/val3dity">geovalidation.bk.tudelft.nl/val3dity</a>
+
+<p><strong>On the validation of solids represented with the international standards for geographic information</strong>. Hugo Ledoux. <em>Computer-Aided Civil and Infrastructure Engineering</em> 28 (9), 2013, pp. 693&ndash;706.  <a href="pdfs/_13cacaie.pdf"><i class="fa fa-file-pdf-o"></i></a> <a href="http://dx.doi.org/10.1111/mice.12043"><i class="fa fa-external-link"></i></a> <a href="#bibLedoux13b" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a><div id="bibLedoux13b" class="collapse"  tabindex="-1"><pre class="bibtex">@article{Ledoux13b,
+  author = {Ledoux, Hugo},
+  title = {On the validation of solids represented with the international standards for geographic information},
+  journal = {Computer-Aided Civil and Infrastructure Engineering},
+  year = {2013},
+  volume = {28},
+  number = {9},
+  pages = {693--706}
+}</pre></div></p>
+
+---
+
+## pprepair
+
+<span class="post-date">(planar partition repair) it ensures that a set of polygons form a valid planar partition having no gaps or overlaps.</span>
+
+<i class="fa fa-github fa-lg"></i>
+<a href="https://github.com/tudelft3d/pprepair">github.com/tudelft3d/pprepair</a>
+
+<p><strong>Validation and automatic repair of planar partitions using a constrained triangulation</strong>. Ken Arroyo Ohori, Hugo Ledoux and Martijn Meijers. <em>Photogrammetrie, Fernerkundung, Geoinformation</em> 1 (5), 2012, pp. 613&ndash;630.  <a href="pdfs/12_pfg.pdf"><i class="fa fa-file-pdf-o"></i></a> <a href="http://dx.doi.org/10.1127/1432-8364/2012/0143"><i class="fa fa-external-link"></i></a> <a href="#bibArroyoOhori12a" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a><div id="bibArroyoOhori12a" class="collapse"  tabindex="-1"><pre class="bibtex">@article{ArroyoOhori12a,
+  author = {Arroyo Ohori, Ken and Ledoux, Hugo and Meijers, Martijn},
+  title = {Validation and Automatic Repair of Planar Partitions Using a Constrained Triangulation},
+  journal = {Photogrammetrie, Fernerkundung, Geoinformation},
+  year = {2012},
+  volume = {1},
+  number = {5},
+  pages = {613--630}
+}</pre></div></p>
+
+---
+
+## prepair
+
+<span class="post-date">(polygon repair) automatic repair of GIS polygons according to the OGC Simple Features and ISO 19107 rules</span>
 
 <i class="fa fa-github fa-lg"></i>
 <a href="https://github.com/tudelft3d/prepair">github.com/tudelft3d/prepair</a>
@@ -20,22 +64,14 @@ title: code
 }</pre></div></p>
 
 
-## pprepair
-
-(**p**lanar **p**artition repair) It ensures that a set of polygons form a valid planar partition having no gaps or overlaps.
-
-<i class="fa fa-github fa-lg"></i>
-<a href="https://github.com/tudelft3d/pprepair">github.com/tudelft3d/pprepair</a>
-
-
-## val3dity
-  description: Geometric validation of 3D primitives according to ISO 19107.
-  github: https://github.com/tudelft3d/val3dity
-  image: val3dity.png
-  web: http://geovalidation.bk.tudelft.nl/val3dity
+---
 
 ## MATAHN
-  description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets, we take care of the hassle of tiles.
-  github: https://github.com/tudelft3d/matahn
-  image: matahn.png
-  web: http://3dsm.bk.tudelft.nl/matahn
+
+<span class="post-date">Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the <a href="http://www.ahn.nl">AHN2 datasets</a>, we take care of the hassle of tiles.</span>
+
+<i class="fa fa-github fa-lg"></i>
+<a href="https://github.com/tudelft3d/matahn">github.com/tudelft3d/matahn</a>
+
+<i class="fa fa-external-link"></i>
+<a href="http://3dsm.bk.tudelft.nl/matahn">3dsm.bk.tudelft.nl/matahn</a>

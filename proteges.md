@@ -3,8 +3,12 @@ layout: page
 title: protégés
 ---
 
-__Protégé__ <code>| prɒtəʒeɪ |</code><br>
-<cite> a person who is guided and supported by an older and more experienced or influential person<cite>
+# Protégés
+
+<div class="message">
+<b>Protégé</b> <code>| prɒtəʒeɪ |</code>
+a person who is guided and supported by an older and more experienced or influential person
+</div>
 
 ---
 
