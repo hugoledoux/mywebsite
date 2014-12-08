@@ -71,7 +71,7 @@ title: code
 
 ## MATAHN
 
-<span class="post-date">Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the <a href="http://www.ahn.nl">AHN2 datasets</a>, we take care of the hassle of tiles.</span>
+<span class="post-date">Because your house is always located at the junction of four map tiles. MATAHN is a user-friendly way to download parts of the <a href="http://www.ahn.nl">AHN2 datasets</a>, we take care of the hassle of tiles.</span>
 
 <i class="fa fa-github fa-lg"></i>
 <a href="https://github.com/tudelft3d/matahn">github.com/tudelft3d/matahn</a>

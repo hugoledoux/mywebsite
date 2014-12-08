@@ -15,11 +15,13 @@
   margin-right: auto;
 }
 
-/*.sidebar-about h2 {
-  font-family: 'Alegreya', serif;
-  font-weight: 900;
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
 }
-*/
+
 div .collapse {
   display: none;
 }
@@ -30,10 +32,10 @@ pre.bibtex {
 
 /* Red */
 .theme-base-hugo .sidebar {
-  background-color: #339966;
+  background-color: #7ba55e;
 }
 .theme-base-hugo .content a,
 .theme-base-hugo .related-posts li a:hover {
-  color: #339966;
+  color: #7ba55e;
 }
 
