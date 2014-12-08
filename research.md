@@ -5,6 +5,8 @@ title: research
 
 # Research projects
 
+---
+
 ## Validation & automatic repair of geo-datasets
 
 Recently, out of frustration at the poor quality of GIS datasets and of 3D city models I obtained, I have focussed my efforts on the validation and the *automatic* repair of polygons and polyhedra. This has lead to different [programmes](/code) that have matured enough to not be called prototypes anymore. I hope these will help practitioners who often spend hundreds of hours manually repairing and improving their datasets. 
@@ -15,13 +17,25 @@ I offer some of the programmes as [web-applications](http://geovalidation.bk.tud
 
 ## Higher-dimensional modelling of geoinformation
 
+![](/img/geo5d.png)
+
 The aim of the research project is to integrate the multi-dimensional characteristics of geographical data, ie 2D/3D, time and scale, together in one higher-dimensional model. We develop data structures and operations to construct such models, and we validate them by integrating CityGML models at different scales for instance.
 
 This research project is funded by Vidi grant from the [Dutch Technology Foundation STW](http://www.stw.nl) awarded to [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter).
 
-More information at [www.geo5d.nl](http://www.geo5d.nl).
+More information at [www.geo5d.nl](http://www.geo5d.nl)
 
 ---
 
 ## Smart simplification of LiDAR datasets
 
+![](/img/3dsm.jpg)
+
+The aim of this project, funded by the [Dutch Technology Foundation STW](http://www.stw.nl), is to investigate algorithms to simplify LiDAR datasets. In recent years, these have considerably grown in size because of advances in acquisition technologies such as airborne laser-scanning. A vivid example is the AHN2 datasets in the Netherlands: it contains at least 4 points per square meter, and its total is around 640 billion points (639,477,709,621 to be exact). 
+
+We reduce their size while keeping their main characteritics. While current methods often portray DSMs as 2D objects (and thus valuable information is lost), we investigate new simplification algorithms that:
+
+  1. use 3D tools and 3D data structures, specificially the 3D medial axis transform (MAT);
+  2. permit us to define 3D features—buildings, dikes, etc—and consider these while simplifying. The knowledge of the features will permit us to remove unimportant points and focus only on those of interest for a given application.
+
+More information at [3dsm.bk.tudelft.nl](http://3dsm.bk.tudelft.nl)
