@@ -32,10 +32,10 @@ pre.bibtex {
 
 /* Red */
 .theme-base-hugo .sidebar {
-  background-color: #7ba55e;
+  background-color: #1395cc;
 }
 .theme-base-hugo .content a,
 .theme-base-hugo .related-posts li a:hover {
-  color: #7ba55e;
+  color: #1395cc;
 }
 
