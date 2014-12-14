@@ -1,6 +1,7 @@
 ---
 layout: page
 title: research
+permalink: /research/
 ---
 
 # Research projects
@@ -23,7 +24,9 @@ I offer some of the programmes as [web-applications](http://geovalidation.bk.tud
 
 The aim of the research project is to integrate the multi-dimensional characteristics of geographical data (eg space, time and scale), together in one higher-dimensional model. We develop data structures and operations to realise such a model, and we apply this model to the integration of CityGML models at different scales for instance.
 
-The research project is funded by a Vidi grant from the [Dutch Technology Foundation STW](http://www.stw.nl) awarded to [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter). More information at [www.geo5d.nl](http://www.geo5d.nl)
+The research project is funded by a Vidi grant from the [Dutch Technology Foundation STW](http://www.stw.nl) awarded to [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter). 
+
+More information at [www.geo5d.nl](http://www.geo5d.nl)
 
 ---
 

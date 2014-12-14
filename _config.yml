@@ -4,7 +4,8 @@ highlighter:      pygments
 excerpt_separator: "<!--more-->"
 
 # Permalinks
-permalink:            none
+# permalink:            pretty
+permalink:            /:categories/:title/
 relative_permalinks:  true
 
 # Setup

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PhD
+permalink: /phdthesis/
 ---
 
 # PhD thesis
