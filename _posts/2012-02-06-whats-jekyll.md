@@ -1,5 +1,7 @@
 ---
 layout: post
+category: blog
+category: blog
 title: What's Jekyll?
 ---
 
