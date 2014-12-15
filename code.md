@@ -4,7 +4,7 @@ title: code
 permalink: /code/
 ---
 
-# Open-source programmes
+# Open-source programs
 
 ---
 
@@ -18,7 +18,7 @@ permalink: /code/
 <i class="fa fa-external-link"></i>
 <a href="http://geovalidation.bk.tudelft.nl/val3dity">geovalidation.bk.tudelft.nl/val3dity</a>
 
-<p><strong>On the validation of solids represented with the international standards for geographic information</strong>. Hugo Ledoux. <em>Computer-Aided Civil and Infrastructure Engineering</em> 28 (9), 2013, pp. 693&ndash;706.  <a href="/pdfs/_13cacaie.pdf"><i class="fa fa-file-pdf-o"></i></a> <a href="http://dx.doi.org/10.1111/mice.12043"><i class="fa fa-external-link"></i></a> <a href="#bibLedoux13b" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a><div id="bibLedoux13b" class="collapse"  tabindex="-1"><pre class="bibtex">@article{Ledoux13b,
+<p><strong>On the validation of solids represented with the international standards for geographic information</strong>. Hugo Ledoux. <em>Computer-Aided Civil and Infrastructure Engineering</em> 28 (9), 2013, pp. 693&ndash;706.  <a href="/pdfs/13_cacaie.pdf"><i class="fa fa-file-pdf-o"></i></a> <a href="http://dx.doi.org/10.1111/mice.12043"><i class="fa fa-external-link"></i></a> <a href="#bibLedoux13b" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a><div id="bibLedoux13b" class="collapse"  tabindex="-1"><pre class="bibtex">@article{Ledoux13b,
   author = {Ledoux, Hugo},
   title = {On the validation of solids represented with the international standards for geographic information},
   journal = {Computer-Aided Civil and Infrastructure Engineering},

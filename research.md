@@ -12,9 +12,20 @@ permalink: /research/
 
 ![](/img/repair3d.png)
 
-Recently, out of frustration at the poor quality of GIS datasets and of 3D city models I obtained, I have focussed my efforts on the validation and the *automatic* repair of polygons and polyhedra. This has lead to different [programmes](/code) that have matured enough to not be called prototypes anymore. I hope these will help practitioners who often spend hundreds of hours manually repairing their datasets. 
+Recently, out of frustration at the poor quality of GIS datasets and of 3D city models I obtained, I have focussed my efforts on the validation and the *automatic* repair of polygons and polyhedra. This has lead to different programs that have matured enough to not be called prototypes anymore. I hope these will help practitioners who often spend hundreds of hours manually repairing their datasets. 
 
-I offer some of the programmes as [web-applications](http://geovalidation.bk.tudelft.nl), the others can be found on the [GitHub page of my group](http://github.com/tudelft3d).
+
+<i class="fa fa-github fa-lg"></i>
+<a href="https://github.com/tudelft3d/prepair">github.com/tudelft3d/prepair</a>
+
+<i class="fa fa-github fa-lg"></i>
+<a href="https://github.com/tudelft3d/pprepair">github.com/tudelft3d/pprepair</a>
+
+<i class="fa fa-github fa-lg"></i>
+<a href="https://github.com/tudelft3d/val3dity">github.com/tudelft3d/val3dity</a>
+  
+Some of these are also available as [web-applications](http://geovalidation.bk.tudelft.nl).
+
 
 ---
 

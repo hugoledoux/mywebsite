@@ -6,7 +6,7 @@ permalink: /phdthesis/
 
 # PhD thesis
 
-![](/img/3dVoronoi2.png)
+![](/img/3dvd.png)
 
 <p><strong>Modelling three-dimensional fields in geoscience with the Voronoi diagram and its dual</strong>. Hugo Ledoux. PhD thesis, School of Computing, University of Glamorgan, 2006.  <a href="/pdfs/thesisLedoux.pdf"><i class="fa fa-file-pdf-o"></i></a> <a href="#bib_thesis" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a><div id="bib_thesis" class="collapse"  tabindex="-1"><pre class="bibtex">@phdthesis{_thesis,
   author = {Ledoux, Hugo},
