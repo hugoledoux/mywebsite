@@ -1,7 +1,7 @@
 ---
 layout: page
-title: code
-permalink: /code/
+title: software
+permalink: /software/
 ---
 
 # Open-source programs
@@ -80,3 +80,11 @@ permalink: /code/
 
 <i class="fa fa-external-link"></i>
 <a href="http://3dsm.bk.tudelft.nl/matahn">3dsm.bk.tudelft.nl/matahn</a>
+
+<p><strong>MATAHN: a seamless AHN2 download service</strong>. Ravi Peters and Hugo Ledoux. <em>Presentation at the 3D BGT dag (Amersfoort, the Netherlands)</em>,  2014.  <a href="http://3dsm.bk.tudelft.nl/pdfs/matahn_3dbgt-dag_2014.pdf"><i class="fa fa-file-pdf-o"></i></a> <a href="#bib14_3dbgtdag_matahn" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a><div id="bib14_3dbgtdag_matahn" class="collapse"  tabindex="-1"><pre>@misc{14_3dbgtdag_matahn,
+  author = {Ravi Peters and Hugo Ledoux},
+  title = {MATAHN: A seamless {AHN2} download service},
+  howpublished = {Presentation at the 3D BGT dag (Amersfoort, the Netherlands)},
+  month = {June 19},
+  year = {2014}
+}</pre></div></p>
