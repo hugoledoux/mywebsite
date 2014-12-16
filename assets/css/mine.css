@@ -30,6 +30,10 @@ pre.bibtex {
   font-size: 60%;
 }
 
+#map {
+  height: 400px;
+}
+
 .grey {
   display: block;
   margin-top: -.5rem;
