@@ -4,7 +4,7 @@ category: blog
 title: Introducing Hyde
 ---
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler[^1].
 
 ### Built on Poole
 
@@ -18,6 +18,8 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 * Support for a wide gamut of HTML elements
 * Related posts (time-based, because Jekyll) below each post
 * Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+
+<blockquote class="twitter-tweet" lang="en"><p>👎 to all Dutch parents who let their kids cycle, or had them on their bike, without a hat/tuque/muts this morning.</p>&mdash; Hugo Ledoux (@hugoledoux) <a href="https://twitter.com/hugoledoux/status/540421424847282176">December 4, 2014</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Hyde features
 
@@ -38,3 +40,5 @@ Hyde is by preference a forward-thinking project. In addition to the latest vers
 Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
+
+[^1]: this is a complex issue.
