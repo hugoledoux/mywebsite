@@ -26,7 +26,7 @@ def getwarning():
     s = """<div class="message">
       I provide here the author's version of most of my papers. 
       These are for <em>personal use only</em>, and not for redistribution or commercial use. 
-      Please use the offical published version if you have access to it ( <i class="fa fa-external-link"></i> ).
+      Please use the offical published version ( <i class="fa fa-external-link"></i> ) if you have access to it.
       </div>
     """
     return s

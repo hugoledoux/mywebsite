@@ -6,24 +6,20 @@ permalink: /research/
 
 # Research projects
 
+<div class="message">
+For most of these projects, my colleagues and I develop software prototypes that we release under open-source licences.
+<br><br>
+<a href="https://github.com/tudelft3d"><i class="fa fa-github"></i> github.com/tudelft3d</a>
+</div>
+
 ---
 
 ## Validation & automatic repair of geo-datasets
 
 ![](/img/repair3d.png)
 
-Recently, out of frustration at the poor quality of GIS datasets and of 3D city models I obtained, I have focussed my efforts on the validation and the *automatic* repair of polygons and polyhedra. This has lead to different programs that have matured enough to not be called prototypes anymore. I hope these will help practitioners who often spend hundreds of hours manually repairing their datasets. 
+Recently, out of frustration at the poor quality of GIS datasets and of 3D city models I obtained, I have focussed my efforts on the validation and the *automatic* repair of polygons and polyhedra. This has lead to different programs that have matured enough to not be called prototypes anymore: [prepair](https://github.com/tudelft3d/prepair), [pprepair](https://github.com/tudelft3d/pprepair) and [val3dity](https://github.com/tudelft3d/val3dity). I hope these will help practitioners who often spend hundreds of hours manually repairing their datasets. 
 
-
-<i class="fa fa-github fa-lg"></i>
-<a href="https://github.com/tudelft3d/prepair">github.com/tudelft3d/prepair</a>
-
-<i class="fa fa-github fa-lg"></i>
-<a href="https://github.com/tudelft3d/pprepair">github.com/tudelft3d/pprepair</a>
-
-<i class="fa fa-github fa-lg"></i>
-<a href="https://github.com/tudelft3d/val3dity">github.com/tudelft3d/val3dity</a>
-  
 Some of these are also available as [web-applications](http://geovalidation.bk.tudelft.nl).
 
 

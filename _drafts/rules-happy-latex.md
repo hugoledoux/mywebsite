@@ -6,12 +6,16 @@ author: Hugo Ledoux
 comments: true
 ---
 
-When it comes to writing my [papers](/pubs/), I must admit that I prefer [LaTeX](http://latex-project.org/intro.html) over [that-other-ubiquitous-program-that-I'd-rather-not-mention](http://products.office.com/en-us/word). *Prefer* is an understatement here: I would probably do *anything* to avoid writing a paper with the other software, including spending hours arguing with the editor of the journal/conference why LaTeX is better, using one of the many [converters](http://peterwittek.com/2013/11/comparing-latex-conversion-tools/)[^1], or asking one of my students to do it for me.
+When it comes to writing my [papers](/pubs/), I must admit that I prefer [LaTeX](http://latex-project.org/intro.html) over [that-other-ubiquitous-program-that-I'd-rather-not-mention-here](http://www.wordperfect.com/rw/). 
+*Prefer* is an understatement here: I would probably do *anything* to avoid writing a paper with the other software, including spending hours harrasing the editor of the journal/conference so that she accepts LaTeX, using one of the many [converters](http://peterwittek.com/2013/11/comparing-latex-conversion-tools/)[^1], or asking one of my students to do it for me.
 
-So when I can choose, I always impose LaTeX on my co-writers. 
-Since many of them of users of the other software, that often creates friction and someone ends up fixing manually all the "mistakes" in the file. 
+So when I can choose, I always impose LaTeX on my co-authors. 
+Since some of them are users of the other software, that often creates friction and someone ends up fixing manually all the "mistakes" in the file. 
 
-So I propose here *The Rules for happily collaborating on a LaTeX document*©, a set of 12 rules that: (1) novices can easily apply; (2) will make LaTeX experts totally happy. 
+So I propose here *The Rules for happily collaborating on a LaTeX document*©, a set of 12 rules that: (1) novices can easily apply; (2) will make your co-authors happy. 
+
+Please add your new Rules in the comments below.
+
 
 ### 1. You shall use only one sentence per line
 
@@ -80,26 +84,40 @@ Buffers can be generated on different geometries, \eg\ points, polylines and pol
 
 And you shall put the source file (eg [IPE](http://ipe7.sourceforge.net), OmniGraffle, Illustrator, etc.) there as well for future use.
 
+
 ### 8. In your BibTeX file, you shall use curly brackets for words/letters you want to have capitalised in the title.
 
-```
-Title = {The {3D} {CityGML} building was constructed with the {Delaunay} triangulation},
-```
+The other fields are not affected by this. LaTeX does this to uniformise the capitalisation in all citations.
 
-### 9. You shall not use italics or bold commands directly.
-Use \emph{} instead
+{% highlight tex %}
+@article{Smith00,
+  Author = {Smith, John},
+  Journal = {The GIS Journal},
+  Title = {The {3D} {CityGML} building was constructed with the {Delaunay} triangulation},
+  Year = {2001},
+  ...
+}
+{% endhighlight %} 
 
-```
-This is \emph{great} work.
-```
 
-### 10. You shall not add any commands to change the format (eg vspace, newpage) until the the paper is done.
+### 9. You shall not use italics or bold commands directly
 
-### 11. You shall declare all sizes relative to \linewidth.
+Instead use `\emph{}`.
+
+{% highlight tex %}
+This is a \emph{great} buffer.
+{% endhighlight %} 
+
+### 10. You shall not add any commands to change the format until the the paper is finished
+
+`\vspace` and `\newpage` are thus forbidden.
+
+### 11. You shall declare all sizes relative to `\linewidth`.
+
 So that the paper can be switched to a 2-column one without (too much) pain.
 
-```
+{% highlight tex %}
 \includegraphics[width=0.95\linewidth]{figs/potato.pdf}
-```
+{% endhighlight %} 
 
-[^1]: they work great if your paper has no figures and no mathematical equations!
+[^1]: they work great if your paper has no figures and no mathematical equations.
