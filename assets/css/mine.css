@@ -18,16 +18,34 @@
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "jaf-facitweb";
   font-size: 2rem;
 }
+
+.sidebar-about h5 {
+  color: #dfdfdf;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "jaf-facitweb";
+  font-size: 1rem;
+}
+
+/* Code */
+code,
+pre {
+  font-family: "source-code-pro";
+}
+.gist .gist-file {
+  font-family: "source-code-pro";
+}
+
 
 div .collapse {
   display: none;
 }
 
 pre.bibtex {
-  font-size: 60%;
+  font-size: 70%;
 }
 
 #map {
@@ -48,5 +66,11 @@ pre.bibtex {
 .theme-base-hugo .content a,
 .theme-base-hugo .related-posts li a:hover {
   color: #3f9673;
+}
+
+html {
+  /*font-family: "ff-nuvo-web-pro";*/
+  font-family: ""jaf-facitweb";";
+
 }
 
