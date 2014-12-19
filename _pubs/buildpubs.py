@@ -25,8 +25,8 @@ def write_pubs():
 def getwarning():    
     s = """<div class="message">
       I provide here the author's version of most of my papers. 
-      These are for <u>personal use only</u>, and not for redistribution or commercial use. 
-      The link to the offical published version ( <i class="fa fa-external-link"></i> ) is also provided.
+      These are for <em>personal use only</em>, and not for redistribution or commercial use. 
+      Please use the offical published version if you have access to it ( <i class="fa fa-external-link"></i> ).
       </div>
     """
     return s
