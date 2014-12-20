@@ -18,7 +18,8 @@ I am currently working on the validation and the automatic repair of polygons an
 
 Teaching-wise, I am the responsible lecturer for the course *Geographical Information Systems and Cartography* in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft. For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [GRASS](http://grass.osgeo.org/), [Shapely](https://github.com/Toblerity/Shapely), and [TileMill](http://www.mapbox.com/tilemill/).
 
-# to contact me
+
+<h1 id="contact">to contact me</h1>
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-envelope"></i>h.ledoux@tudelft.nl</li>
