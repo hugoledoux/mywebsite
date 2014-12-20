@@ -25,11 +25,11 @@ a person who is guided and supported by an older and more experienced or influen
 
 ## MSc students 
 
+**Kees Jonker** (ongoing). Improving the web-based AHN2 map.
+
 **Damien Mulder** (ongoing). A voxel-based method for automatic repair of CityGML models.
 
 **Maarten Pronk** (ongoing). Storage of massive TINs in a DBMS with a star-based data structure.
-
-**Kees Jonker** (ongoing). Improving the web-based AHN2 map.
 
 **Sjors Donkers** (2013). Automatic generation of CityGML LoD3 building models from IFC models. [<i class="fa fa-external-link"></i>](http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/)
 

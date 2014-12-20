@@ -7,9 +7,8 @@ permalink: /research/
 # Research projects
 
 <div class="message">
-For most of these projects, my colleagues and I develop software prototypes that we release under open-source licences.
-<br><br>
-<a href="https://github.com/tudelft3d"><i class="fa fa-github"></i> github.com/tudelft3d</a>
+For most of these projects, my colleagues and I develop software prototypes that we release under open-source licences. These are available at 
+<a href="https://github.com/tudelft3d"> github.com/tudelft3d</a>
 </div>
 
 ---
