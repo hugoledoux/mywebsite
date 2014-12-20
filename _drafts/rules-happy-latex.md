@@ -6,8 +6,8 @@ author: Hugo Ledoux
 comments: true
 ---
 
-When it comes to writing my [papers](/pubs/), I must admit that I prefer [LaTeX](http://latex-project.org/intro.html) over [that-other-ubiquitous-program-that-I'd-rather-not-mention-here](http://www.wordperfect.com/rw/). 
-*Prefer* is an understatement here: I would probably do *anything* to avoid writing a paper with the other software, including spending hours harrasing the editor of the journal/conference so that she accepts LaTeX, using one of the many [converters](http://peterwittek.com/2013/11/comparing-latex-conversion-tools/)[^1], or asking one of my students to do it for me.
+When it comes to writing my [papers](/pubs/), I must admit that I prefer [LaTeX](http://latex-project.org/intro.html) over [that-other-ubiquitous-software-that-I'd-rather-not-mention](http://www.wordperfect.com/rw/). 
+*Prefer* is an understatement here: I would probably do *anything* to avoid writing a paper with the other software, eg spending hours harrasing the editor of the journal/conference so that she accepts LaTeX, spending one full day fighting with one of the many [converters](http://peterwittek.com/2013/11/comparing-latex-conversion-tools/) even if I know they don't really work[^1], or asking one of my [students](/proteges/) to do it for me.
 
 So when I can choose, I always impose LaTeX on my co-authors. 
 Since some of them are users of the other software, that often creates friction and someone ends up fixing manually all the "mistakes" in the file. 
@@ -120,4 +120,4 @@ So that the paper can be switched to a 2-column one without (too much) pain.
 \includegraphics[width=0.95\linewidth]{figs/potato.pdf}
 {% endhighlight %} 
 
-[^1]: they work great if your paper has no figures and no mathematical equations.
+[^1]: in all fairness, they work great if your paper has no figures and no mathematical equations
