@@ -10,7 +10,7 @@ permalink: /about/
 
 I'm an assistant-professor in the [3D geoinformation research group](http://3dgeoinfo.bk.tudelft.nl), which is part of the [Department of Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/) of the [Faculty of Architecture & the Built Environment](http://bk.tudelft.nl/en) at the [Delft University of Technology](http://www.tudelft.nl).
 
-I hold a [PhD]({{ site.baseurl }}phdthesis) in computer science from the [University of South Wales](http://www.southwales.ac.uk) in the UK, and a BSc in geomatics engineering from the [Université Laval](http://www.ulaval.ca) in Québec City, Canada.
+I hold a [PhD]({{ site.baseurl }}/phdthesis) in computer science from the [University of South Wales](http://www.southwales.ac.uk) in the UK, and a BSc in geomatics engineering from the [Université Laval](http://www.ulaval.ca) in Québec City, Canada.
 
 For my research, I am particularly interested in combining the fields of GIS and computational geometry. Put simply, I often try to solve geographical problems---either in 2D or in 3D---by first decomposing the world into triangles/tetrahedra or into another tessellation such as the Voronoi diagram. My work involves developing topological data structures to store these tessellations, and designing algorithms to analyse and extract information from the datasets. I strongly believe in implementing my research ideas.
 
@@ -23,7 +23,7 @@ Teaching-wise, I am the responsible lecturer for the course *Geographical Inform
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-envelope"></i>h.ledoux@tudelft.nl</li>
-  <li><i class="fa-li fa fa-phone"></i>+31 15 2786114</li>
+  <li><i class="fa-li fa fa-phone"></i>+31 15 27 86114</li>
   <li><i class="fa-li fa fa-home"></i><a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a></li>
 </ul>
 

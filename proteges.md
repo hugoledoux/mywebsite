@@ -15,7 +15,7 @@ a person who is guided and supported by an older and more experienced or influen
 
 ## PhD students
 
-[**Ravi Peters**](http://3dgeoinfo.bk.tudelft.nl/rypeters) (2013@now). Feature-aware DSM analysis and generalisation based on the 3D Medial Axis Transform. [<i class="fa fa-external-link"></i>](http://3dsm.bk.tudelft.nl)
+[**Ravi Peters**](http://3dgeoinfo.bk.tudelft.nl/rypeters) (2013@now). Feature-aware DSM analysis and generalisation based on the 3D medial axis transform. [<i class="fa fa-external-link"></i>](http://3dsm.bk.tudelft.nl)
 
 [**Filip Biljecki**](http://3dgeoinfo.bk.tudelft.nl/biljecki) (2012@now). The concept of level of detail in 3D city modelling. [<i class="fa fa-external-link"></i>](http://www.gdmc.nl/biljecki/phd.html)
 
