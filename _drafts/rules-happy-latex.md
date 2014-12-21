@@ -2,7 +2,7 @@
 layout: post
 title: The Rules for happily collaborating on a LaTeX document
 category: blog
-author: Hugo Ledoux
+tags: latex
 comments: true
 ---
 

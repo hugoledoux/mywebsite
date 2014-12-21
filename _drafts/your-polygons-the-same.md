@@ -2,7 +2,6 @@
 layout: post
 title: Are your polygons the same as my polygons? 
 category: blog
-author: Hugo Ledoux
 comments: false
 ---
 
