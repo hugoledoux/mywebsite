@@ -501,14 +501,14 @@ class bibhtmler {
 			if (array_key_exists('pdf', $in)) {
 				$t = $this->processtext($in['pdf']);
 				if (substr($t, 0, 4) <> 'http') 
-					$out .= ' <a href="/pdfs/'.$t.'"><i class="fa fa-file-pdf-o"></i></a>';
+					$out .= ' <a href="/hledoux/pdfs/'.$t.'"><i class="fa fa-file-pdf-o"></i></a>';
 				else
 					$out .= ' <a href="'.$t.'"><i class="fa fa-file-pdf-o"></i></a>';
 			}
 			if (array_key_exists('slides', $in)) {
 				$t = $this->processtext($in['slides']);
 				if (substr($t, 0, 4) <> 'http') 
-					$out .= ' <a href="/pdfs/'.$t.'"><i class="fa fa-file-image-o"></i></a>';
+					$out .= ' <a href="/hledoux/pdfs/'.$t.'"><i class="fa fa-file-image-o"></i></a>';
 				else
 					$out .= ' <a href="'.$t.'"><i class="fa fa-file-image-o"></i></a>';
 			}
