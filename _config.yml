@@ -14,7 +14,7 @@ title:            Hugo Ledoux
 tagline:          'Homepage'
 description:      'assistant-professor in 3D geoinfomation at TUDelft'
 url:              http://3dgeoinfo.bk.tudelft.nl
-baseurl:          /test
+baseurl:          /hledoux
 
 author:
   name:           'Hugo Ledoux'
