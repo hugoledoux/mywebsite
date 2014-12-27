@@ -12,9 +12,9 @@ When it comes to writing my [papers](/pubs/), I must admit that I prefer [LaTeX]
 So when I can choose, I always impose LaTeX on my co-authors. 
 Since some of them are users of the other software, that often creates friction and someone ends up fixing manually all the "mistakes" in the file. 
 
-So I propose here *The Rules for happily collaborating on a LaTeX document*©, a set of 12 rules that: (1) novices can easily apply; (2) will make your co-authors happy. 
+So I propose here *The Rules for happily collaborating on a LaTeX document*©, a set of 10 rules that: (1) novices can easily apply; (2) will make your co-authors happy. 
 
-Please add your new Rules in the comments below.
+Please add new Rules in the comments below.
 
 
 ### 1. You shall use only one sentence per line
@@ -37,19 +37,19 @@ and the commands `\citet{}` (cite in the text as a noun) `\citep{}` (cite betwee
 {% highlight tex %}
 \usepackage[round]{natbib}
 ...
-\citet{Smith2000} succeeded in creating a buffer.
-However, it has been shown that it is not an easy task~\citep{Brown1990}.
+\citet{Smith00} succeeded in creating a buffer.
+However, it has been shown that it is not an easy task~\citep{Brown90}.
 {% endhighlight %} 
 
 
-### 3. You shall prevent breaking lines with "~" when referencing 
+### 3. You shall prevent breaking lines with "~" when referencing and citing
 
 {% highlight tex %}
-In Section~\ref{sec:intro}, we can observe that the triangles are equilateral~\citep{Smith99}.
+In Section~\ref{sec:intro}, we can observe that the buffer was a success~\citep{Smith99}.
 {% endhighlight %} 
 
 
-### 4. You shall use one "-" for an hyphen, two "--" for a range between numbers, and three "---" for a punctuation in a sentence.
+### 4. You shall use one `-` for an hyphen, two `--` for a range between numbers, and three `---` for a punctuation in a sentence
 
 {% highlight tex %}
 I like---unlike my father---to build multi-dimensional models, 
@@ -57,7 +57,7 @@ especially those made in 1990--1995.
 {% endhighlight %} 
 
 
-### 5. You shall give meaningful labels. 
+### 5. You shall give meaningful labels
 A figure's label should start with `fig:` and a section's label with `sec:`
 
 {% highlight tex %}
@@ -85,7 +85,7 @@ Buffers can be generated on different geometries, \eg\ points, polylines and pol
 And you shall put the source file (eg [IPE](http://ipe7.sourceforge.net), OmniGraffle, Illustrator, etc.) there as well for future use.
 
 
-### 8. In your BibTeX file, you shall use curly brackets for words/letters you want to have capitalised in the title.
+### 8. In your BibTeX file, you shall use curly brackets for words/letters you want to have capitalised in the title
 
 The other fields are not affected by this. LaTeX does this to uniformise the capitalisation in all citations.
 
@@ -100,19 +100,12 @@ The other fields are not affected by this. LaTeX does this to uniformise the cap
 {% endhighlight %} 
 
 
-### 9. You shall not use italics or bold commands directly
-
-Instead use `\emph{}`.
-
-{% highlight tex %}
-This is a \emph{great} buffer.
-{% endhighlight %} 
-
-### 10. You shall not add any commands to change the format until the the paper is finished
+### 9. You shall not add any commands to change the format until the the paper is finished
 
 `\vspace` and `\newpage` are thus forbidden.
 
-### 11. You shall declare all sizes relative to `\linewidth`.
+
+### 10. You shall declare all sizes relative to `\linewidth`.
 
 So that the paper can be switched to a 2-column one without (too much) pain.
 

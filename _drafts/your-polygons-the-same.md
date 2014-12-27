@@ -2,15 +2,16 @@
 layout: post
 title: Are your polygons the same as my polygons? 
 author: Hugo Ledoux
-date: 2014-12-21
 category: blog
 comments: true
 ---
 
+
 When someone outside the field of GIS thinks of a 'polygon', I assume that she usually pictures something like one of these:
 
+And I can blame her, that's what we learned in school. Squares, triangles, pentagons, hexagons.
 
-However, when I speak about a polygon with my [colleagues](http://3dgeoinfo.bk.tudelft.nl/about/), we probably picture in our heads something like this:
+However, when I speak about a polygon with my [colleagues](http://3dgeoinfo.bk.tudelft.nl/about/), we think of something rather different:
 
 
 This is probably because we have been developping for a while 
@@ -25,11 +26,6 @@ New CORINE download:
 http://www.eea.europa.eu/data-and-maps/data/clc-2006-vector-data-version-3
 
 
-Cleveland polygon:
-id: 898427
-vertices: 1689703
-rings: 66909
-vertices oring: 500373
 
 
 Title heavily inspired by the excellent paper: 
