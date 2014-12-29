@@ -12,7 +12,7 @@ When someone outside the field of GIS thinks of a 'polygon', she usually picture
 
 ![]({{ site.baseurl }}/img/simplepolygons.png)
 
-And I can blame her, that's what we learned in school. Squares, triangles, pentagons, hexagons.
+And I can't blame her, that's what we learned in school. Squares, triangles, pentagons, hexagons.
 However, when I speak about a polygon with my [colleagues](http://3dgeoinfo.bk.tudelft.nl/about/), we usually think of something more complex:
 
 ![]({{ site.baseurl }}/img/gispolygons.png)
@@ -24,8 +24,8 @@ We use the definition as found in the [*Simple Feature Access* document](http://
 
 > A Polygon is defined as a planar Surface defined by 1 exterior boundary and 0 or more interior boundaries. Each interior boundary defines a hole in the Polygon.
 
-There are different rules for the interactions between the different rings of a polygon, and it is easy to imagine that things can get quickly complex and messy.
-The following figure shows 12 examples of rather simple polygons that are invalid, and these highlight the most important rules.
+There are different rules for the interactions between the different rings (boundaries) of a polygon, and it is easy to imagine that things can quickly get complex and messy.
+The following figure shows 12 examples of rather simple polygons that are invalid, and these highlight the most important validity rules.
 
 ![]({{ site.baseurl }}/img/unitpolygons.png)
 
@@ -58,7 +58,7 @@ Of all the polygons I've seen in my life, these 2 are my favourite.
 [<img src="{{ site.baseurl }}/img/bigpolygon_sweden.png">](https://github.com/hugoledoux/BIGpolygons/blob/master/EU-199948.geojson)
 
 The polygon with ID 'EU-199948' in the [Corine land cover dataset](http://www.eea.europa.eu/data-and-maps/data/clc-2006-vector-data-version-3) has 1,189,903 vertices, and 7,672  inner rings.
-You can zoom in on it [there](https://github.com/hugoledoux/BIGpolygons/blob/master/EU-199948.geojson).
+You can get it and zoomin on it [there](https://github.com/hugoledoux/BIGpolygons/blob/master/EU-199948.geojson).
 
 ### 2. the Cleveland polygon
 
@@ -67,15 +67,15 @@ You can zoom in on it [there](https://github.com/hugoledoux/BIGpolygons/blob/mas
 I obtained it from someone working at the [Cleveland Metroparks](http://clevelandmetroparks.com), and you can get it [there](https://github.com/hugoledoux/BIGpolygons/blob/master/cleveland.geojson).
 Although it covers a much smaller area than the Swedish one, it is **monstrous**: 1,689,703 vertices, 66,908 inner rings, and its biggest ring has 500,373 vertices. Wow.
 
-I can't decide which one I like most, perhaps because the Swedish polygon should probably be bigger than the Cleveland one: observe that it was truncated at the bottom and on the left, probably because of a different CRS zone, or perhaps because the GIS couldn't handle the full one?
+I can't decide which one I like most, perhaps because the Swedish polygon should probably be bigger than the Cleveland one: observe that it was truncated at the bottom and on the left, probably because of a different [CRS zone](https://en.wikipedia.org/wiki/Spatial_reference_system), or perhaps because the GIS couldn't handle the full one?
 
 
 ## A repository of BIG polygons
 
-I've setup a small repository in which I keep big polygons:
+I've setup a repository in which I keep these big polygons and other interesting ones:
 
 <a href="https://github.com/hugoledoux/BIGpolygons"><i class="fa fa-github fa-lg"></i> github.com/hugoledoux/BIGpolygons</a>
 
 I usually use them to test the capabilities of code I write to process GIS datasets, eg [prepair](https://github.com/tudelft3d/prepair).
 
-I'd be grateful if you submitted to me other interesting ones and/or your favourite ones. 
+I'd be grateful if you submitted other interesting ones and/or your favourite ones. 
