@@ -10,7 +10,7 @@ When it comes to writing my [papers](/pubs/), I must admit that I prefer [LaTeX]
 *Prefer* is an understatement here: I would probably do *anything* to avoid writing a paper with the other software, eg spending hours harrasing the editor of the journal/conference so that she accepts LaTeX, spending one full day fighting with one of the many [converters](http://peterwittek.com/2013/11/comparing-latex-conversion-tools/) even if I know they don't really work[^1], or asking one of my [students](/proteges/) to do it for me.
 
 So when I can choose, I always impose LaTeX on my co-authors. 
-Since some of them are users of the other software, that often creates friction and someone ends up fixing manually all the "mistakes" in the file. 
+Since some of them are users of the other software, that often creates friction and someone ends up fixing manually all the "mistakes" and inconsistencies in the file. 
 
 So I propose here *The Rules for happily collaborating on a LaTeX document*©, a set of 10 rules that: (1) novices can easily apply; (2) will make your co-authors happy. 
 
