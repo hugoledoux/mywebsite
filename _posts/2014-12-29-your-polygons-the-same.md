@@ -29,12 +29,12 @@ The following figure shows 12 examples of rather simple polygons that are invali
 
 ![]({{ site.baseurl }}/img/unitpolygons.png)
 
-  - each ring defining the exterior and interior boundaries should be *simple*, ie non-self-intersecting ($$p_{1}$$ and $$p_{10}$$). Notice that this prevents the existence of rings with zero-area ($$p_{6}$$), and of rings having two consecutive points at the same location. It should be observed that the polygon $$p_{1}$$ is not allowed either (in a valid representation of the polygon, the triangle should be represented as an interior boundary touching the exterior boundary), but some implementations do allow it (eg ESRI's Shapefile).
-  - each ring should be closed ($$p_{11}$$): its first and its last points should be the same.
-  - the rings of a polygon should not cross ($$p_{3}$$, $$p_{7}$$, $$p_{8}$$ and $$p_{12}$$) but may intersect at one tangent point (the interior ring of $$p_{2}$$ is a valid case, although $$p_2$$ as a whole is not since the other interior ring is located *outside* the interior one).
-  - a polygon may not have cut lines, spikes or punctures ($$p_{5}$$ or $$p_{6}$$); removing these is known as the *regularisation* of a polygon (a standard point-set topology operation).
-  - the interior of every polygon is a connected point set, ie one can 'walk' everywhere within its interior without having to go outside ($$p_{4}$$).
-  - each interior ring creates a new area that is disconnected from the exterior. Thus, an interior ring cannot be located outside the exterior ring ($$p_{2}$$) or inside other interior rings ($$p_{9}$$).
+  - each ring defining the exterior and interior boundaries should be *simple*, ie non-self-intersecting (*p*<sub>1</sub> and *p*<sub>10</sub>). Notice that this prevents the existence of rings with zero-area (*p*<sub>6</sub>), and of rings having two consecutive points at the same location. It should be observed that the polygon *p*<sub>1</sub> is not allowed either (in a valid representation of the polygon, the triangle should be represented as an interior boundary touching the exterior boundary), but some implementations do allow it (eg ESRI's Shapefile).
+  - each ring should be closed (*p*<sub>11</sub>): its first and its last points should be the same.
+  - the rings of a polygon should not cross (*p*<sub>3</sub>, *p*<sub>7</sub>, *p*<sub>8</sub> and *p*<sub>12</sub>) but may intersect at one tangent point (the interior ring of *p*<sub>2</sub> is a valid case, although *p*<sub>2</sub> as a whole is not since the other interior ring is located *outside* the interior one).
+  - a polygon may not have cut lines, spikes or punctures (*p*<sub>5</sub> or *p*<sub>6</sub>); removing these is known as the *regularisation* of a polygon (a standard point-set topology operation).
+  - the interior of every polygon is a connected point set, ie one can 'walk' everywhere within its interior without having to go outside (*p*<sub>4</sub>).
+  - each interior ring creates a new area that is disconnected from the exterior. Thus, an interior ring cannot be located outside the exterior ring (*p*<sub>2</sub>) or inside other interior rings (*p*<sub>9</sub>).
 
 
 ## BIG polygons

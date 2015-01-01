@@ -1,15 +1,20 @@
-# jekyll serve --draft --baseurl ''
-# Dependencies
-markdown:         kramdown #redcarpet
+#-- Dependencies
+markdown:         kramdown
+kramdown:
+  input:          GFM
+  hard_wrap:      false
+  toc_levels:     2..2
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  # use_coderay:    false
 highlighter:      pygments
 excerpt_separator: "<!--more-->"
 
-# Permalinks
+#-- Permalinks
 # permalink:            pretty
 permalink:            /:categories/:title/
 relative_permalinks:  true
 
-# Setup
+#-- Setup
 title:            Hugo Ledoux
 tagline:          'Homepage'
 description:      'assistant-professor in 3D geoinfomation at TUDelft'
