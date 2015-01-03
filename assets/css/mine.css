@@ -36,6 +36,10 @@
   font-size: 1rem;
 }
 
+.sidebar-about h5 a {
+  color: #dfdfdf;
+}
+
 /* Code */
 code,
 pre {
