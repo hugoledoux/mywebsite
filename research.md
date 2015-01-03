@@ -40,7 +40,7 @@ More information at [www.geo5d.nl](http://www.geo5d.nl)
 
 ![]({{ site.baseurl }}/img/3dsm.jpg)
 
-The aim of this project, funded by the [Dutch Technology Foundation STW](http://www.stw.nl), is to investigate algorithms to simplify LiDAR datasets. In recent years, these have considerably grown in size because of advances in acquisition technologies such as airborne laser-scanning. A vivid example is the [AHN2 datasets](http://www.ahn.nl) in the Netherlands: it contains at least 4 points per square meter, and its total is around 640 billion points (639,477,709,621 to be exact). 
+The aim of this project, funded by the [Dutch Technology Foundation STW](http://www.stw.nl), is to investigate algorithms to simplify LiDAR datasets. In recent years, these have considerably grown in size because of advances in acquisition technologies such as airborne laser-scanning. A vivid example is the [AHN2 datasets](http://www.ahn.nl) in the Netherlands: it contains around 640 billion points (639,477,709,621 to be exact). 
 
 We reduce their size while keeping their main characteritics. While current methods often portray DSMs as 2D objects (and thus valuable information is lost), we investigate new simplification algorithms that:
 
