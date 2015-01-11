@@ -11,33 +11,9 @@
   padding: 1rem;
  }
 
-.sidebar-about img{
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.sidebar-about img.me{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "jaf-facitweb";
-  font-size: 2rem;
-}
-
-.sidebar-about h5 {
-  color: #dfdfdf;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-family: "jaf-facitweb";
-  font-size: 1rem;
-}
-
-.sidebar-about h5 a {
-  color: #dfdfdf;
+.masthead-title small a {
+  color: #c0c0c0;
 }
 
 /* Code */
@@ -69,13 +45,13 @@ pre.bibtex {
   color: #9a9a9a;
 }
 
-/* Red */
+/* Hugo colour */
 .theme-base-hugo .sidebar {
-  background-color: #3f9673;
+  background-color: #128dd7;
 }
 .theme-base-hugo .content a,
 .theme-base-hugo .related-posts li a:hover {
-  color: #3f9673;
+  color: #128dd7;
 }
 
 html {
