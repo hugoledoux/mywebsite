@@ -20,9 +20,6 @@ ul#markdown-toc {
 }
 
 
-.masthead-title small a {
-  color: #c0c0c0;
-}
 
 img.centre {
   display: block;
@@ -64,10 +61,16 @@ pre.bibtex {
 .theme-base-bleu #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #128dd7;
 }
-.theme-base-bleu .container a,
+/*.theme-base-bleu .container h3,*/
 .theme-base-bleu .sidebar-toggle,
 .theme-base-bleu .related-posts li a:hover {
   color: #128dd7;
 }
+.masthead-title a {
+  color: #128dd7;
+}
 
+.masthead-title small a {
+  color: #c0c0c0;
+}
 
