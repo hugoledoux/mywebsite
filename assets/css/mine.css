@@ -5,15 +5,26 @@
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
- ul#markdown-toc {
+html {
+  /*font-family: "ff-nuvo-web-pro";*/
+  font-family: ""jaf-facitweb";";
+
+}
+
+ul#markdown-toc {
   list-style: none;
   background-color: #f9f9f9;
   padding: 1rem;
- }
+}
 
 
 .masthead-title small a {
   color: #c0c0c0;
+}
+
+img.centre {
+  display: block;
+  text-align: center;
 }
 
 /* Code */
@@ -45,18 +56,16 @@ pre.bibtex {
   color: #9a9a9a;
 }
 
-/* Hugo colour */
-.theme-base-hugo .sidebar {
+/* bleu colour */
+.theme-base-bleu .sidebar,
+.theme-base-bleu .sidebar-toggle:active,
+.theme-base-bleu #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #128dd7;
 }
-.theme-base-hugo .content a,
-.theme-base-hugo .related-posts li a:hover {
+.theme-base-bleu .container a,
+.theme-base-bleu .sidebar-toggle,
+.theme-base-bleu .related-posts li a:hover {
   color: #128dd7;
 }
 
-html {
-  /*font-family: "ff-nuvo-web-pro";*/
-  font-family: ""jaf-facitweb";";
-
-}
 
