@@ -5,10 +5,12 @@
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
-html {
-  /*font-family: "ff-nuvo-web-pro";*/
-  font-family: ""jaf-facitweb";";
+html, h1, h2, h3, h4, h5, h6 {
+  font-family: "jaf-facitweb";
+}
 
+.sidebar {
+  font-family: "jaf-facitweb";
 }
 
 ul#markdown-toc {
