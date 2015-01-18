@@ -5,39 +5,25 @@
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
- ul#markdown-toc {
+html, h1, h2, h3, h4, h5, h6 {
+  font-family: "jaf-facitweb";
+}
+
+.sidebar {
+  font-family: "jaf-facitweb";
+}
+
+ul#markdown-toc {
   list-style: none;
   background-color: #f9f9f9;
   padding: 1rem;
- }
-
-.sidebar-about img{
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.sidebar-about img.me{
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "jaf-facitweb";
-  font-size: 2rem;
-}
 
-.sidebar-about h5 {
-  color: #dfdfdf;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-family: "jaf-facitweb";
-  font-size: 1rem;
-}
-
-.sidebar-about h5 a {
-  color: #dfdfdf;
+img.centre {
+  display: block;
+  text-align: center;
 }
 
 /* Code */
@@ -69,18 +55,22 @@ pre.bibtex {
   color: #9a9a9a;
 }
 
-/* Red */
-.theme-base-hugo .sidebar {
-  background-color: #3f9673;
+/* bleu colour */
+.theme-base-bleu .sidebar,
+.theme-base-bleu .sidebar-toggle:active,
+.theme-base-bleu #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #128dd7;
 }
-.theme-base-hugo .content a,
-.theme-base-hugo .related-posts li a:hover {
-  color: #3f9673;
+/*.theme-base-bleu .container h3,*/
+.theme-base-bleu .sidebar-toggle,
+.theme-base-bleu .related-posts li a:hover {
+  color: #128dd7;
+}
+.masthead-title a {
+  color: #128dd7;
 }
 
-html {
-  /*font-family: "ff-nuvo-web-pro";*/
-  font-family: ""jaf-facitweb";";
-
+.masthead-title small a {
+  color: #c0c0c0;
 }
 

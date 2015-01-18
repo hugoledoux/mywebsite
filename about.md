@@ -4,9 +4,10 @@ title: about
 permalink: /about/
 ---
 
-<!-- # about me -->
 
-<img class="me" src="{{ site.baseurl }}/img/me.png">
+<div style='width:200px;margin:0 auto;'> 
+  <img class="centre" alt="image" src="{{ site.baseurl }}/img/me.png">
+</div>
 
 I'm an assistant-professor in the [3D geoinformation research group](http://3dgeoinfo.bk.tudelft.nl), which is part of the [Department of Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/) of the [Faculty of Architecture & the Built Environment](http://bk.tudelft.nl/en) at the [Delft University of Technology](http://www.tudelft.nl).
 
@@ -18,13 +19,16 @@ I am currently working on the validation and the automatic repair of polygons an
 
 Teaching-wise, I am the responsible lecturer for the course *Geographical Information Systems and Cartography* in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft. For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [GRASS](http://grass.osgeo.org/), [Shapely](https://github.com/Toblerity/Shapely), and [TileMill](http://www.mapbox.com/tilemill/).
 
+---
 
-<h1 id="contact">to contact me</h1>
+## Contact
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-envelope"></i>h.ledoux@tudelft.nl</li>
   <li><i class="fa-li fa fa-phone"></i>+31 15 27 86114</li>
   <li><i class="fa-li fa fa-home"></i><a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a></li>
+  <li><i class="fa-li fa fa-twitter"></i><a href="https://twitter.com/hugoledoux">hugoledoux</a></li>
+  <li><i class="fa-li fa fa-github"></i><a href="https://github.com/hugoledoux">hugoledoux</a></li>
 </ul>
 
 <ul class="fa-ul">

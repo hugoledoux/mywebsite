@@ -6,12 +6,6 @@ permalink: /proteges/
 
 # Protégés
 
-<div class="message">
-<b>Protégé</b> <code>| prɒtəʒeɪ |</code>
-a person who is guided and supported by an older and more experienced or influential person
-</div>
-
----
 
 ## PhD students
 
