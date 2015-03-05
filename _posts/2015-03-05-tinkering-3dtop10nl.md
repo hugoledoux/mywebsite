@@ -17,7 +17,7 @@ The test area is Valkenburg (in the South of the country), so yes the hills you 
 
 While the dataset is publicly available and open (under this [creative commons licence](http://creativecommons.org/licenses/by/3.0/nl/)), the format currently offered is only [ESRI geodatabases (GDB)](http://www.esri.com/news/arcnews/winter0809articles/the-geodatabase.html).
 Rather ironic, but I was promised that other formats would soon be available.
-CityGML would in theory be a good candidate, but storing all these triangles in GML would create *gigantic* files, so other formats are currenly being investigated.
+CityGML would in theory be a good candidate, but storing all these triangles in GML would create *gigantic* files, so other formats are currently being investigated.
 
 If, like me, you don't have ArcGIS, do not despair. 
 It's possible to read the GDB file (or should I say folder?): GDAL/OGR has an implementation of the [OpenFileGDB driver](http://www.gdal.org/drv_openfilegdb.html).
@@ -60,7 +60,7 @@ Voilà.
 
 A word of caution though.
 I have noticed that the conversion done with the OpenFileGDB has errors: several triangles are corrupted!
-Triangles that have---as they should---3 vertices in the GDB file (I checked with ArcGIS) are after conversion to the shapefile having 4+ vertices and inner rings.
+Triangles that have---as they should---3 vertices in the GDB file (I checked with ArcGIS) are after conversion to the shapefile having 4+ vertices and inner rings (triangles are simply polygons, thus it's possible and "correct").
 An example is this one (the red geometries are 1 geometry that is corrupted, and it is not a triangle):
 
 ![]({{ site.baseurl }}/img/openfilegdbproblems.png)
@@ -69,6 +69,7 @@ Why does this happen? I have no idea.
 It happens for me with GDAL v1.11.0, under Mac OS X (Yosemite).
 
 Since it was driving mad, I wrote a small script to know if the triangles in a shapefile are valid: [aretrianglesvalid.py](https://gist.github.com/hugoledoux/0798ee79fe76a1b0ed8f).
+
 If you solve this problem, please let me know.
 
 
