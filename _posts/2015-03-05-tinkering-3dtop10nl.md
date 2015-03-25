@@ -65,12 +65,18 @@ An example is this one (the red geometries are 1 geometry that is corrupted, and
 
 ![]({{ site.baseurl }}/img/openfilegdbproblems.png)
 
-Why does this happen? I have no idea. 
+<del>Why does this happen? I have no idea. 
 It happens for me with GDAL v1.11.0, under Mac OS X (Yosemite).
+</del>
+
+<em>UPDATE: The reason why this happened is explained [here](http://trac.osgeo.org/gdal/ticket/5888) (cheers to [Even Rouault](http://trac.osgeo.org/gdal/ticket/5888)).
+Basically, if you convert to GML or Spatialite instead of Shapefile then the problem is avoided (`ogr2ogr -f GML out.gml  Valkenburg.gdb/ terreinVlak_3D_LOD0`). The GDB file contains vertical triangles (the terrain of 3DTOP10NL is not a 2.5D terrain) and the Shapefile driver tries to construct polygons (triangles) that are 2.5D by assigning a Z value to the points (which doesn't work).
+</em>
+
 
 Since it was driving mad, I wrote a small script to know if the triangles in a shapefile are valid: [aretrianglesvalid.py](https://gist.github.com/hugoledoux/0798ee79fe76a1b0ed8f).
 
-If you solve this problem, please let me know.
+<del>If you solve this problem, please let me know.</del>
 
 
 
