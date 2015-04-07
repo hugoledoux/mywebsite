@@ -69,13 +69,13 @@ I'm used to natbib's styles such as *plainnat* and *abbrvnat*, with these you ge
 
 > B. N. Delaunay. Sur la sphère vide. *Izvestia Akademia Nauk SSSR, Otdelenie Matematicheskii i Estestvennyka Nauk*, 7:793–800, 1934.
 
-> D. H. Douglas and T. K. Peucker. Algorithms for the reduction of the number of points re- quired to represent a digitized line or its caricature. The Canadian Cartographer, 10(2):112– 123, 1973.
+> D. H. Douglas and T. K. Peucker. Algorithms for the reduction of the number of points re- quired to represent a digitized line or its caricature. *The Canadian Cartographer*, 10(2):112– 123, 1973.
 
 If biblatex is used "out-of-the-box", with the style *authoryear-icomp*, this is what is obtained:
 
-> Delaunay, Boris N. (1934). "Sur la sphère vide". In: Izvestia Akademia Nauk SSSR, Otdelenie Matem- aticheskii i Estestvennyka Nauk 7, pp. 793–800.
+> Delaunay, Boris N. (1934). "Sur la sphère vide". In: *Izvestia Akademia Nauk SSSR, Otdelenie Matem- aticheskii i Estestvennyka Nauk* 7, pp. 793–800.
 
-> Douglas, D. H. and T. K. Peucker (1973). "Algorithms for the reduction of the number of points required to represent a digitized line or its caricature". In: The Canadian Cartographer 10.2, pp. 112–123.
+> Douglas, D. H. and T. K. Peucker (1973). "Algorithms for the reduction of the number of points required to represent a digitized line or its caricature". In: *The Canadian Cartographer* 10.2, pp. 112–123.
 
 Several things are annoying and these can be fixed as follows:
 
@@ -176,9 +176,9 @@ To obtain what natbib *plainnat* has (ie volume(issue):pp--pp) and to shorten 'p
 
 which gives:
 
-> Delaunay, B. N. (1934). Sur la sphère vide. Izvestia Akademia Nauk SSSR, Otdelenie Matematicheskii i Estestvennyka Nauk 7:793–800.
+> Delaunay, B. N. (1934). Sur la sphère vide. *Izvestia Akademia Nauk SSSR, Otdelenie Matematicheskii i Estestvennyka Nauk* 7:793–800.
 
-> Douglas, D. H. and T. K. Peucker (1973). Algorithms for the reduction of the number of points required to represent a digitized line or its caricature. The Canadian Cartographer 10 (2):112– 123.
+> Douglas, D. H. and T. K. Peucker (1973). Algorithms for the reduction of the number of points required to represent a digitized line or its caricature. *The Canadian Cartographer* 10 (2):112– 123.
 
 My advice? Stick to bibtex for the time being, unless you *really* need the benefits of biblatex.
 
