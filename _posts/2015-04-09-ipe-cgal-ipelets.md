@@ -23,7 +23,7 @@ First install both and their dependencies:
     $ brew install cgal
     $ brew install ipe
 
-Second, download the latest [source code of CGAL](http://www.cgal.org/download.html):
+Second, download the latest [source code of CGAL](http://www.cgal.org/download.html) and then:
 
     $ cd CGAL_ipelets/demo/CGAL_ipelets/
     $ cmake .
@@ -33,7 +33,7 @@ I had problems compiling `circle_pencils.cpp`, so I simply removed it (I'm lazy 
 All the other extensions compiled without issues.
 
 Third, launch ipe (`$ ipe`, it's now in your path) and go the menu 'Help/Show configuration' to see where you should put your newly created Ipe extensions.
-Mine was `~/.ipe/ipelets` so I created a folder there and:
+Mine was `~/.ipe/ipelets` so I created that folder and copied the extensions:
 
     $ cp *.so ~/ipe/ipelets/
     $ cp lua/*.lua ~/ipe/ipelets/
