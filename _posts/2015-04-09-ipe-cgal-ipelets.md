@@ -35,8 +35,8 @@ All the other extensions compiled without issues.
 Third, launch ipe (`$ ipe`, it's now in your path) and go the menu 'Help/Show configuration' to see where you should put your newly created Ipe extensions.
 Mine was `~/.ipe/ipelets` so I created that folder and copied the extensions:
 
-    $ cp *.so ~/ipe/ipelets/
-    $ cp lua/*.lua ~/ipe/ipelets/
+    $ cp *.so ~/.ipe/ipelets/
+    $ cp lua/*.lua ~/.ipe/ipelets/
 
 Voilà, if you start Ipe again, the Ipelets should appear in the 'Ipelets' menu.
 
