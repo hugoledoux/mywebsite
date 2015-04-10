@@ -10,8 +10,12 @@ env.hosts = ['3dgeoinfo.bk.tudelft.nl']
 
 def deploy():
     local("jekyll build")
+    local("tar -zcf w.tar.gz _site/")
     code_dir = '/var/www/people/hledoux'
     with cd(code_dir):
         run('rm -Rf site')
-        put('_site', code_dir)
+        put('w.tar.gz', code_dir)
+        run("tar -xvf w.tar.gz")
         run("mv _site site")
+        run("rm w.tar.gz")
+    local("rm w.tar.gz")
