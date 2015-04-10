@@ -8,7 +8,7 @@ comments: true
 
 ![]({{ site.baseurl }}/img/ipe1.png)
 
-My favourite drawing program for anything where triangles and geometry is involved is [Ipe](http://ipe7.sourceforge.net).
+My favourite drawing program for anything where triangles and geometry are involved is [Ipe](http://ipe7.sourceforge.net).
 It's free, open-source, has built-in LaTeX support and is extensible.
 One of the nicest extensions for me is the [CGAL Ipelets](http://doc.cgal.org/latest/CGAL_ipelets/index.html): all the power of CGAL easily accessible.
 
