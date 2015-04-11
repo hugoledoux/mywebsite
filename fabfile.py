@@ -1,4 +1,3 @@
-
 from __future__ import with_statement
 from fabric.api import *
 from fabric.contrib.project import rsync_project
@@ -19,3 +18,9 @@ def deploy():
         run("mv _site site")
         run("rm w.tar.gz")
     local("rm w.tar.gz")
+
+
+def sync_pdfs():
+    rsync_project(local_dir='./_pdfs/', 
+                  remote_dir='/var/www/people/hledoux/pdfs/',
+                  delete=True)
