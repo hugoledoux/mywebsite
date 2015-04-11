@@ -32,7 +32,7 @@ The aim of the research project is to integrate the multi-dimensional characteri
 
 The research project is funded by a Vidi grant from the [Dutch Technology Foundation STW](http://www.stw.nl) awarded to [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter). 
 
-More information at [www.geo5d.nl](http://3dgeoinfo.bk.tudelft.nl/projects/geo5d/)
+[Project website](http://3dgeoinfo.bk.tudelft.nl/projects/geo5d/).
 
 - - -
 
@@ -50,4 +50,4 @@ While current methods often portray DSMs as 2D objects (and thus valuable inform
   1. use 3D tools and 3D data structures, specificially the 3D medial axis transform (MAT);
   2. permit us to define 3D features—buildings, dikes, etc—and consider these while simplifying. The knowledge of the features will permit us to remove unimportant points and focus only on those of interest for a given application.
 
-More information at [3dsm.bk.tudelft.nl](http://3dsm.bk.tudelft.nl)
+[Project website](http://3dgeoinfo.bk.tudelft.nl/projects/3dsm).
