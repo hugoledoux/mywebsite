@@ -21,6 +21,9 @@ def deploy():
 
 
 def sync_pdfs():
+    remotedir = '/var/www/people/hledoux/pdfs/'
     rsync_project(local_dir='./_pdfs/', 
-                  remote_dir='/var/www/people/hledoux/pdfs/',
+                  remote_dir=remotedir,
                   delete=True)
+    run('cd %s' % remotedir)
+    run('chmod a+r *.pdf')
