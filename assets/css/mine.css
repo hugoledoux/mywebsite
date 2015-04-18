@@ -19,8 +19,6 @@ ul#markdown-toc {
   padding: 1rem;
 }
 
-
-
 img.centre {
   display: block;
   text-align: center;
@@ -38,6 +36,16 @@ pre {
 
 div .collapse {
   display: none;
+}
+
+.footnotes { 
+  border-top: 1px solid #969696;
+  margin-top: 4em;
+  font-size: 70%;
+}
+
+.footnotes > ol {
+  padding-top: 2em;
 }
 
 pre.bibtex {

@@ -7,7 +7,7 @@ title: Example content
 * blablabla
 {:toc}
 ---
-Bacon ipsum dolour sit amet porchetta beef turkey, bacon turducken boudin hamburger venison ball tip. 
+Bacon ipsum dolour sit amet porchetta beef turkey, bacon turducken boudin hamburger venison ball tip[^1].
 Brisket pork loin bresaola short loin ground round leberkas pastrami tongue jerky cow turducken beef ribs. 
 Pork ribeye landjaeger prosciutto pig venison tenderloin. Swine beef ribs kielbasa, porchetta tenderloin salami venison pork belly tail.
 
@@ -183,4 +183,8 @@ $$
 \end{align*}
 $$
 
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+Want to see something else added[^3]? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+
+
+[^1]: bla bla bla
+[^3]: Bacon ipsum dolour sit amet porchetta beef turkey, bacon turducken boudin hamburger venison ball tip. Brisket pork loin bresaola short loin ground round leberkas pastrami tongue jerky cow turducken beef ribs. Pork ribeye landjaeger prosciutto pig venison tenderloin. Swine beef ribs kielbasa, porchetta tenderloin salami venison pork belly tail.

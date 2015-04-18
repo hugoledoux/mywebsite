@@ -4,7 +4,7 @@
       var addBreakpoint, baseFontSize, bigfoot, buttonHover, calculatePixelDimension, cleanFootnoteLinks, clickButton, createPopover, defaults, deleteEmptyOrHR, escapeKeypress, footnoteInit, getSetting, makeDefaultCallbacks, popoverStates, positionTooltip, removeBackLinks, removeBreakpoint, removePopovers, replaceWithReferenceAttributes, repositionFeet, roomCalc, settings, touchClick, unhoverFeet, updateSetting, viewportDetails;
       bigfoot = void 0;
       defaults = {
-        actionOriginalFN: "hide",
+        actionOriginalFN: "ignore",
         activateCallback: function() {},
         activateOnHover: false,
         allowMultipleFN: false,
@@ -485,11 +485,13 @@
         };
       };
       viewportDetails = function() {
+        var $window;
+        $window = $(window);
         return {
           width: window.innerWidth,
           height: window.innerHeight,
-          scrollX: window.scrollX,
-          scrollY: window.scrollY
+          scrollX: $window.scrollLeft(),
+          scrollY: $window.scrollTop()
         };
       };
       addBreakpoint = function(size, trueCallback, falseCallback, deleteDelay, removeOpen) {
