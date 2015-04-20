@@ -6,44 +6,32 @@
   <body class="theme-base-bleu">
   <!-- <body class="theme-base-08"> -->
 
-    {% include sidebar.html %}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </div>
+    <div class="container content">
+      <header class="masthead">
+        <h1 class="masthead-title">
+          <a class="meheader" href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a><br>
+        </h1>
+        <small>{{ site.tagline }}</small>
 
-      <div class="container content">
+        <!-- &bull; -->
+        <!-- <i class="fa fa-circle-thin"></i> -->
+        <br>
+        {% assign pages_list = site.pages | sort:"url" %}
+        {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if node.layout == "page" %}
+              <span><a class="linx" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a> 
+              {% if forloop.rindex > 1 %}
+              &bull; </span>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}      
+      </header>
+      <main>
         {{ content }}
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
+      </main>
 
     {% include footer.html %}
 
