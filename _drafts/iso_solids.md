@@ -10,10 +10,11 @@ comments: true
 While the definitions found in the OGC/ISO Simple Features specifications for 2D primitives are well-accepted and used in practice by virtually everyone, I have noticed that the ones for 3D primitives (especially for the volumetric primitive, called a *solid* or a *polyhedron*) are in almost all cases ignored by software vendors, by practitioners and even by academics[^academics].
 Most vendors now have a 3D module (whatever that means), but unfortunately they take great liberties in defining what "3D GIS" means---and no a perspective view on a 2.5D terrain doesn't qualify in my opinion.
 They are all implementing their own version of what they think a solid should be, or rather, what they can technically implement at the moment.
-<!-- The data structure they have drives the definition---shouldn't it be the opposite? -->
 And to make things worse, the definition they used is rarely defined or documented.
 Exchanging and converting datasets from one format/platform to another is thus highly problematic, and in my opinion it hinders severely the use and the development of 3D functions.
 
+
+## To be fair, even mathematicians don't agree...
 
 I must admit that representing a solid is far more complex than representing a 2D polygon, and that different disciplines have rather different definitions.
 This is best illustrated by Grünbaum (2003)[^Grunbaum03] who states that even in the field of mathematics opinions differ as to what constitutes the term "polyhedron".
@@ -23,28 +24,30 @@ The bounding faces are thus planar surfaces embedded in the 3D Euclidean space, 
 A 2-manifold is a topological space that is topologically equivalent to a 2D space---an obvious example is the surface of the Earth, for which near to every point the surrounding area is topologically equivalent to a plane. 
 
 
-This definition, that a solid is a 2-manifold, is also often used in the CAD world and in GIS.
-One of the main reason is simplicity: representing and storing a 2-manifold can be done with data structures that are intrinsically 2D since each edge is guaranteed to have a maximum of two incident faces and that around each vertex the incident faces form one "umbrella".
-This means that one doesn't have to dramatically change the internal of her systems since the good old *node-arc-face* generalises directly to 3D.
-While this sounds great, it also means that non-manifold objects are impossible to represent, and, perhaps worse, 3D objects are *individually* stored and represented.
-That is, the topological relationships between 2 adjacent buildings cannot be explicitly stored.
+## What is an ISO19107 solid? 
 
-
-# What is an ISO19107 solid? 
-
-ISO19107[^ISO19107] defines different geometric primitives: a 0D primitive is a GM_Point, a 1D a GM\_Curve, a 2D a GM\_Surface, and a 3D a GM\_Solid. 
-A primitive is built with lower-dimensional primitives, eg in the following figure the GM\_Surface is composed of 2 (closed) GM\_Curves, which are composed on several GM\_Points.
+The international standard ISO19107[^ISO19107] definition of a solid is broader than that of a 2-manifold, and to permit us to represent all the real-world features.
+It is basically a generalisation to 3D of a polygon, ie it can have inner boundaries.
 
 ![]({{ site.baseurl }}/img/isoprimitives.pdf.png)
 
+The ISO19107 geometric primitives: 
+
+  - a 0D primitive is a `GM_Point, 
+  - a 1D a `GM_Curve`, 
+  - a 2D a `GM_Surface`, 
+  - and a 3D a `GM_Solid`. 
+
+A primitive is built with lower-dimensional primitives, eg in the following figure the `GM_Surface` is composed of 2 (closed) `GM_Curves`, which are composed on several `GM_Points`. 
 Observe that primitives do not need to be linear or planar, ie curves defined by mathematical functions are allowed.
+
 In our context, the following three definitions from ISO19107 are relevant:
 
-> A GM_Solid is the basis for 3-dimensional geometry. The extent of a solid is defined by the boundary surfaces. The boundaries of GM_Solids shall be represented as GM_SolidBoundary. […] The GM_OrientablesSurfaces that bound a solid shall be oriented outward.
+> A `GM_Solid` is the basis for 3-dimensional geometry. The extent of a solid is defined by the boundary surfaces. The boundaries of `GM_Solids` shall be represented as `GM_SolidBoundary`. […] The `GM_OrientablesSurfaces` that bound a solid shall be oriented outward.
 
-> A GM\_Shell is used to represent a single connected component of a GM\_SolidBoundary. It consists of a number of references to GM\_OrientableSurfaces connected in a topological cycle (an object whose boundary is empty). [...] Like GM\_Rings, GM\_Shells are simple.
+> A `GM_Shell` is used to represent a single connected component of a `GM_SolidBoundary`. It consists of a number of references to `GM_OrientableSurfaces` connected in a topological cycle (an object whose boundary is empty). [...] Like `GM_Rings`, `GM_Shells` are simple.
 
-> A GM\_Object is *simple* if it has no interior point of self-intersection or self-tangency. In mathematical formalisms, this means that every point in the interior of the object must have a metric neighbourhood whose intersection with the object is isomorphic to an *n*-sphere, where *n* is the dimension of this GM\_Object.
+> A `GM_Object` is *simple* if it has no interior point of self-intersection or self-tangency. In mathematical formalisms, this means that every point in the interior of the object must have a metric neighbourhood whose intersection with the object is isomorphic to an *n*-sphere, where *n* is the dimension of this `GM_Object`.
 
 The bounding surfaces of a shell thus form a *closed* and *orientable* 2-manifold. 
 Closed means that there should not be 'holes' in the surface (in other words, it should be watertight).
@@ -63,7 +66,7 @@ Observe that a cavity is not the same as a hole in a torus (a donut) such as tha
 ![A 'squared torus' is modelled with one exterior boundary formed of ten surfaces. Notice that there are no interior boundary.](figs/torus.png)
 
 
-# Interactions between the shells of a solid
+## Interactions between the shells of a solid
 
 According to the ISO abstract specifications, the different boundaries of a solid are allowed to interact with each other, but only under certain circumstances.
 To understand these, we have to generalise to 3D the implementation specifications defined in 2D by the OGC (since they do not exist yet in 3D):
@@ -107,12 +110,15 @@ Since these are embedded in 3D, they have to be planar.
 That is a polygon must have all its points lying on a plane.
 An example of an invalid surface would be one having a hole (an inner ring) overlapping the exterior ring (see *s*<sub>10</sub>).
 
-# Solids as implemented in practice (eg with CityGML)
+
+## Solids as implemented in practice (eg with CityGML)
 
 ![UML diagram of the CityGML geometry model.](figs/citygmlgeom)
 
 CityGML uses the ISO19107 geometric primitives for representing the geometry of its objects. 
-However, only a subset is used, with the following two restrictions: (1) GM\_Curves can only be *linear* (thus only LineStrings and LinearRings are used); (2) GM\_Surfaces can only be *planar* (thus Polygons are used). The primitives for constructing Shells and Solids are:
+However, only a subset is used, with the following two restrictions: (1) `GM_Curves` can only be *linear* (thus only LineStrings and LinearRings are used); (2) `GM_Surfaces` can only be *planar* (thus Polygons are used). 
+
+The primitives for constructing Shells and Solids are:
 
 ![2D CityGML primitives.](figs/citygmlprimitives)
 
@@ -125,29 +131,62 @@ The default is that the curves are coplanar and the polygon uses planar interpol
 Each shell of a solid is thus composed of Polygons, and these can have inner rings (which are often referred to as holes). 
 Observe that the top polygon of the ISO solid above has one inner ring, but that other polygons 'fill' that hole so that the exterior shell is 'watertight' (ie it has no holes and is thus closed).
 
-
-# Requirements for validity of solids
-
-Each primitive used to construct a higher-dimensional primitive should be valid. 
-This means that in order to validate a solid, we need to also ensure that each ring and polygon used be valid. 
-For rings and polygons, observe that these will be embedded in 3D (ie the points used to construct rings will have (*x,y,z*) coordinates).
-
-
-## Planarity requirement
-
-A polygon must be planar, ie all its points (used for both the exterior and interior rings) must lie on a plane. 
+% TODO : example of a GML file for a cube with inner shell?
 
 
 
-In GIS-related applications, the definitions are also more restrictive than these of the international standards.
-\citet{Bogdahn10} and \citet{Wagner12} discuss the validation of solids for city modelling, but do not consider holes in surfaces and totally omit that interior shells are possible.
-\citet{Groger11} give axioms to validate 3D city models, but also do not consider holes in primitives of dimensions 2 and 3; what they define as solids are in fact shells without holes in surfaces.
-I use their work on the validity of shells as a building block of the methodology presented in this paper.
+## What about GIS packages?
+
+This definition, that a solid is a 2-manifold, is also often used in the CAD world and in GIS.
+One of the main reason is simplicity: representing and storing a 2-manifold can be done with data structures that are intrinsically 2D since each edge is guaranteed to have a maximum of two incident faces and that around each vertex the incident faces form one "umbrella".
+This means that one doesn't have to dramatically change the internal of her systems since the good old *node-arc-face* generalises directly to 3D.
+While this sounds great, it also means that non-manifold objects are impossible to represent, and, perhaps worse, 3D objects are *individually* stored and represented.
+That is, the topological relationships between 2 adjacent buildings cannot be explicitly stored.
+
+### esri ArcGIS 10.3
+
+No solid type, only [Multipatches](http://resources.arcgis.com/en/help/main/10.2/index.html#//00q8000000mv000000).
+
+> For a multipatch to be considered closed, it must be constructed in the correct fashion. The feature must represent one distinct volume. The patches it is composed of must all have the same counterclockwise orientation of their coordinates and participate in defining the shell of the volume. The patches must not intersect each other, and there must be no gaps or empty spaces in the shell.
+
+
+
+[Is Closed 3D](http://resources.arcgis.com/en/help/main/10.2/index.html#//00q90000006p000000)
+Evaluates multipatch features to determine whether each feature completely encloses a volume of space.
+Are self-intersection detected? 
+Are dangling pieces allowed?
+
+There is no Is_Valid()`, which means no definition.
+
+[3D Boolean operations](http://resources.arcgis.com/en/help/main/10.2/index.html#/Working_with_3D_set_operators/00q80000009v000000/)
+
+### FME
+
+[different types of Solids](http://docs.safe.com/fme/2014beta/html/FME_Workbench/Default.htm#3D/IFMESolids.htm)
+
+IFMEBRepSolid: b-rep solid
+But also IFMEExtrusion for simpler solids (without inner shells) and IFMECSGSolid.
+
+> In general, an IFMEBRepSolid must contain one exterior surface and zero or more interior surfaces.
+
+> IFMECompositeSurface, with the additional requirement that this composite surface must be closed, in order to form a volume.
+
+[`GeometryValidator](http://docs.safe.com/fme/html/FME_Transformers/FME_Transformers.htm#Transformers/geometryvalidator.htm)
+[List of errors](http://docs.safe.com/fme/html/FME_Transformers/FME_Transformers.htm#Transformers/geometryvalidator.htm)
+
+
+
+### Oracle Spatial
+
 
 Most commercial GIS companies also ignore interior shells, ESRI (with ArcGIS 10) and Bentley being two examples.
 Oracle Spatial considers interior shells in their validation function, but do not allow holes in surfaces~\citep{Oracle11g}.
 Also, while they claim to validate according to the international rules, in practice there are several inconsistencies since they use a graph-approach and perform graph-traversal algorithms to validate, see \citet{Kazar08}. 
 This approach is suitable for 2-manifold objects, but for solids having interior shells interacting with other shells it is not sufficient.
+
+In GIS-related applications, the definitions are also more restrictive than these of the international standards.
+\citet{Bogdahn10} and \citet{Wagner12} discuss the validation of solids for city modelling, but do not consider holes in surfaces and totally omit that interior shells are possible.
+\citet{Groger11} give axioms to validate 3D city models, but also do not consider holes in primitives of dimensions 2 and 3; what they define as solids are in fact shells without holes in surfaces.
 
 
 [^1]: All the geometric primitive have the prefix ‘GM\_’
