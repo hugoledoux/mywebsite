@@ -133,6 +133,8 @@ Observe that the top polygon of the ISO solid above has one inner ring, but that
 
 % TODO : example of a GML file for a cube with inner shell?
 
+<script src="https://gist.github.com/hugoledoux/9162b7cff39c72bc8d57.js"></script>
+
 
 
 ## What about GIS packages?
@@ -187,6 +189,8 @@ This approach is suitable for 2-manifold objects, but for solids having interior
 In GIS-related applications, the definitions are also more restrictive than these of the international standards.
 \citet{Bogdahn10} and \citet{Wagner12} discuss the validation of solids for city modelling, but do not consider holes in surfaces and totally omit that interior shells are possible.
 \citet{Groger11} give axioms to validate 3D city models, but also do not consider holes in primitives of dimensions 2 and 3; what they define as solids are in fact shells without holes in surfaces.
+
+### PostGIS
 
 
 [^1]: All the geometric primitive have the prefix ‘GM\_’
