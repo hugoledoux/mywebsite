@@ -108,6 +108,13 @@ img.centre {
   text-align: center;
 }
 
+img.cc {
+  display: inline;
+  max-width: 90%;
+  margin: 0 0 0rem;
+  border-radius: 0px;
+}
+
 /* Code */
 code,
 pre {
