@@ -16,7 +16,7 @@ relative_permalinks:  true
 
 #-- Setup
 title:            Hugo Ledoux
-tagline:          'assistant-prof in <a href="http://3dgeoinfo.bk.tudelft.nl">3D geoinformation</a> at <a href="http://www.tudelft.nl">TU Delft</a>'
+tagline:          'assistant-prof in <a href="http://3dgeoinfo.bk.tudelft.nl">3D geoinformation</a> at <a href="http://www.tudelft.nl">TUDelft</a>'
 # description:      'yo'
 url:              http://3dgeoinfo.bk.tudelft.nl
 baseurl:          /hledoux
