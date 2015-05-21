@@ -7,7 +7,6 @@ tags: academia
 comments: true
 ---
 
-
 I've hesitated a lot before writing this blog post. 
 Should I or should I not openly discuss what happened to my coauthors and me in recent months? Is it fair to name the authors and point to the paper? 
 I've decided that yes it's worth writing what happened to us, firstly because there are a lot of positive aspects to it, and second because if we all sweep these cases "under the carpet" then there is little hope that things will improve and people will be tempted to cheat (since there is no punishment).
