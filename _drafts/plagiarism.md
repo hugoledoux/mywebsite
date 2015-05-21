@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plagiarism in academia and how our case was handled
+title: Plagiarism in academia and how a paper of mine was handled
 author: Hugo Ledoux
 category: blog
 tags: academia
@@ -10,12 +10,43 @@ comments: true
 
 I've hesitated a lot before writing this blog post. 
 Should I or should I not openly discuss what happened to my coauthors and me in recent months? Is it fair to name the authors and point to the paper? 
-I've decided that yes it's worth writing what happened to us, firstly because there are a lot of positive aspects to it, and second because if we all sweep these cases "under the carpet" then there is little hope that things will improve.
+I've decided that yes it's worth writing what happened to my colleagues and I, firstly because there are a lot of positive aspects to it, and second because if we all sweep these cases "under the carpet" then there is little hope that things will improve and people will be tempted to cheat (since there is no punishment).
 
-Here's what happened. My colleague [Martijn Meijers](http://www.gdmc.nl/martijn) and myself developped in 2009 a method to validate planar partitions stored in Simple Features.
-The prototype was first published in the SDH 2010 proceedings (paper [here](http://www.isprs.org/proceedings/XXXVIII/part2/Papers/24_Paper.pdf)), and shortly after [Ken Arroyo Ohori](http://3dgeoinfo.bk.tudelft.nl/ken) extended the ideas for his MSc thesis.
-He added automatic repair functions, did a great C++ implementation that scaled to large datasets, released the [code open-source](https://github.com/tudelft3d/pprepair) 
+Here's what happened. My colleague [Martijn Meijers](http://www.gdmc.nl/martijn) and myself developped in 2009 a method to validate planar partitions stored in Simple Features (to detect gaps and overlaps).
+The methodology and the prototype were first published in the SDH 2010 proceedings ([the paper](http://www.isprs.org/proceedings/XXXVIII/part2/Papers/24_Paper.pdf)), and shortly after [Ken Arroyo Ohori](http://3dgeoinfo.bk.tudelft.nl/ken) extended the ideas during his [MSc thesis](http://repository.tudelft.nl/view/ir/uuid%3A78807acb-4115-478c-93de-68b9db884c8e/).
+He added automatic repair functions, did a great C++ implementation that scaled to large datasets, and [released the code open-source](https://github.com/tudelft3d/pprepair).
+The code is rather popular: it's been integrated in [FME](http://www.safe.com/fme/) and the [American Red Cross uses it to build their datasets](https://github.com/AmericanRedCross/simplegadm).
+Simply put, the methodology is based on a constrained triangulation of the input polygons; we validate planar partitions by labelling triangles and ensuring that each triangle has one and only one label, and we repair by modifying the labels. 
+We have published our methodology in a journal paper in 2012:
 
+> Ken Arroyo Ohori, Hugo Ledoux and Martijn Meijers (2012).
+Validation and automatic repair of planar partitions using a constrained triangulation. 
+*Photogrammetrie, Fernerkundung, Geoinformation* 1(5):613–630. [[PDF]](http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/12_pfg.pdf) [[link to paper]](http://dx.doi.org/10.1127/1432-8364/2012/0143)
+
+- - - 
+
+We noticed in December 2014 that a new paper in the [International Journal of Geographical Information Science (IJGIS)](http://www.tandfonline.com/toc/tgis20/current) was, in our opinion, eerily similar to ours:
+
+> Sunghwan Cho, M. Xavier Punithan, Jonggun Gim and Yong Huh (2014).
+Tagging-the-triangle algorithm for partitioning features with inconsistent boundaries.
+International Journal of Geographical Information Science 28(12):2533-2550 [[link to paper]](http://dx.doi.org/10.1080/13658816.2014.937716)
+
+and our work was neither cited not acknowledged.
+I say eerily similar because of the following.
+
+
+### 1. Exact same solution for the exact same problem
+
+The problem in both paper is the construction of a planar partitions from a set of polygons with gaps/overlaps, and both solutions are identical: the use a constrained triangulation of the polygons as a base, labelling each polygon with the polygons that it belongs to, and reconstruct the polygons from the triangulation. It is fair to mention that their paper goes one step further (subdivision of the problematic areas), but they use the exact solution we mentioned in our future work and that was implemented in 2011 by Martijn Meijers in his [PhD thesis](http://www.gdmc.nl/publications/2011/Variable-scale_Geo-information.pdf).
+And they do not cite it.
+
+### 2. Both papers use the same criticism of the current standard solution
+
+That is, snapping within a predefined threshold requires finding an acceptable threshold (which may or may not exist) and might create various topological inconsistencies.
+
+### 3. Several figures are extremely similar
+
+The figures concerning the problems with snapping are almost identical, see for instance these 3 (left our paper; right theirs).
 
 ![]({{ site.baseurl }}/img/plaex1.png)
 
@@ -27,8 +58,8 @@ He added automatic repair functions, did a great C++ implementation that scaled 
 
 ![]({{ site.baseurl }}/img/plaex3.png)
 
-- - -
 
+### 4. Several sentences on key issues are extremely similar
 
 We:
 
@@ -48,35 +79,43 @@ They:
 
 > If all polygons in a data set form a planar partition, all triangles will be tagged as 1. Gaps or overlaps are easily recognised by checking whether the tag value is equal to 1 or not.
 
-- - - 
+
+### What is plagiarism?
+ 
+Individually, all of these could be coincidences.
+But taken together it all seems a bit too much. 
 
 Is their paper a copy of ours? No, it also differs significantly. 
-However, the thrust of the paper is that triangle-based algorithm to form a planar partition from a set of polygons.
-Without this algorithm, there is no paper.
+And strickly speaking, no full sentences were copied.
+However, the thrust of their paper is that triangle-based algorithm to form a planar partition from a set of polygons.
+Without this algorithm, there is in my opinion no paper.
 
-They discuss how to split regions based on triangles as one way to resolve problematic regions. 
-This was part of our future work, and was described in our original paper though.
+Moreover, it seems utterly impossible that the authors were not aware of our work on this topic, which spans several papers.
+Simple Google searches using their own keywords and terms directly lead to several instances of our work in the first page ([one example](https://startpage.com/do/search?q=gaps+overlaps+triangulation+partitioning), [another one](https://startpage.com/do/search?query=inconsistent%20boundaries%20sliver%20polygons)).
 
-plagiarism? What to do?
-http://www.tandfonline.com/doi/pdf/10.1080/13658816.2014.937716
-http://www.tandfonline.com/doi/abs/10.1080/13658816.2015.1008949
 
-- - - 
+### IJGIS editors reacted quickly
 
-Dear Brian,
- 
-Thank you for your prompt response. Here are the main similarities in both papers:
-- Both papers deal with the same problem: generating planar partitions from a set of polygons with gaps/overlaps
-- Both papers use the same criticism of the current standard solution: snapping within a predefined threshold requires finding an acceptable threshold (which may or may not exist) and might create various topological inconsistencies.
-- The analysis and figures for how this snapping threshold is defined is identical. See their Section 2.2 and our 2.3, or alternatively their Figure 4 and our Figure 2.
-- The way in which these topological inconsistencies are explained is extremely similar. Among the possibilities to highlight problems, we have chosen exactly the same examples for the paper: spikes/punctures and splitting polygons. See their Figure 5 and our Figure 3, or their Figure 6 and our Figure 4.
-- Both papers propose an identical solution. Use a constrained triangulation of the polygons as a base, label each polygon with the polygons that it belongs to, and reconstruct the polygons from the triangulation.
-- Both papers argue for using a triangulation based on the same reasoning, that a triangulation is by definition a planar partition and that triangulation libraries create edges only once, and can in practice handle duplicate points and intersections with ease. These latter practical aspects are non-trivial.
-- Their allocation method to split a collection of triangles was suggested in our future work.
- 
-Individually, these could be coincidences, but taken together it all seems a bit too much. Moreover, it seems utterly impossible that the authors were not aware of our work on this topic, which spans several papers. Simple Google searches using their own keywords and terms directly lead to our work. See (no quotes, and done through Startpage to ensure that we get the same results):
-“inconsistent boundaries sliver polygons” https://startpage.com/do/search?query=inconsistent%20boundaries%20sliver%20polygons (the first two results)
-“constrained triangulation polygons” https://startpage.com/do/search?query=constrained%20triangulation%20polygons (2 results in first page)
-“constrained triangulation polygons slivers” https://startpage.com/do/search?query=constrained%20triangulation%20polygons%20slivers (4 results in first page)
- 
-Please let me know if you require any more details, and thanks again.
+We notified the editors of IJGIS and they took the issue very seriously and responded quickly.
+Which I appreciated a lot.
+They followed the [COPE (Committee on Publishing Ethics) guidelines](http://publicationethics.org), which basically forces them to explain the similarities within a given frame of time.
+
+Their answer was that they were not aware of the paper, and that if they had been, they would have cited it.
+It has just been published online as a [corrigendum](http://dx.doi.org/10.1080/13658816.2015.1008949).
+In the official PDF there is no mention of a correction, only on the webpage of the paper can one see a correction, which is not very obvious.
+
+![]({{ site.baseurl }}/img/tttcorrection.png)
+
+
+Not surprinsingly, I am not very happy with this outcome.
+But is it worth pursuing the matter?
+We decided not to, because proving that this is plagiarism is complex it seems and we do not gain much from it.
+So instead I decided to write this blog post.
+
+Could the editors have done more?
+Perhaps, but again proving plagiarism is also complex for them.
+I think they handled this case rather well.
+
+Thus, case closed. 
+It's time to go back to writing more papers 😕
+
