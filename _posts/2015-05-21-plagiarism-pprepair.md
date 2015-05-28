@@ -104,6 +104,15 @@ In the official PDF there is no mention of a correction, only on the [webpage of
 
 ![]({{ site.baseurl }}/img/tttcorrection.png)
 
+<em>
+Update: I was just informed by Taylor&Francis ([in a tweet](https://twitter.com/tandfauthorserv/status/603830792859561984), very 2015) that the CrossMark above the title also links to the corrigendum.
+I didn't know that, and I had actually never clicked on any CrossMarks nor noticed them.
+Good to know though.
+</em>
+
+
+![]({{ site.baseurl }}/img/crossmark.png)
+
 
 Not surprisingly, I am not very happy with this outcome.
 But is it worth pursuing the matter?
