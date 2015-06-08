@@ -51,3 +51,17 @@ While current methods often portray DSMs as 2D objects (and thus valuable inform
   2. permit us to define 3D features—buildings, dikes, etc—and consider these while simplifying. The knowledge of the features will permit us to remove unimportant points and focus only on those of interest for a given application.
 
 [Project website](http://3dgeoinfo.bk.tudelft.nl/projects/3dsm).
+
+- - -
+
+## Storage, update and dissemination of massive 3D city objects
+
+![]({{ site.baseurl }}/img/3d4em.png)
+
+The aim of this research project, also funded by the [Dutch Technology Foundation STW](http://www.stw.nl), is to investigate and develop methods to efficiently store and maintain 3DTOP10NL in a database, and to disseminate it to practitioners.
+The [existing open-source database solutions](http://www.3dcitydb.org) for managing 3D volumetric objects are being tested with massive datasets and improved, if necessary.
+
+The biggest challenge is the management of massive TINs (triangulated irregular networks) in a database.
+We investigate, design and develop new data structures, implement them, and compare different alternatives (in terms of storage space, query time, etc).
+
+[Project website](http://www.3d4em.nl).
