@@ -25,6 +25,6 @@ author:
   name:           'Hugo Ledoux'
   url:            https://twitter.com/hugoledoux
 
-paginate:         5
+# paginate:         5
 
 
