@@ -26,7 +26,7 @@ def getwarning():
     s = """<div class="message">
       I provide here the author's version of most of my papers. 
       These are for <em>personal use only</em>, and not for redistribution or commercial use. 
-      Please use the official published version ( [DOI] ) if you have access to it.
+      Please use the official published version ( <i class="fa fa-bookmark"></i> ) if you have access to it.
       <br><br>
       Where applicable, a link to the "reproducibility repository" ( <i class="fa fa-github"></i> ), where the code and/or the data needed to reproduce the results of the paper, is given.
       </div>
