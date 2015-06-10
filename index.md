@@ -3,9 +3,10 @@ layout: default
 title: Home
 ---
 
-<div style='width:200px;margin:0 auto;'> 
+<div style='width:150px;margin:0 auto;'> 
   <img class="centre" alt="image" src="{{ site.baseurl }}/img/me.png">
 </div>
+
 
 I am an assistant-professor in the [3D geoinformation research group](http://3dgeoinfo.bk.tudelft.nl), which is part of the [Department of Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/) of the [Faculty of Architecture & the Built Environment](http://bk.tudelft.nl/en) at the [Delft University of Technology](http://www.tudelft.nl) in the Netherlands.
 
