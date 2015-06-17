@@ -4,7 +4,7 @@ from fabric.contrib.project import rsync_project
 
 env.gateway = 'linux-bastion.tudelft.nl'
 env.user = 'hledoux'
-env.hosts = ['3dgeoinfo.bk.tudelft.nl']
+env.hosts = ['3d.bk.tudelft.nl']
 
 
 def deploy():
