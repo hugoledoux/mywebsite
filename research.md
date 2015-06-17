@@ -32,7 +32,7 @@ The aim of the research project is to integrate the multi-dimensional characteri
 
 The research project is funded by a Vidi grant from the [Dutch Technology Foundation STW](http://www.stw.nl) awarded to [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter). 
 
-[Project website](http://3dgeoinfo.bk.tudelft.nl/projects/geo5d/).
+<a href="http://3dgeoinfo.bk.tudelft.nl/projects/geo5d/"><i class="fa fa-external-link"></i> Project website</a>
 
 - - -
 
@@ -50,7 +50,8 @@ While current methods often portray DSMs as 2D objects (and thus valuable inform
   1. use 3D tools and 3D data structures, specificially the 3D medial axis transform (MAT);
   2. permit us to define 3D features—buildings, dikes, etc—and consider these while simplifying. The knowledge of the features will permit us to remove unimportant points and focus only on those of interest for a given application.
 
-[Project website](http://3dgeoinfo.bk.tudelft.nl/projects/3dsm).
+<a href="http://3dgeoinfo.bk.tudelft.nl/projects/3dsm/"><i class="fa fa-external-link"></i> Project website</a>
+
 
 - - -
 
@@ -64,4 +65,5 @@ The [existing open-source database solutions](http://www.3dcitydb.org) for manag
 The biggest challenge is the management of massive TINs (triangulated irregular networks) in a database.
 We investigate, design and develop new data structures, implement them, and compare different alternatives (in terms of storage space, query time, etc).
 
-[Project website](http://www.3d4em.nl).
+<a href="http://www.3d4em.nl"><i class="fa fa-external-link"></i> Project website</a>
+
