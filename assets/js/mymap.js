@@ -9,7 +9,8 @@ var map = L.map('map').setView([52.004713, 4.370334], 16);
 
 // Stamen toner-lite tile layer
 L.tileLayer('//stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="//openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    // attribution: '&copy; <a href="//openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
 }).addTo(map);
 
 var marker = L.marker([52.004713,4.370334]).addTo(map);
