@@ -30,9 +30,9 @@ Some of these are also available as [web-applications](http://geovalidation.bk.t
 
 The aim of the research project is to integrate the multi-dimensional characteristics of geographical data (eg space, time and scale), together in one higher-dimensional model. We develop data structures and operations to realise such a model, and we apply this model to the integration of CityGML models at different scales for instance.
 
-The research project is funded by a Vidi grant from the [Dutch Technology Foundation STW](http://www.stw.nl) awarded to [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter). 
+The research project is funded by a Vidi grant from the [Dutch Technology Foundation STW](http://www.stw.nl) awarded to [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter). 
 
-<a href="http://3dgeoinfo.bk.tudelft.nl/projects/geo5d/"><i class="fa fa-external-link"></i> Project website</a>
+<a href="http://3d.bk.tudelft.nl/projects/geo5d/"><i class="fa fa-external-link"></i> Project website</a>
 
 - - -
 
@@ -50,7 +50,7 @@ While current methods often portray DSMs as 2D objects (and thus valuable inform
   1. use 3D tools and 3D data structures, specificially the 3D medial axis transform (MAT);
   2. permit us to define 3D features—buildings, dikes, etc—and consider these while simplifying. The knowledge of the features will permit us to remove unimportant points and focus only on those of interest for a given application.
 
-<a href="http://3dgeoinfo.bk.tudelft.nl/projects/3dsm/"><i class="fa fa-external-link"></i> Project website</a>
+<a href="http://3d.bk.tudelft.nl/projects/3dsm/"><i class="fa fa-external-link"></i> Project website</a>
 
 
 - - -
