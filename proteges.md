@@ -28,8 +28,8 @@ Improving the web-based AHN2 map
 **Damien Mulder** (ongoing)<br>
 A voxel-based method for automatic repair of CityGML models
 
-**Maarten Pronk** (ongoing)<br>
-Storage of massive TINs in a DBMS with a star-based data structure
+**Maarten Pronk** (2015)<br>
+[Storing massive TINs in a DBMS: A comparison and a prototype implementation of the multistar approach](http://repository.tudelft.nl/view/ir/uuid%3Ada6b7329-f45b-4560-8374-bb522e78121f/)
 
 **Sjors Donkers** (2013)<br>
 [Automatic generation of CityGML LoD3 building models from IFC models](http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/)
