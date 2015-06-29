@@ -46,8 +46,6 @@ But also IFMEExtrusion for simpler solids (without inner shells) and IFMECSGSoli
 [`GeometryValidator](http://docs.safe.com/fme/html/FME_Transformers/FME_Transformers.htm#Transformers/geometryvalidator.htm)
 [List of errors](http://docs.safe.com/fme/html/FME_Transformers/FME_Transformers.htm#Transformers/geometryvalidator.htm)
 
-
-
 ### Oracle Spatial
 
 
