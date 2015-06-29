@@ -7,7 +7,7 @@ tags: 3D, OGC
 comments: true
 ---
 
-<!-- ![]({{ site.baseurl }}/img/val3dity.png) -->
+![]({{ site.baseurl }}/img/repair3d.png) 
 
 While the definitions found in the [OGC/ISO Simple Features specifications](https://en.wikipedia.org/wiki/Simple_Features) for 2D primitives are well-accepted and used in practice by virtually everyone in the GIS community, I have noticed that the ones for 3D primitives (especially for the volumetric primitive, called a *solid* or a *polyhedron*) are in almost all cases ignored by software vendors, by practitioners, and even by academics[^academics].
 Many GIS vendors now offer 3D capabilities, but unfortunately they take great liberties in defining what "3D GIS" means---and no a perspective view on a 2.5D terrain does not qualify as 3D GIS in my opinion.
