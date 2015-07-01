@@ -25,8 +25,8 @@ permalink: /proteges/
 **Kees Jonker** (ongoing)<br>
 Improving the web-based AHN2 map
 
-**Damien Mulder** (ongoing)<br>
-A voxel-based method for automatic repair of CityGML models
+**Damien Mulder** (2015)<br>
+[Automatic repair of geometrically invalid 3D city building models using a voxel-based repair method](http://repository.tudelft.nl/view/ir/uuid%3A8ef4459d-b940-4007-bc3c-d87349015129/)
 
 **Maarten Pronk** (2015)<br>
 [Storing massive TINs in a DBMS: A comparison and a prototype implementation of the multistar approach](http://repository.tudelft.nl/view/ir/uuid%3Ada6b7329-f45b-4560-8374-bb522e78121f/)
