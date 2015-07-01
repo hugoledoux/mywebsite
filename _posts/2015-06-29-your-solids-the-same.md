@@ -148,6 +148,14 @@ If you have solids stored in GML, you can verify whether they follow the ISO1910
 The code is freely available on [GitHub](https://github.com/tudelft3d/val3dity), and I offer a [web application](http://geovalidation.bk.tudelft.nl/val3dity/) where you can upload your GML files and get a report detailing the errors.
 
 
+## Futher reading
+
+Most of the details of the implementation and the methodology used are available in this scientific article:
+
+> Ledoux, Hugo (2013). On the validation of solids represented with the
+international standards for geographic information. *Computer-Aided Civil and Infrastructure Engineering*, 28(9):693-706. [ [PDF] ](https://3d.bk.tudelft.nl/hledoux/pdfs/13_cacaie.pdf) [ [DOI] ](http://dx.doi.org/10.1111/mice.12043)
+
+
 [^1]: All the geometric primitive have the prefix ‘GM\_’
 [^ISO19107]: ISO 19107:2003: Geographic information---Spatial schema. International Organization for Standardization (2003).
 [^OGC]: OpenGIS implementation specification for geographic information---Simple fea- ture access. Open Geospatial Consortium inc. Document 06-103r3 (2006).
