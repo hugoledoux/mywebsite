@@ -312,7 +312,6 @@ class bibhtmler {
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
 				if (array_key_exists('pages', $in)) $outwhere[] = $this->localisedtext[$this->options['lang']]['pp.'].' '.$this->processtext($in['pages']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'book':
@@ -329,7 +328,6 @@ class bibhtmler {
 				if (array_key_exists('address', $in)) $outwhere[] = $this->processtext($in['address']);
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'booklet':
@@ -339,7 +337,6 @@ class bibhtmler {
 				if (array_key_exists('address', $in)) $outwhere[] = $this->processtext($in['address']);
 				if (array_key_exists('month', $in) and array_key_exists('year', $in)) $outwhere[] = processmonth($in['month'])." ".processtext($in['year']);
 				else if (array_key_exists('year', $in)) $outwhere[] = processtext($in['year']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'inbook':
@@ -359,7 +356,6 @@ class bibhtmler {
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
 				if (array_key_exists('pages', $in)) $outwhere[] = $this->localisedtext[$this->options['lang']]['pp.'].' '.$this->processtext($in['pages']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'incollection':
@@ -380,7 +376,6 @@ class bibhtmler {
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
 				if (array_key_exists('pages', $in)) $outwhere[] = $this->localisedtext[$this->options['lang']]['pp.'].' '.$this->processtext($in['pages']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'inproceedings':
@@ -401,7 +396,6 @@ class bibhtmler {
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
 				if (array_key_exists('pages', $in)) $outwhere[] = $this->localisedtext[$this->options['lang']]['pp.'].' '.$this->processtext($in['pages']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'manual':
@@ -412,7 +406,6 @@ class bibhtmler {
 				if (array_key_exists('address', $in)) $outwhere[] = $this->processtext($in['address']);
 				if (array_key_exists('month', $in) and array_key_exists('year', $in)) $outwhere[] = processmonth($in['month'])." ".processtext($in['year']);
 				else if (array_key_exists('year', $in)) $outwhere[] = processtext($in['year']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'mastersthesis':
@@ -423,7 +416,6 @@ class bibhtmler {
 				$outwhere[] = $this->processtext($in['school']);
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'misc':
@@ -432,7 +424,6 @@ class bibhtmler {
 				if (array_key_exists('howpublished', $in)) $outwhere[] .= '<em>'.$this->processtext($in['howpublished']).'</em>';
 				if (array_key_exists('month', $in) and array_key_exists('year', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else if (array_key_exists('year', $in)) $outwhere[] = $this->processtext($in['year']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'phdthesis':
@@ -443,7 +434,6 @@ class bibhtmler {
 				$outwhere[] = $this->processtext($in['school']);
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'proceedings':
@@ -458,7 +448,6 @@ class bibhtmler {
 				if (array_key_exists('address', $in)) $outwhere[] = $this->processtext($in['address']);
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'techreport':
@@ -470,13 +459,11 @@ class bibhtmler {
 				$outwhere[] = $this->processtext($in['institution']);
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
-				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
 			case 'unpublished':
 				$outwhat .= $this->processtitle($in['title']);
 				$outwho .= $this->processauthors($in['author']);
-				$outwhere[] = '<em>'.$this->processtext($in['note'])."</em>";
 				if (array_key_exists('month', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else $outwhere[] = $this->processtext($in['year']);
 				break;
@@ -497,6 +484,7 @@ class bibhtmler {
 			
 			// if (array_key_exists('info', $in)) $out .= '<span class="label label-important">'.$in['info'].'</span>.';
 			if (array_key_exists('info', $in)) $out .= '<code>'.trim($in['info'], '{}').'</code>';
+			if (array_key_exists('note', $in)) $out .= '<code>'.trim($in['note'], '{}').'</code>';
 			// $out .= '<br>';
 			if (array_key_exists('pdf', $in)) {
 				$t = $this->processtext($in['pdf']);
