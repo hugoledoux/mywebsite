@@ -9,6 +9,9 @@ permalink: /proteges/
 
 ## PhD students
 
+**Kavisha** (2015@now)<br>
+[Storage and dissemination of massive 3D city models](http://www.3d4em.nl/rl2/)
+
 [**Ravi Peters**](http://3d.bk.tudelft.nl/rypeters) (2013@now)<br>
 [Feature-aware DSM analysis and generalisation based on the 3D medial axis transform](http://3d.bk.tudelft.nl/projects/3dsm)
 
