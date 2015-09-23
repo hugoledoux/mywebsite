@@ -9,7 +9,10 @@ permalink: /proteges/
 
 ## PhD students
 
-**Kavisha** (2015@now)<br>
+[**Du Xin**](https://3d.bk.tudelft.nl/duxin) (2015@now)<br>
+Generalisation of 3D city models
+
+[**Kavisha**](https://3d.bk.tudelft.nl/kavisha) (2015@now)<br>
 [Storage and dissemination of massive 3D city models](http://www.3d4em.nl/rl2/)
 
 [**Ravi Peters**](http://3d.bk.tudelft.nl/rypeters) (2013@now)<br>
