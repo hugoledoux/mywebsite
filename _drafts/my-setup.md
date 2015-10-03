@@ -40,6 +40,7 @@ I prefer to use LaTeX for writing, and will do pretty much anything to avoid usi
 
   * __[Sublime Text](https://www.sublimetext.com)__ with the __[LaTeXTools](https://github.com/SublimeText/LaTeXTools)__ is pretty much the perfect LaTeX environment. My only quibble is that there is no option to see the table of content of a paper (a nice option with TextMate).
   * __[IPE](http://ipe.otfried.org)__ is great for drawing anything where geometries are involved. It creates figures directly in PDF (so no need to maintain 2 files), and one can write directly in LaTeX formulas. It's also extensible, and [the CGAL ipelets are easy to install]({{ site.baseurl }}/blog/ipe-cgal-ipelets/).
+  * Bibdesk and/or JabRef
   * while I'm still a dummy with __[Blender](http://www.blender.org)__, I'm trying to use it more and more to produce nice figures in 3D. 
   * this blog/website is made with [Jekyll](http://jekyllrb.com), and its [source code is freely available](https://github.com/hugoledoux/mywebsite).
   * I write blog posts and other small bits in [Markdown](http://daringfireball.net/projects/markdown/) and use __[Marked 2](http://marked2app.com)__ to preview it (the features to check if the URLs are valid is very useful).
