@@ -1,12 +1,20 @@
-http://3dgeoinfo.bk.tudelft.nl/hledoux
+https://3d.bk.tudelft.nl/hledoux
 
 To test localhost:
 ```
 jekyll serve --draft --baseurl ''
 ```
 
-to compile for the server:
+to push to server
 ```
-jekyll build
+fab deploy
 ```
+
+to push PDFs to server (different folder)
+```
+fab sync_pdfs
+```
+
+
+
 
