@@ -22,7 +22,7 @@ Generalisation of 3D city models
 [The concept of level of detail in 3D city modelling](http://3d.bk.tudelft.nl/biljecki/phd.html)
 
 [**Ken Arroyo Ohori**](http://3d.bk.tudelft.nl/ken) (2011@now)<br> 
-[Realising the foundations of a higher-dimensional GIS](http://3d.bk.tudelft.nl/projects/geo5d/#research-topics-and-tasks)
+[Higher-dimensional modelling of geographic information](http://3d.bk.tudelft.nl/projects/geo5d/#research-topics-and-tasks)
 
 ---
 
