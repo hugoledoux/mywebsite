@@ -10,7 +10,7 @@ permalink: /proteges/
 ## PhD students
 
 [**Du Xin**](https://3d.bk.tudelft.nl/duxin) (2015@now)<br>
-Generalisation of 3D city models
+Quality control of 3D city models
 
 [**Kavisha**](https://3d.bk.tudelft.nl/kavisha) (2015@now)<br>
 [Storage and dissemination of massive 3D city models](http://www.3d4em.nl/rl2/)
