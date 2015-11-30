@@ -46,7 +46,8 @@ It has 148,612 vertices in total, and 5,132 interior rings.
 Automatically from reclassified raster imagery.
 It is---like several polygons that are that big---invalid since it contains self-intersections. 
 
-{% gist ee23076b6b35cdcc4ac1 %}
+
+<script src="https://gist.github.com/hugoledoux/ee23076b6b35cdcc4ac1.js"></script>
 
 
 ## My all-time favourite polygons
