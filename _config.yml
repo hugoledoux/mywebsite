@@ -12,13 +12,14 @@ excerpt_separator: "<!--more-->"
 #-- Permalinks
 # permalink:            pretty
 permalink:            /:categories/:title/
-relative_permalinks:  true
+# relative_permalinks:  true
 
 #-- Setup
 title:            Hugo Ledoux
 tagline:          'assistant-prof in <a href="https://3d.bk.tudelft.nl">3D geoinformation</a> at <a href="http://www.tudelft.nl">TU Delft</a>'
 # description:      'yo'
 url:              https://3d.bk.tudelft.nl
+# baseurl:          ""
 baseurl:          /hledoux
 
 author:
