@@ -28,6 +28,12 @@ Quality control of 3D city models
 
 ## MSc students 
 
+**Erik Heeres** (ongoing)<br>
+Creating an automatic, robust and scalable workflow for the creation of the 3D BAG
+
+**Tom Broersen** (ongoing)<br>
+Automatic identification of water courses from AHN3
+
 **Kees Jonker** (ongoing)<br>
 Improving the web-based AHN2 map
 
