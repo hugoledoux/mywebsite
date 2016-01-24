@@ -29,7 +29,8 @@ Second, download the latest [source code of CGAL](http://www.cgal.org/download.h
     $ cmake .
     $ make
 
-*Update 2016-01-24:* IPE now requires that the shared objects under Mac OS X are `*.dylib` and not the `*.so` (CGAL should update their makefile, but they haven't yet). Thus, simply rename all the `*.so` to `*.dylib` and it works.
+*Update 2016-01-24:* IPE now requires that the shared objects under Mac OS X are `*.dylib` and not the `*.so` that the makefile creates (CGAL should update their makefile, but they haven't yet). 
+Thus, simply rename all the `*.so` to `*.dylib`, and it works.
 <del>I had problems compiling `circle_pencils.cpp`, so I simply removed it (I'm lazy and I don't need it). 
 All the other extensions compiled without issues.</del>
 
