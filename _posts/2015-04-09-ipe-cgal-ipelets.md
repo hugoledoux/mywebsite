@@ -29,8 +29,9 @@ Second, download the latest [source code of CGAL](http://www.cgal.org/download.h
     $ cmake .
     $ make
 
-I had problems compiling `circle_pencils.cpp`, so I simply removed it (I'm lazy and I don't need it). 
-All the other extensions compiled without issues.
+*Update 2016-01-24:* IPE now requires that the shared objects under Mac OS X are `*.dylib` and not the `*.so` (CGAL should update their makefile, but they haven't yet). Thus, simply rename all the `*.so` to `*.dylib` and it works.
+<del>I had problems compiling `circle_pencils.cpp`, so I simply removed it (I'm lazy and I don't need it). 
+All the other extensions compiled without issues.</del>
 
 Third, launch ipe (`$ ipe`, it's now in your path) and go the menu 'Help/Show configuration' to see where you should put your newly created Ipe extensions.
 Mine was `~/.ipe/ipelets` so I created that folder and copied the extensions:
