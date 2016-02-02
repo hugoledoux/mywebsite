@@ -28,14 +28,14 @@ Quality control of 3D city models
 
 ## MSc students 
 
-**Erik Heeres** (ongoing)<br>
-Creating an automatic, robust and scalable workflow for the creation of the 3D BAG
-
 **Tom Broersen** (ongoing)<br>
 Automatic identification of water courses from AHN3
 
-**Kees Jonker** (ongoing)<br>
-Improving the web-based AHN2 map
+**Erik Heeres** (ongoing)<br>
+Creating an automatic, robust and scalable workflow for the creation of the 3D BAG
+
+**Kees Jonker** (2016)<br>
+[Automatic generation of raster-based height data for the Netherlands based on the AHN2 data set](http://repository.tudelft.nl/view/ir/uuid%3Ab1d1c50d-24bf-4a12-b0e5-3c2479907d66/)
 
 **Damien Mulder** (2015)<br>
 [Automatic repair of geometrically invalid 3D city building models using a voxel-based repair method](http://repository.tudelft.nl/view/ir/uuid%3A8ef4459d-b940-4007-bc3c-d87349015129/)
