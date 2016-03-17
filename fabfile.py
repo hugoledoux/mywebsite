@@ -2,7 +2,7 @@ from __future__ import with_statement
 from fabric.api import *
 from fabric.contrib.project import rsync_project
 
-env.gateway = 'linux-bastion.tudelft.nl'
+env.gateway = 'linux-bastion-ex.tudelft.nl'
 env.user = 'hledoux'
 env.hosts = ['3d.bk.tudelft.nl']
 
