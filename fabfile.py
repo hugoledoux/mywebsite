@@ -9,18 +9,13 @@ env.hosts = ['3d.bk.tudelft.nl']
 
 def deploy():
     local("jekyll build")
-    local("tar -zcf w.tar.gz _site/")
-    code_dir = '/var/www/people/hledoux'
-    with cd(code_dir):
-        run('rm -Rf site')
-        put('w.tar.gz', code_dir)
-        run("tar -xvf w.tar.gz")
-        run("mv _site site")
-        run("rm w.tar.gz")
-    local("rm w.tar.gz")
-
-
-def sync_pdfs():
+    remotedir = '/var/www/people/hledoux/site/'
+    rsync_project(local_dir='./_site/', 
+                  remote_dir=remotedir,
+                  delete=True)
+    run('cd %s' % remotedir)
+    run('chmod a+r *.pdf')
+    #-- PDFs sync
     remotedir = '/var/www/people/hledoux/pdfs/'
     rsync_project(local_dir='./_pdfs/', 
                   remote_dir=remotedir,
