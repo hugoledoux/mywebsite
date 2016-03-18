@@ -17,7 +17,8 @@ For most of these projects, my colleagues and I develop software prototypes that
 
 ![]({{ site.baseurl }}/img/repair3d.png)
 
-Recently, out of frustration at the poor quality of GIS datasets and of 3D city models I obtained, I have focussed my efforts on the validation and the *automatic* repair of polygons and polyhedra. This has lead to different programs that have matured enough to not be called prototypes anymore: [prepair](https://github.com/tudelft3d/prepair), [pprepair](https://github.com/tudelft3d/pprepair) and [val3dity](https://github.com/tudelft3d/val3dity). I hope these will help practitioners who often spend hundreds of hours manually repairing their datasets. 
+A few years ago, out of frustration at the poor quality of GIS datasets and of 3D city models I obtained, I have focussed my efforts on the validation and the *automatic* repair of polygons and polyhedra. This has lead to different programs that have matured enough to not be called prototypes anymore: [prepair](https://github.com/tudelft3d/prepair), [pprepair](https://github.com/tudelft3d/pprepair) and [val3dity](https://github.com/tudelft3d/val3dity). 
+I hope these will help practitioners who often spend hundreds of hours manually repairing their datasets. 
 
 Some of these are also available as [web-applications](http://geovalidation.bk.tudelft.nl).
 
