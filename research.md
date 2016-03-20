@@ -4,14 +4,13 @@ title: research
 permalink: /research/
 ---
 
-# Research projects
+# Research 
 
 I would charasterise my research as an equal mix of:
 
   - __GIS__: preparing and crunching real-world datasets so that they can be used for spatial analysis;
   - __computational geometry__: extending and adapting theoretical results to real-world problems;
-  - __implementation__: I strongly believe in implementing my research results, a condition to make my ideas beneficial to others (see [my open-source overview]({{ site.baseurl }}/software/)).
-
+  - __implementation__: I strongly believe in implementing my research results, see my [open-source software]({{ site.baseurl }}/software/)) page.
 
 - - -
 
