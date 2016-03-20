@@ -19,15 +19,31 @@ html, h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+.grid .unit p {
+  text-align: center;
+}
+
+.grid .unit small {
+  text-align: center;
+  color: #83F275;
+}
+
+.grid img {
+    display: block;
+    margin: 0 auto;
+}
+
 /*
  * Container
  *
  * Center the page content.
  */
 
+
 .container {
   max-width: 28rem;
 }
+
 @media (min-width: 38em) {
   .container {
     max-width: 32rem;

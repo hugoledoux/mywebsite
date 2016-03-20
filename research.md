@@ -6,10 +6,12 @@ permalink: /research/
 
 # Research projects
 
-<div class="message">
-For most of these projects, my colleagues and I develop software prototypes that we release under open-source licences. These are available at 
-<a href="https://github.com/tudelft3d"> github.com/tudelft3d</a>
-</div>
+I would charasterise my research as an equal mix of:
+
+  - __GIS__: preparing and crunching real-world datasets so that they can be used for spatial analysis;
+  - __computational geometry__: extending and adapting theoretical results to real-world problems;
+  - __implementation__: I strongly believe in implementing my research results, a condition to make my ideas beneficial to others (see [my open-source overview]({{ site.baseurl }}/software/)).
+
 
 - - -
 
