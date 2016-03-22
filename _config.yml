@@ -8,14 +8,14 @@ kramdown:
   # use_coderay:    false
 excerpt_separator: "<!--more-->"
 
+future:           true
+
 #-- Permalinks
-# permalink:            pretty
-permalink:            /:categories/:title/
+permalink:        /:categories/:title/
 
 #-- Setup
 title:            Hugo Ledoux
 tagline:          'assistant-prof in <a href="https://3d.bk.tudelft.nl">3D geoinformation</a> at <a href="http://www.tudelft.nl">TU Delft</a>'
-# description:      'yo'
 url:              https://3d.bk.tudelft.nl
 # baseurl:          ""
 baseurl:          /hledoux
