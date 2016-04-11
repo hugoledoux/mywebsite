@@ -21,8 +21,8 @@ Quality control of 3D city models
 [**Filip Biljecki**](http://3d.bk.tudelft.nl/biljecki) (2012@now)<br> 
 [The concept of level of detail in 3D city modelling](http://3d.bk.tudelft.nl/biljecki/phd.html)
 
-[**Ken Arroyo Ohori**](http://3d.bk.tudelft.nl/ken) (2011@now)<br> 
-[Higher-dimensional modelling of geographic information](http://3d.bk.tudelft.nl/projects/geo5d/#research-topics-and-tasks)
+[**Ken Arroyo Ohori**](http://3d.bk.tudelft.nl/ken) (defended 2016/04/06)<br> 
+[Higher-dimensional modelling of geographic information](https://3d.bk.tudelft.nl/ken/en/thesis/)
 
 ---
 
