@@ -3,14 +3,15 @@ layout: post
 title: Validation of CityGML files against the schemas
 author: Hugo Ledoux
 category: blog
+date: 2016-04-16 10:42
 tags: validation
 comments: true
 ---
 
-While I work a lot on the data quality of 3D city models, I often brush aside the validation of a CityGML file against the schemas (*.xsd) of CityGML as a simple and solved problem.
+While I work a lot on the data quality of 3D city models, I often brush aside the validation of a CityGML file against the schemas (`*.xsd`) of CityGML as a simple and solved problem.
 However, while it's indeed a solved problem, I realised that there are, to my knowledge, no free and easy tools to validate a CityGML file.
 Which means that in practice we often see files that are not valid.
-I usually use [oXygen XML](http://www.oxygenxml.com), but this is not free and rather cumbersome when the `xsi:schemaLocation` for the schemas are not properly setup as in the following, then one must manually find the appropriate schema (v0.4, v1.0 or v.20) and have them locally ("where have I put these again?")
+I usually use [oXygen XML](http://www.oxygenxml.com), but this is not free and rather cumbersome when the `xsi:schemaLocation` for the schemas are not properly setup as in the following, then one must manually find the appropriate schemas (v0.4, v1.0 or v2.0) and have them locally ("where have I put these again?")
 
 {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
@@ -22,8 +23,9 @@ xsi:schemaLocation="http://www.citygml.org/citygml/profiles/base/1.0 http://sche
 {% endhighlight %} 
 
 So I wrote a small Python script that takes as input a CityGML file, determines which version of CityGML is used, validate the file and give the first error, if any.
+I think it can be useful to others.
 [Get it there](https://github.com/tudelft3d/CityGML-schema-validation)
-The CityGML schemas of all versions are included.
+
 
 To use:
 
