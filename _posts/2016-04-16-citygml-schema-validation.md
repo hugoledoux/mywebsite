@@ -11,7 +11,8 @@ comments: true
 While I work a lot on the data quality of 3D city models, I often brush aside the validation of a CityGML file against the schemas (`*.xsd`) of CityGML as a simple and solved problem.
 However, while it's indeed a solved problem, I realised that there are, to my knowledge, no free and easy tools to validate a CityGML file.
 Which means that in practice we often see files that are not valid.
-I usually use [oXygen XML](http://www.oxygenxml.com), but this is not free and rather cumbersome when the `xsi:schemaLocation` for the schemas are not properly setup as in the following, then one must manually find the appropriate schemas (v0.4, v1.0 or v2.0) and have them locally ("where have I put these again?")
+I usually use [oXygen XML](http://www.oxygenxml.com), but it is not free and rather cumbersome when the `xsi:schemaLocation` for the schemas are not properly setup as in the following.
+Then one must manually find the appropriate schemas (v0.4, v1.0 or v2.0) by reading the header, and then find the files locally ("where have I put these again?")
 
 {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
