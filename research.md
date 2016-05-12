@@ -69,3 +69,7 @@ We investigate, design and develop new data structures, implement them, and comp
 
 <a href="http://www.3d4em.nl"><i class="fa fa-external-link"></i> Project website</a>
 
+
+# Some older research projects 
+
+  - [__FieldGML__]({{ site.baseurl }}/fieldgml): a GML-based representation for fields in 2D and 3D, my attempt at improving [ISO19123, the standard for coverages](http://www.iso.org/iso/catalogue_detail.htm?csnumber=40121)
