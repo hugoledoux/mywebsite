@@ -6,7 +6,10 @@ permalink: /fieldgml/
 
 # FieldGML
 
-FieldGML is a GML-based representation for fields in 2D and 3D, one that permits us to represent efficiently not only rasters, but also fields in other forms. The solution is based on current standards, is flexible, extensible and is also more appropriate than raster structures to model the kind of datasets found in GIS-related applications. 
+FieldGML is a GML-based representation for fields in 2D and 3D, one that permits us to represent efficiently not only rasters, but also fields in other forms. 
+It is my attempt at improving [ISO19123, the standard for coverages](http://www.iso.org/iso/catalogue_detail.htm?csnumber=40121).
+
+FieldGML is based on current standards, is flexible, extensible and is also more appropriate than raster structures to model the kind of datasets found in GIS-related applications. 
 To know more FieldGML, you can read either of these documents:
 
 **Representing Continuous Geographical Phenomena with FieldGML**. This is the final report of the project during which it was developed. It contains details about the GML application schema, and there are some examples of files. <a href="/hledoux/pdfs/fieldgml.pdf"><i class="fa fa-file-pdf-o"></i></a>
