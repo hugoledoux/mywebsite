@@ -69,6 +69,7 @@ We investigate, design and develop new data structures, implement them, and comp
 
 <a href="http://www.3d4em.nl"><i class="fa fa-external-link"></i> Project website</a>
 
+- - - 
 
 # Some older research projects 
 
