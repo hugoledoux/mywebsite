@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Hugo Ledoux's Page</title>
+        <style type="text/css" media="all">@import "template/layout1.css";</style>
+    </head>
+    <body>
+        <div id="Header"><a href="http://www.gdmc.nl/ledoux" title="Hugo Ledoux's Page">Hugo Ledoux's page</a></div>
+    
+<div id="Content">
+<h1>FieldGML</h1>
+<p>FieldGML is a new GML-based representation for fields in 2D and 3D, one that permits us to represent efficiently not only rasters, but also fields in other forms. The solution is based on current standards, is flexible, extensible and is also more appropriate than raster structures to model the kind of datasets found in GIS-related applications. To know more FieldGML, you can read either of these documents:</p>
+<p><strong>Representing Continuous Geographical Phenomena with FieldGML</strong>. This is the final report of the project during which it was developed. It contains details about the GML application schema, and there are some examples of files. <a href="./pdfs/fieldgml.pdf">PDF</a></p>
+<p><strong>FieldGML: An Alternative Representation for Fields</strong>. <em>Headway in Spatial Data Handling</em>. Ledoux, Hugo.
+Edited by Ruas, Anne and Gold, Christopher M. Springer. 2008. pp.385-400. (This is a shorter version, without the details). <a href="./pdfs/_08sdh.pdf">PDF</a></p>
+<h2>GML application schema</h2>
+<p>The application schema <a href="./fieldgml/fieldgml.xsd">fieldgml.xsd</a><br />
+The <a href="./fieldgml/doc/short/fieldgml.xsd.html">documentation of the schema</a> without the GML types.<br />
+The <a href="./fieldgml/doc/withgml/fieldgml.xsd.html">long documentation of the schema</a> with all the GML types.<br />
+</p>
+<h2>Examples of FieldGML files</h2>
+<p><a href="./fieldgml/examples/5k_pts.xml">5k_pts.xml</a> is a file with 5000 scattered points, representing the elevation of a region. The interpolation method defined in this file is natural neighbour interpolation.</p>
+<p><a href="/fieldgml/examples/5k_tess.xml">5k_tess.xml</a> contains the same 5000 points, but here these are stored in a TessPointsRule of type "Delaunay", which means that a Delaunay TIN has to be created to interpolate. The interpolation method is based on the tessellation, and inside each triangle a linear function is used.</p>
+<p><a href="./fieldgml/examples/contours.xml">contours.xml</a> contains contour lines representation the same terrain as the 2 previous examples. The interpolation method defined here is inverse-distance to a power, with a search radius of 12 units.</p>
+<p><a href="./fieldgml/examples/array2d.xml">array2d.xml</a> is a FieldGML file pointing to a GTiff file <a href="./fieldgml/examples/array2d.tif">array2d.tif</a>. The file is the result of creating a raster of the 5000 scattered points above (5k_pts.xml). The interpolation method defined here is piecewise constant, that is the value estimated at location (x,y) is the value of the pixel at that location.</p>
+<p><a href="./fieldgml/examples/geology3d.xml">geology3d.xml</a> contains 150 points scattered in 3D space. The interpolation method defined in this file is natural neighbour interpolation.</p>
+<h2>Prototype to convert FieldGML files to grids</h2>
+<p>Coming soon...</p>
+</div>
+<div id="Menu">
+    <a href="./index.html">Home</a><br /><a href="./fieldgml.html">FieldGML</a><br/><a href="./pubs.html">Publications</a><br/><a href="./thesis.html">PhD thesis</a><br/></div>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-4862694-1");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+    </script>
+    </body>
+    </html>
+    

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FML, the Field Markup Language -->
+<!-- version No. 0.3, 28/11/2008 -->
+<!-- Hugo Ledoux, TU Delft, the Netherlands -->
+<!-- For further information see: http://www.gdmc.nl/ledoux/fieldgml.html -->
+
+    <xs:schema targetNamespace="http://www.gdmc.nl/ledoux/fieldgml" xmlns="http://www.gdmc.nl/ledoux/fieldgml"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml"
+        xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified"
+        attributeFormDefault="unqualified">
+        <xs:import namespace="http://www.opengis.net/gml"
+            schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+        
+        <xs:element name="Field" type="FieldType"/>
+        
+        <xs:complexType name="FieldType">
+            <xs:annotation>
+                <xs:documentation> This type represents the Field type as described in the
+                    documentation, i.e. that a field has: (i) a set of Samples, and (ii) an set of rules
+                    to reconstruct the continuity of the field in the spatial domain (a spatial
+                    interpolation function, or different functions) 
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="gml:AbstractFeatureType">
+                    <xs:sequence>
+                        <xs:element name="Samples" type="SamplesType"/>
+                        <xs:element type="InterpolationMethodType" name="InterpolationMethod"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+        <xs:complexType name="SamplesType">
+            <xs:complexContent>
+                <xs:extension base="gml:AbstractGeometryType">
+                    <xs:sequence>
+                        <xs:element name="Attribute" type="AttributeType" minOccurs="1" maxOccurs="unbounded"/>
+                        <xs:element ref="gml:TimeInstant" maxOccurs="1" minOccurs="0"/>
+                        <xs:choice>
+                            <xs:element ref="ScatteredPoints"/>
+                            <xs:element ref="ScatteredLines"/>
+                            <xs:element type="ArrayType" name="Array"/>
+                            <xs:element name="Tessellation" type="TessellationType"/>
+                        </xs:choice>
+                    </xs:sequence>
+                    <xs:attribute name="dimension" type="NumDimensionType" use="required"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+        <xs:complexType name="AttributeType">
+            <xs:sequence>
+                <xs:element name="Name" type="xs:string"/>
+                <xs:element name="Scale" type="AttributeScaleType"/>
+                <xs:element name="Description" type="xs:string" minOccurs="0" maxOccurs="1">                
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+     
+        <xs:simpleType name="AttributeScaleType">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Continuous"/>
+                <xs:enumeration value="Discrete"/>
+            </xs:restriction>
+        </xs:simpleType>
+     
+     
+     
+        <xs:element name="ScatteredPoints" type="ScatteredPointsType" substitutionGroup="gml:_GeometricAggregate"/>
+        
+        <xs:complexType name="ScatteredPointsType">
+            <xs:complexContent>
+                <xs:extension base="gml:AbstractGeometricAggregateType">
+                    <xs:sequence>
+                        <xs:element ref="PointValue" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+        <xs:element name="ScatteredLines" type="ScatteredLinesType" substitutionGroup="gml:_GeometricAggregate"/>
+        
+        <xs:complexType name="ScatteredLinesType">
+            <xs:complexContent>
+                <xs:extension base="gml:AbstractGeometricAggregateType">
+                    <xs:sequence>
+                        <xs:element ref="LineSegmentValue" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+           
+        <xs:simpleType name="NumDimensionType">
+            <xs:restriction base="xs:int">
+                <xs:minInclusive value="2"/>
+                <xs:maxInclusive value="3"/>
+            </xs:restriction>
+        </xs:simpleType>
+    
+        <!-- ============== new types to add values direction with the coordinates -->
+    
+        
+        <xs:complexType name="PointValueType">
+            <xs:complexContent>
+                <xs:extension base="gml:PointType">
+                    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                        <xs:element name="value" type="xs:anyType"/>
+                        <xs:element ref="gml:TimeInstant" maxOccurs="1" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+        <xs:element name="PointValue" type="PointValueType" substitutionGroup="gml:Point"/>
+        
+        <xs:complexType name="LineSegmentValueType">
+            <xs:complexContent>
+                <xs:extension base="gml:LineStringSegmentType">
+                    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                        <xs:element name="value" type="xs:anyType"/>
+                        <xs:element ref="gml:TimeInstant" maxOccurs="1" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+        <xs:element name="LineSegmentValue" type="LineSegmentValueType" substitutionGroup="gml:_CurveSegment"/>
+        
+        <xs:complexType name="SolidValueType">
+            <xs:complexContent>
+                <xs:extension base="gml:SolidType">
+                    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                        <xs:element name="value" type="xs:anyType"/>
+                        <xs:element ref="gml:TimeInstant" maxOccurs="1" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+        <xs:element name="SolidValue" type="SolidValueType" substitutionGroup="gml:Solid"/>
+        
+        <xs:complexType name="ArrayType">
+            <xs:choice>
+                <xs:element ref="gml:GridCoverage"/>
+                <xs:element name="GridFile" type="GridFileType"/>
+            </xs:choice>
+        </xs:complexType>
+        
+        <xs:complexType name="GridFileType">
+            <xs:complexContent>
+                <xs:extension base="gml:AbstractGeometryType">
+                    <xs:sequence>
+                        <xs:element ref="gml:Grid"/>
+                        <xs:element ref="gml:TimeInstant" maxOccurs="1" minOccurs="0"/>
+                        <xs:element name="fileName" type="xs:string"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+      
+        <xs:complexType name="NetCDFArrayType">
+            <xs:complexContent>
+                <xs:extension base="GridFileType">
+                    <xs:sequence>
+                        <xs:element name="variable" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+        <xs:complexType name="TessellationType">
+            <xs:choice>
+                <xs:element name="TessPointsRule" type="TessPointsRuleType"/>
+                <xs:element name="TessPointsConstraintsRule" type="TessPointsConstraintsRuleType"/>
+                <xs:element name="FullTessPointValue2D" type="FullTessPointValue2DType"/>
+                <xs:element name="FullTessPointValue3D" type="FullTessPointValue3DType"/>
+                <xs:element ref="FullTessPolygonValue"/>
+                <xs:element ref="FullTessSolidValue"/>
+            </xs:choice>
+        </xs:complexType>
+        
+        <xs:complexType name="PolygonValueType">
+            <xs:complexContent>
+                <xs:extension base="gml:PolygonType">
+                    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                        <xs:element name="value" type="xs:anyType"/>
+                        <xs:element ref="gml:TimeInstant" maxOccurs="1" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+        <xs:element name="PolygonValue" type="PolygonValueType" substitutionGroup="gml:Polygon"/>
+        
+        <xs:element name="FullTessPolygonValue" type="CompositePolygonValueType" substitutionGroup="gml:_GeometricAggregate"/>
+        
+        <xs:complexType name="CompositePolygonValueType">
+            <xs:complexContent>
+                <xs:extension base="gml:AbstractGeometricAggregateType">
+                    <xs:sequence>
+                        <xs:element ref="PolygonValue" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+        <xs:element name="FullTessSolidValue" type="CompositeSolidValueType" substitutionGroup="gml:_GeometricAggregate"/>
+        
+        <xs:complexType name="CompositeSolidValueType">
+            <xs:complexContent>
+                <xs:extension base="gml:AbstractGeometricAggregateType">
+                    <xs:sequence>
+                        <xs:element ref="SolidValue" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+            
+        <xs:complexType name="TessPointsRuleType">
+            <xs:sequence>
+                <xs:element ref="ScatteredPoints"/>
+                <xs:element type="TessRuleType" name="TessRule"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:complexType name="TessPointsConstraintsRuleType">
+            <xs:complexContent>
+                <xs:extension base="TessPointsRuleType">
+                    <xs:sequence>
+                        <xs:element name="Constraints" type="gml:LineStringSegmentType"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    
+        <xs:simpleType name="TessRuleType">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Delaunay"/>
+                <xs:enumeration value="Voronoi"/>
+            </xs:restriction>
+        </xs:simpleType>
+        
+        
+        <xs:complexType name="FullTessPointValue2DType">
+            <xs:annotation>
+                <xs:documentation> This type will most likely contains a TIN for which there
+                    are no rules to automatically construct it. For instance it was created 
+                    manually by a user. The gml:CompositeSurface and the Points are stored
+                    separately because it becomes extremely complex to extend the types
+                    needed (gml:Polygon doesn't use gml:Point, but gml:pos... so where does
+                    one start creating new type? For the whole hierarchy?)
+                </xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element ref="gml:CompositeSurface"/>
+                <xs:element ref="ScatteredPoints" maxOccurs="1" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:complexType name="FullTessPointValue3DType">
+            <xs:annotation>
+            <xs:documentation> This type will most likely contains a TEN for which there
+                are no rules to automatically construct it. For instance it was created 
+                manually by a user. The gml:CompositeSolid and the Points are stored
+                separately because it becomes extremely complex to extend the types
+                needed (gml:Solid doesn't use gml:Point, but gml:pos... so where does
+                one start creating new type? For the whole hierarchy?)
+            </xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element ref="gml:CompositeSolid"/>
+                <xs:element ref="ScatteredPoints" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+        
+        
+        <!-- Interpolation methods stuff -->    
+        <xs:complexType name="InterpolationMethodType">
+            <xs:choice>
+                <xs:element name="Kriging" type="KrigingType"/>
+                <xs:element name="NearestNeighbour" type="NearestNeighbourType"/>
+                <xs:element name="IDW" type="IDWType"/>
+                <xs:element name="NaturalNeighbour" type="NaturalNeighbourType"/>
+                <xs:element name="RST" type="RSTType"/>
+                <xs:element name="Piecewise" type="PiecewiseType"/>
+                <xs:element name="MathFunction" type="xs:string">
+                    
+                </xs:element>
+                <xs:element name="Bilinear" type="BilinearType">
+                    
+                </xs:element>
+                <xs:element name="Trilinear" type="TrilinearType">
+                    
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+        
+        <xs:complexType name="KrigingType">
+            <xs:sequence>
+                <xs:element name="SemiVarioFunction" type="xs:string"/>
+                <xs:element name="SearchParam" type="SearchParamType">
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:complexType name="IDWType">
+            <xs:sequence>
+                <xs:element name="Power" type="xs:positiveInteger"/>
+                <xs:element name="SearchParam" type="SearchParamType"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:complexType name="NearestNeighbourType"/>        
+        
+        <xs:complexType name="NaturalNeighbourType"/>
+        
+        <xs:complexType name="BilinearType"/>
+        
+        <xs:complexType name="TrilinearType"/>
+        
+        <xs:complexType name="RSTType">
+            <xs:sequence>
+                <xs:element name="Tension" type="xs:float"/>
+                <xs:element name="SmoothingParam" type="xs:float"/>
+                <xs:element name="MaxPointsSegment" type="xs:positiveInteger"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:complexType name="SearchParamType">
+            <xs:sequence>
+                <xs:element name="Radius" type="xs:double" maxOccurs="1" minOccurs="0"/>
+                <xs:element name="MinNeighbours" type="xs:positiveInteger" maxOccurs="1" minOccurs="0"/>
+                <xs:element name="MaxNeighbours" maxOccurs="1" minOccurs="0" type="xs:positiveInteger">
+                    
+                </xs:element>
+                <xs:element name="MinNeighboursQuadrant" type="xs:positiveInteger" maxOccurs="1" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:simpleType name="PiecewiseType">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Constant"/>
+                <xs:enumeration value="Linear"/>
+                <xs:enumeration value="Akima"/>
+            </xs:restriction>
+        </xs:simpleType>
+        
+    </xs:schema>
