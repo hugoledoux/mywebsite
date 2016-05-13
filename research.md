@@ -71,7 +71,7 @@ We investigate, design and develop new data structures, implement them, and comp
 
 - - - 
 
-# Some older research projects 
+## Some older research projects 
 
   - [FieldGML]({{ site.baseurl }}/fieldgml): a GML-based representation for fields in 2D and 3D, my attempt at improving [ISO19123, the standard for coverages](http://www.iso.org/iso/catalogue_detail.htm?csnumber=40121)
   - [Modelling geoscientific data with the 3D Voronoi diagram]({{ site.baseurl }}/phdthesis): my PhD thesis on the topic.
