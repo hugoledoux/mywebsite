@@ -485,6 +485,7 @@ class bibhtmler {
 			// if (array_key_exists('info', $in)) $out .= '<span class="label label-important">'.$in['info'].'</span>.';
 			if (array_key_exists('info', $in)) $out .= '<code>'.trim($in['info'], '{}').'</code>';
 			if (array_key_exists('note', $in)) $out .= '<code>'.trim($in['note'], '{}').'</code>';
+			if (array_key_exists('oa', $in)) $out .= '<img class="nextto" src="/img/oa.png"/>';
 			// $out .= '<br>';
 			if (array_key_exists('pdf', $in)) {
 				$t = $this->processtext($in['pdf']);
