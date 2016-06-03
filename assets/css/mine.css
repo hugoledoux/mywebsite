@@ -131,12 +131,6 @@ img.cc {
   border-radius: 0px;
 }
 
-img.nextto {
-  display: inline;
-  margin: 0 0 0rem;
-  border-radius: 0px;
-}
-
 
 /* Code */
 code,
@@ -182,7 +176,7 @@ pre.bibtex {
 .label {
     padding: 1px 3px 2px;
     /*font-size: 9.75px;*/
-    font-size: 75%;
+    font-size: 65%;
     font-weight: bold;
     color: #ffffff;
     /*text-transform: uppercase;*/
@@ -192,12 +186,16 @@ pre.bibtex {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
-.label.important {
-    background-color: #c43c35;
+.label.danger {
+    background-color: #CE3C3E;
 }
 .label.warning {
-    background-color: #f89406;
+    background-color: #EA9E3E;
 }
+.label.success {
+    background-color: #4EAE4A;
+}
+
 
 /* bleu colour */
 .theme-base-bleu .sidebar,
