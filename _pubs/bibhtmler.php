@@ -483,9 +483,9 @@ class bibhtmler {
 			if (strlen($outnote) > 0) $out .= $outnote.". ";
 			
 			// if (array_key_exists('info', $in)) $out .= '<span class="label label-important">'.$in['info'].'</span>.';
-			if (array_key_exists('info', $in)) $out .= '<code>'.trim($in['info'], '{}').'</code>';
-			if (array_key_exists('note', $in)) $out .= '<code>'.trim($in['note'], '{}').'</code>';
-			if (array_key_exists('oa', $in)) $out .= '<img class="nextto" src="/hledoux/img/oa.png"/>';
+			if (array_key_exists('info', $in)) $out .= '<span class="label">'.trim($in['info'], '{}').'</span>';
+			if (array_key_exists('note', $in)) $out .= '<span class="label">'.trim($in['note'], '{}').'</span>';
+			if (array_key_exists('oa', $in)) $out .= '<span class="label">Open Access</span>';
 			// $out .= '<br>';
 			if (array_key_exists('pdf', $in)) {
 				$t = $this->processtext($in['pdf']);
