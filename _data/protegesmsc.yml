@@ -1,12 +1,13 @@
 
-- surname: Broersen 
-  name: Tom 
-  title: Automatic identification of water courses from AHN3
-
 - surname: Heeres 
   name: Erik 
   title: Creating an automatic, robust and scalable workflow for the creation of the 3D BAG
 
+- surname: Broersen 
+  name: Tom 
+  title: Automatic identification of water courses from AHN3 in flat and engineered landscapes
+  url: http://repository.tudelft.nl/islandora/object/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
+  year: 2016
 
 - surname: Jonker
   name: Kees
