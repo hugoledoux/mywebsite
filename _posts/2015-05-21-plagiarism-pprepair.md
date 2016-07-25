@@ -105,7 +105,7 @@ In the official PDF there is no mention of a correction, only on the [webpage of
 ![]({{ site.baseurl }}/img/tttcorrection.png)
 
 <em>
-Update: I was just informed by Taylor&Francis ([in a tweet](https://twitter.com/tandfauthorserv/status/603830792859561984), very 2015) that the CrossMark above the title also links to the corrigendum.
+Update (2015-05-28): I was just informed by Taylor&Francis ([in a tweet](https://twitter.com/tandfauthorserv/status/603830792859561984), very 2015) that the CrossMark above the title also links to the corrigendum.
 I didn't know that, and I had actually never clicked on any CrossMarks nor noticed them.
 Good to know though.
 </em>
@@ -126,3 +126,12 @@ I think they handled this case rather well.
 Thus, case closed. 
 It's time to go back to writing more papers 😕
 
+<em>
+Update (2016-07-25): For the sake of transparency, I should add that one of the authors of the paper has recently contacted me and asked me to remove this blog post.
+He argues that it is damaging to his academic career, and that since I accepted the decision of editor I should not have written a text that implies that there was plagiarism.
+I asked him to explain the four similarities above, but he provided no answer (only that he submitted them to the editor, but these were never forwarded to us, only the corrigendum was), and stated that I "should have continued [my] battle with [the editor] in all possible ways legally".
+As stated above, my co-authors and I accepted the decision because we thought this was the best we could obtained under the circumstances, and thought that fighting this was simply not worth our time.
+I wrote this blog post to explain what happened to me and to highlight the good and bad points of my experience, and I believe that the readers can decide by themselves if there was plagiarism or not.
+I wrote this blog post to describe in a transparent manner what happened to me, to highlight the good and bad points of my experience, and to help others.
+Removing it would not be very transparent in my opinion.
+<em>
