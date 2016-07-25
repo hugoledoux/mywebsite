@@ -130,8 +130,7 @@ It's time to go back to writing more papers 😕
 Update (2016-07-25): For the sake of transparency, I should add that one of the authors of the paper has recently contacted me and asked me to remove this blog post.
 He argues that it is damaging to his academic career, and that since I accepted the decision of editor I should not have written a text that implies that there was plagiarism.
 I asked him to explain the four similarities above, but he provided no answer (only that he submitted them to the editor, but these were never forwarded to us, only the corrigendum was), and stated that I "should have continued [my] battle with [the editor] in all possible ways legally".
-As stated above, my co-authors and I accepted the decision because we thought this was the best we could obtained under the circumstances, and thought that fighting this was simply not worth our time.
-I wrote this blog post to explain what happened to me and to highlight the good and bad points of my experience, and I believe that the readers can decide by themselves if there was plagiarism or not.
+As stated above, my co-authors and I accepted the decision because we thought this was the best we could obtain under the circumstances, and thought that fighting this was simply not worth our time.
 I wrote this blog post to describe in a transparent manner what happened to me, to highlight the good and bad points of my experience, and to help others.
 Removing it would not be very transparent in my opinion.
 <em>
