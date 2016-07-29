@@ -186,8 +186,8 @@ pre.bibtex {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
-.label.danger {
-    background-color: #CE3C3E;
+.label.success {
+    background-color: #6BCC60;
 }
 .label.warning {
     background-color: #EA9E3E;
