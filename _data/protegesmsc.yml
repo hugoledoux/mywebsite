@@ -6,20 +6,20 @@
 - surname: Broersen 
   name: Tom 
   title: Automatic identification of water courses from AHN3 in flat and engineered landscapes
-  url: http://repository.tudelft.nl/islandora/object/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
+  url: http://resolver.tudelft.nl/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
   year: 2016
 
 - surname: Jonker
   name: Kees
   title: Automatic generation of raster-based height data for the Netherlands based on the AHN2 data set
   image: jonker.png
-  url: http://repository.tudelft.nl/view/ir/uuid%3Ab1d1c50d-24bf-4a12-b0e5-3c2479907d66/
+  url: http://resolver.tudelft.nl/uuid:b1d1c50d-24bf-4a12-b0e5-3c2479907d66/
   year: 2016
 
 - surname: Mulder
   name: Damien
   title: Automatic repair of 3D city building models using a voxel-based repair method
-  url: http://repository.tudelft.nl/view/ir/uuid%3A8ef4459d-b940-4007-bc3c-d87349015129/ 
+  url: http://resolver.tudelft.nl/uuid:8ef4459d-b940-4007-bc3c-d87349015129/ 
   image: damien.jpg
   github: https://github.com/dtmulder/VoxelRepair
   year: 2015
@@ -27,7 +27,7 @@
 - surname: Pronk
   name: Maarten 
   title: Storing massive TINs in a DBMS - A comparison and a prototype implementation of the multistar approach
-  url: http://repository.tudelft.nl/view/ir/uuid%3Ada6b7329-f45b-4560-8374-bb522e78121f/
+  url: http://resolver.tudelft.nl/uuid:da6b7329-f45b-4560-8374-bb522e78121f/
   image: maarten.png
   github: https://github.com/evetion/multistar
   year: 2015
@@ -35,7 +35,7 @@
 - surname: Donkers
   name: Sjors 
   title: Automatic generation of CityGML LoD3 building models from IFC models
-  url: http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/
+  url: http://resolver.tudelft.nl/uuid:31380219-f8e8-4c66-a2dc-548c3680bb8d/
   image: sjors.png
   github: https://github.com/tudelft3d/ifc2citygml
   paper: http://doi.org/10.1111/tgis.12162
@@ -45,41 +45,41 @@
   name: Ravi 
   year: 2012
   title: A Voronoi- and surface-based approach for the automatic generation of depth-contours for hydrographic charts
-  url : http://repository.tudelft.nl/view/ir/uuid%3A5977a99b-0875-44b4-abe1-09288bf2aed1/
+  url : http://resolver.tudelft.nl/uuid:5977a99b-0875-44b4-abe1-09288bf2aed1/
 
 - surname: Nedkov
   name: Simeon 
   year: 2012
   title: Knowledge-based optimisation of three-dimensional city models for car navigation devices
-  url : http://repository.tudelft.nl/view/ir/uuid%3Ab429e899-9955-4a23-9ceb-66ffb6210b30/
+  url : http://resolver.tudelft.nl/uuid:b429e899-9955-4a23-9ceb-66ffb6210b30/
 
 - surname: Bhattacharya
   name: Prajna 
   year: 2012
   title: Quality assessment  and  object matching of OpenStreetMap in combination with  the Dutch topographic map TOP10NL
-  url : http://repository.tudelft.nl/view/ir/uuid%3Ae1501114-d947-4278-8612-1e249e4dc02f/
+  url : http://resolver.tudelft.nl/uuid:e1501114-d947-4278-8612-1e249e4dc02f/
 
 - surname: Commandeur
   name: Tom 
   year: 2012
   title: Footprint decomposition combined with point cloud segmentation for producing valid 3D models
-  url : http://repository.tudelft.nl/view/ir/uuid%3Ac0c665f7-0254-42c6-895b-cb59acc079f2/
+  url : http://resolver.tudelft.nl/uuid:c0c665f7-0254-42c6-895b-cb59acc079f2/
 
 - surname: Arroyo Ohori
   name: Ken 
   year: 2010
   title: Validation and Automatic Repair of Planar Partitions using a Constrained Triangulation
-  url : http://repository.tudelft.nl/view/ir/uuid%3A78807acb-4115-478c-93de-68b9db884c8e/
+  url : http://resolver.tudelft.nl/uuid:78807acb-4115-478c-93de-68b9db884c8e/
 
 - surname: Biljecki
   name: Filip 
   year: 2010
   title: Automatic segmentation and classification of movement trajectories for transportation modes
-  url : http://repository.tudelft.nl/view/ir/uuid%3A654587d2-6e93-4619-ab9a-29d95f843f35/
+  url : http://resolver.tudelft.nl/uuid:654587d2-6e93-4619-ab9a-29d95f843f35/
 
 - surname: Putte
   name: Tom
   van: van der
   year: 2009
   title: Using the discrete 3D Voronoi diagram for the modelling of 3D continuous information in geosciences
-  url : http://repository.tudelft.nl/view/ir/uuid%3Ab35ad433-067a-4b20-8067-e18a2de76490/
+  url : http://resolver.tudelft.nl/uuid:b35ad433-067a-4b20-8067-e18a2de76490/
