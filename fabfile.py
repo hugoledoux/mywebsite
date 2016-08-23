@@ -7,6 +7,10 @@ env.user = 'hledoux'
 env.hosts = ['3d.bk.tudelft.nl']
 
 
+def bibtex():
+    local("python ./_pubs/buildpubs.py")
+
+
 def deploy():
     local("jekyll build")
     remotedir = '/var/www/people/hledoux/site/'

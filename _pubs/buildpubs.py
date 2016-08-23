@@ -40,7 +40,7 @@ def gettoc():
         s += ' <a href="#%s">%s</a> |' % (year, year)
     return s
 
-
+os.chdir("./_pubs/")
 os.system("php go.php > pubs.html")
 s = write_pubs()
 # print s.getvalue()
