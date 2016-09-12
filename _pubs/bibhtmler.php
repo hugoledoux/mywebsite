@@ -485,7 +485,7 @@ class bibhtmler {
 			// if (array_key_exists('info', $in)) $out .= '<span class="label label-important">'.$in['info'].'</span>.';
 			if (array_key_exists('info', $in)) $out .= '<span class="label success">'.trim($in['info'], '{}').'</span>';
 			if (array_key_exists('note', $in)) $out .= '<span class="label warning">'.trim($in['note'], '{}').'</span>';
-			if (array_key_exists('oa', $in)) $out .= '<span class="label">open access</span>';
+			if (array_key_exists('oa', $in)) $out .= ' <a href="'.$this->processtext($in['doi']).'"><span class="label">open access</span></a>';
 			// $out .= '<br>';
 			if (array_key_exists('pdf', $in)) {
 				$t = $this->processtext($in['pdf']);
@@ -507,7 +507,7 @@ class bibhtmler {
 			// if (array_key_exists('doi', $in)) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="fa fa-external-link"></i></a>';
 			if (array_key_exists('repository', $in)) $out .= ' <a href="'.$this->processtext($in['repository']).'"><i class="fa fa-github"></i></a>';
 			if (array_key_exists('url', $in)) $out .= ' <a href="'.$this->processtext($in['url']).'"><i class="fa fa-external-link"></i></a>';
-			if (array_key_exists('doi', $in)) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="fa fa-bookmark"></i></a>';
+			if (array_key_exists('doi', $in) and (array_key_exists('oa', $in) == FALSE) ) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="fa fa-bookmark"></i></a>';
 			$out .= ' <a href="#bib'.$in['key'].'" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a>';
 			$out .= '<div id="bib'.$in['key'].'" class="collapse"  tabindex="-1"><pre class="bibtex">'.$this->getbibtex($in)."</pre></div>";
 		}
