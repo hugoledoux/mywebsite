@@ -9,8 +9,8 @@ permalink: /proteges/
 
 ## PhD students
 
-[**Du Xin**](https://3d.bk.tudelft.nl/duxin) (2015@now)<br>
-Quality control of 3D city models
+[**Anna Labetski**](https://3d.bk.tudelft.nl/alabetski) (2016@now)<br>
+Generalisation of 3D city models
 
 [**Kavisha**](https://3d.bk.tudelft.nl/kavisha) (2015@now)<br>
 [Storage and dissemination of massive 3D city models](http://www.3d4em.nl/rl2/)
@@ -21,10 +21,10 @@ Quality control of 3D city models
 [**Filip Biljecki**](http://3d.bk.tudelft.nl/biljecki) (2012@now)<br> 
 [The concept of level of detail in 3D city modelling](http://3d.bk.tudelft.nl/biljecki/phd.html)
 
-[**Ken Arroyo Ohori**](http://3d.bk.tudelft.nl/ken) (defended 2016/04/06)<br> 
+[**Ken Arroyo Ohori**](http://3d.bk.tudelft.nl/ken) <span class="label label">defended 2016/04/06</span><br> 
 [Higher-dimensional modelling of geographic information](https://3d.bk.tudelft.nl/ken/en/thesis/)
 
----
+- - -
 
 ## MSc students 
 
