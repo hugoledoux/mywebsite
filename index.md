@@ -8,7 +8,7 @@ title: Home
 </div>
 
 
-I am an assistant-professor in the [3D geoinformation research group](http://3d.bk.tudelft.nl), which is part of the [Department of Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/) of the [Faculty of Architecture & the Built Environment](http://bk.tudelft.nl/en) at the [Delft University of Technology](http://www.tudelft.nl) in the Netherlands.
+I am an associate-professor in the [3D geoinformation research group](http://3d.bk.tudelft.nl), which is part of the [Department of Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/) of the [Faculty of Architecture & the Built Environment](http://bk.tudelft.nl/en) at the [Delft University of Technology](http://www.tudelft.nl) in the Netherlands.
 
 I hold a [PhD]({{ site.baseurl }}/phdthesis) in computer science from the [University of South Wales](http://www.southwales.ac.uk) in the UK, and a BSc in Geomatics Engineering from the [Université Laval](http://www.ulaval.ca) in Québec City, Canada.
 
@@ -19,8 +19,8 @@ I strongly believe in implementing my research ideas, all the code of my project
 
 I am currently working, among others, on the [storage and the analysis of massive TINs](http://www.3d4em.nl), the [validation and the automatic repair of polygons and polyhedra as found in GIS](http://geovalidation.bk.tudelft.nl), the [higher-dimensional modelling of geographical information](http://3dgeoinfo.bk.tudelft.nl/projects/geo5d/) (ie 4D+), and the [smart simplification of LiDAR datasets](http://3dgeoinfo.bk.tudelft.nl/projects/3dsm/).
 
-Teaching-wise, I am the responsible lecturer for the course *Geographical Information Systems and Cartography* in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft. 
-For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [GRASS](http://grass.osgeo.org/), [Shapely](https://github.com/Toblerity/Shapely), and [TileMill](http://www.mapbox.com/tilemill/).
+Teaching-wise, I am the responsible lecturer for the courses *Geographical Information Systems and Cartography* and *Geo-datasets and data quality* in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft. 
+For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [GRASS](http://grass.osgeo.org/), and [Shapely](https://github.com/Toblerity/Shapely).
 
 
 
