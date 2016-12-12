@@ -1,4 +1,17 @@
 
+- surname: Tryfona
+  name: Maya
+  title:  Linking and birectional enrichment of a multi-view stereo mesh and a CityGML model 
+  # image: tryfona.png
+  year: ongoing
+
+- surname: Kang 
+  name: Yuxuan
+  title: Straightening and simplifying a multi-view stereo mesh of a city
+  # image: kang.png
+  year: ongoing
+
+
 - surname: Heeres 
   name: Erik 
   title: "Exploring the 3D BAG: How to define it and to what extent can it automatically be created using open data"
