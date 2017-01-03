@@ -81,21 +81,23 @@ Several things are annoying and these can be fixed as follows:
 
 ### the 'In:' for the journal title
 
-```
+```tex
 \renewbibmacro{in:}{}
 ```
 
 ### the quotes around the title of the paper
 
-```
+```tex
+
 \DeclareFieldFormat[article, inbook, incollection, inproceedings, misc, thesis, unpublished]{title}{#1}
+
 ```
 
 ### the volume and the issue are separated by a dot
 
 To obtain what natbib *plainnat* has (ie volume(issue):pp--pp) and to shorten 'pages' to 'p.':
 
-```
+```tex
 %-- no punctuation after volume
 \DeclareFieldFormat[article]
 {volume}{{#1}} 
