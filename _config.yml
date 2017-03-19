@@ -15,7 +15,7 @@ permalink:        /:categories/:title/
 
 #-- Setup
 title:            Hugo Ledoux
-tagline:          'assistant-prof in <a href="https://3d.bk.tudelft.nl">3D geoinformation</a> at <a href="http://www.tudelft.nl">TU Delft</a>'
+tagline:          'associate-prof in <a href="https://3d.bk.tudelft.nl">3D geoinformation</a> at <a href="http://www.tudelft.nl">TU Delft</a>'
 url:              https://3d.bk.tudelft.nl
 # baseurl:          ""
 baseurl:          /hledoux
