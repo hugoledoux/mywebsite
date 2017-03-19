@@ -100,7 +100,7 @@ To obtain what natbib *plainnat* has (ie volume(issue):pp--pp) and to shorten 'p
 ```tex
 %-- no punctuation after volume
 \DeclareFieldFormat[article]
-{volume}{{#1}} 
+{volume}{ {#1} } 
 %-- puts number/issue between brackets
 \DeclareFieldFormat[article, inbook, incollection, inproceedings, misc, thesis, unpublished]
 {number}{\mkbibparens{#1}} 
@@ -143,7 +143,7 @@ To obtain what natbib *plainnat* has (ie volume(issue):pp--pp) and to shorten 'p
 {title}{#1}
 %-- no punctuation after volume
 \DeclareFieldFormat[article]
-{volume}{{#1}} 
+{volume}{ {#1} } 
 %-- puts number/issue between brackets
 \DeclareFieldFormat[article, inbook, incollection, inproceedings, misc, thesis, unpublished]
 {number}{\mkbibparens{#1}} 
