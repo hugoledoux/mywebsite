@@ -1,3 +1,4 @@
+
 - name: val3dity
   description: Geometric validation of 3D primitives according to ISO 19107
   url: http://geovalidation.bk.tudelft.nl/val3dity
@@ -8,7 +9,6 @@
   url: https://github.com/tudelft3d/3dfier
   image: 3dfier.png
 
-
 - name: pprepair
   description: Planar partition repair. It ensures that a set of polygons form a valid planar partition, made of valid polygons and having no gaps or overlaps.
   url: https://github.com/tudelft3d/pprepair
@@ -18,7 +18,6 @@
   description: Automatic repair of GIS polygons according to the OGC Simple Features and ISO 19107 rules.
   url: https://github.com/tudelft3d/prepair
   image: prepair.png
-
 
 - name: MATAHN
   description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets, we take care of the hassle of tiles.
