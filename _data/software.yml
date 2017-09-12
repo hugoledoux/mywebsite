@@ -24,3 +24,7 @@
   url: http://3dsm.bk.tudelft.nl/matahn
   image: matahn.png
 
+- name: CityJSON
+  description: JSON-based implementation of CityGML, easy-to-use and compact
+  url: http://www.cityjson.org
+  image: cityjson-logo.png
