@@ -2,13 +2,13 @@
 - surname: Tryfona
   name: Maya
   title: Bidirectional enrichment of CityGML and Multi-View Stereo Mesh models
-  link: http://resolver.tudelft.nl/uuid:560bd9fb-7688-492f-b1c0-799644707be9
+  url: http://resolver.tudelft.nl/uuid:560bd9fb-7688-492f-b1c0-799644707be9
   year: 2017
     
 - surname: Kang 
   name: Yuxuan
   title: Straightening and simplifying a multi-view stereo mesh of a city
-  link: http://resolver.tudelft.nl/uuid:8f3a74c2-3264-4433-adc9-217dfa94754a
+  url: http://resolver.tudelft.nl/uuid:8f3a74c2-3264-4433-adc9-217dfa94754a
   year: 2017
 
 - surname: Heeres 
