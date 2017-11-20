@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 
-<div style='width:150px;margin:0 auto;'> 
-  <img class="centre" alt="image" src="{{ site.baseurl }}/img/me.png">
+<div style='width:200px;margin:0 auto;'> 
+  <img class="centre" alt="image" src="{{ site.baseurl }}/img/me.jpg">
 </div>
 
 
