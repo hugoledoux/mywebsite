@@ -22,12 +22,12 @@ Generalisation of 3D city models
 [**Ravi Peters**](http://3d.bk.tudelft.nl/rypeters) (2013@now)<br>
 [Feature-aware DSM analysis and generalisation based on the 3D medial axis transform](http://3d.bk.tudelft.nl/projects/3dsm)
 
-[**Filip Biljecki**](http://3d.bk.tudelft.nl/biljecki) (2012--2017)<br> 
-<!-- <span class="label label">defended 2017/05/01</span><br>  -->
+[**Filip Biljecki**](http://3d.bk.tudelft.nl/biljecki) (2012--2017)
+<span class="label label">defended 2017/05/01</span><br> 
 [Level of detail in 3D city models](http://doi.org/b463)
 
-[**Ken Arroyo Ohori**](http://3d.bk.tudelft.nl/ken) (2011--2016)<br> 
-<!-- <span class="label label">defended 2016/04/06</span><br>  -->
+[**Ken Arroyo Ohori**](http://3d.bk.tudelft.nl/ken) (2011--2016) 
+<span class="label label">defended 2016/04/06</span><br> 
 [Higher-dimensional modelling of geographic information](https://3d.bk.tudelft.nl/ken/en/thesis/)
 
 - - -
