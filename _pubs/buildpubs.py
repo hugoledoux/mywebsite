@@ -36,7 +36,7 @@ def getwarning():
 
 def gettoc():    
     s = "\n|"
-    for year in reversed(range(2003, 2018)):
+    for year in reversed(range(2003, 2019)):
         s += ' <a href="#%s">%s</a> |' % (year, year)
     return s
 
