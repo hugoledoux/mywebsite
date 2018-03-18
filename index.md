@@ -8,7 +8,7 @@ title: Home
 </div>
 
 
-I am an associate-professor in the [3D geoinformation research group](http://3d.bk.tudelft.nl), which is part of the [Department of Urbanism](https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/departments/urbanism/) of the [Faculty of Architecture & the Built Environment](http://bk.tudelft.nl) at the [Delft University of Technology](http://www.tudelft.nl) in the Netherlands.
+I am an associate-professor in the [3D geoinformation research group](http://3d.bk.tudelft.nl), which is part of the [Department of Urbanism](https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/departments/urbanism/) of the [Faculty of the Built Environment & Architecture](http://bk.tudelft.nl) at the [Delft University of Technology](http://www.tudelft.nl) in the Netherlands.
 
 I hold a [PhD]({{ site.baseurl }}/phdthesis) in computer science from the [University of South Wales](http://www.southwales.ac.uk) in the UK, and a BSc in Geomatics Engineering from the [Université Laval](http://www.ulaval.ca) in Québec City, Canada.
 

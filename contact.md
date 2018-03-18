@@ -17,7 +17,7 @@ permalink: /contact/
   <div class="unit half">
     <ul class="fa-ul">
       <li><i class="fa-li fa fa-map-marker"></i>Room BG.West.010</li>
-      <li><i></i>Faculty of Architecture & the Built Environment</li>
+      <li><i></i>Faculty of the Built Environment & Architecture</li>
       <li><i></i>(building #8)</li>
       <li><i></i>Delft University of Technology</li>
       <li><i></i>Julianalaan 134, Delft 2628BL, the Netherlands</li>
