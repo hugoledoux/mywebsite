@@ -485,7 +485,8 @@ class bibhtmler {
 			// if (array_key_exists('info', $in)) $out .= '<span class="label label-important">'.$in['info'].'</span>.';
 			if (array_key_exists('info', $in)) $out .= '<span class="label success">'.trim($in['info'], '{}').'</span>';
 			if (array_key_exists('note', $in)) $out .= '<span class="label warning">'.trim($in['note'], '{}').'</span>';
-			if (array_key_exists('oa', $in)) $out .= ' <a href="'.$this->processtext($in['doi']).'"><span class="label">open access</span></a>';
+			// if (array_key_exists('oa', $in)) $out .= ' <a href="'.$this->processtext($in['doi']).'"><span class="label">open access</span></a>';
+			if (array_key_exists('oa', $in)) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="ai ai-open-access-square"></i></a>';
 			// $out .= '<br>';
 			if (array_key_exists('pdf', $in)) {
 				$t = $this->processtext($in['pdf']);
