@@ -15,7 +15,7 @@ I hold a [PhD]({{ site.baseurl }}/phdthesis) in computer science from the [Unive
 For my research, I am particularly interested in combining the fields of GIS and computational geometry. 
 Put simply, I often try to solve geographical problems---either in 2D or in 3D---by first decomposing the world into triangles/tetrahedra or into another tessellation such as the Voronoi diagram. 
 My work involves developing topological data structures to store these tessellations, and designing algorithms to analyse and extract information from the datasets. 
-I strongly believe in implementing my research ideas, all the code of my projects is freely available under open-source licences (mostly on [GitHub](https://github.com/tudelft3d)).
+I strongly believe in implementing my research ideas, the source code of my projects is freely available under open-source licences (on [GitHub](https://github.com/tudelft3d)).
 
 I am currently working, among others, on the [storage and the analysis of massive TINs](http://www.3d4em.nl), the [validation and the automatic repair of polygons and polyhedra as found in GIS](http://geovalidation.bk.tudelft.nl), the [higher-dimensional modelling of geographical information](http://3dgeoinfo.bk.tudelft.nl/projects/geo5d/) (ie 4D+), the [smart simplification of LiDAR datasets](http://3dgeoinfo.bk.tudelft.nl/projects/3dsm/), and the [integration of IFC and CityGML](https://3d.bk.tudelft.nl/projects/geobim/).
 
