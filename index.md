@@ -22,5 +22,5 @@ I am currently working, among others, on the [storage and the analysis of massiv
 <!-- Teaching-wise, I am the responsible lecturer for the courses *Geographical Information Systems and Cartography* and *Geo-datasets and data quality* in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft. 
 For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [GRASS](http://grass.osgeo.org/), and [Shapely](https://github.com/Toblerity/Shapely). -->
 
-
+- - -
 
