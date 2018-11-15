@@ -1,4 +1,11 @@
 
+
+- surname: Griffioen
+  name: Simon
+  title: "A voxel-based methodology to detect (clustered) outliers in aerial lidar point clouds"
+  url:  http://resolver.tudelft.nl/uuid:2ffa73f4-34cc-4ea0-82df-11e61cb47bea
+  year: 2018
+
 - surname: Dukai
   name: Balázs
   title: "Exploring the automatic Level of Detail inference for the validation of buildings in 3D city models"
