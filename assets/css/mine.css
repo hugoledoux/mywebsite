@@ -13,10 +13,50 @@ body {
 
 
 html, h1, h2, h3, h4, h5, h6 {
-  font-family: "jaf-facitweb";
-  font-weight: 400;
+  /*font-family: "UntitledSans";*/
+  font-family: "InterUI";
+  /*font-weight: 400;*/
   color: #313131;
   letter-spacing: -.025rem;
+}
+
+/* Code */
+code,
+pre {
+  font-family: "source-code-pro";
+}
+.gist .gist-file {
+  font-family: "source-code-pro";
+}
+
+
+@font-face {
+  font-family: 'InterUI';
+  src: url('../fonts/Inter-UI-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterUI';
+  src: url('../fonts/Inter-UI-Italic.woff') format('woff');
+  font-weight: italic;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'InterUI';
+  src: url('../fonts/Inter-UI-SemiBold.woff') format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'source-code-pro';
+  src: url('../fonts/SourceCodePro-Regular.otf.woff') format('woff');
+  /*font-weight: bold;*/
+  /*font-style: bold;*/
 }
 
 .grid .unit p {
@@ -131,15 +171,6 @@ img.cc {
   border-radius: 0px;
 }
 
-
-/* Code */
-code,
-pre {
-  font-family: "source-code-pro";
-}
-.gist .gist-file {
-  font-family: "source-code-pro";
-}
 
 
 div .collapse {
