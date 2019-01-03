@@ -1,4 +1,9 @@
 
+- name: cjio
+  description: "Python CLI to process and manipulate CityJSON files"
+  url: https://github.com/tudelft3d/cjio
+  image: cjio.png
+  
 - name: val3dity
   description: Geometric validation of 3D primitives according to ISO 19107
   url: http://geovalidation.bk.tudelft.nl/val3dity
@@ -19,10 +24,6 @@
   url: https://github.com/tudelft3d/prepair
   image: prepair.png
 
-- name: MATAHN
-  description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets, we take care of the hassle of tiles.
-  url: http://3dsm.bk.tudelft.nl/matahn
-  image: matahn.png
 
 - name: CityJSON
   description: JSON-based implementation of CityGML, easy-to-use and compact
