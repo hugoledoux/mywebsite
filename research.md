@@ -12,6 +12,23 @@ I would charasterise my research as an equal mix of:
   - __computational geometry__: extending and adapting theoretical results to real-world problems;
   - __implementation__: I strongly believe in implementing my research results, see my [open-source software]({{ site.baseurl }}/software/) page.
 
+
+
+- - -
+
+## CityJSON: Making CityGML a useful format to exchange 3D city models
+
+![]({{ site.baseurl }}/img/cityjson.jpg)
+
+CityJSON is a format for encoding a subset of the CityGML data model (version 2.0.0) using JavaScript Object Notation (JSON). A CityJSON file represents both the geometry and the semantics of the city features of a given area, eg buildings, roads, rivers, the vegetation, and the city furniture.
+The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose, complex, and thus rather frustrating to work with. 
+CityJSON aims at being easy-to-use, both for reading datasets, and for creating them. 
+It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
+
+<a href="https://www.cityjson.org"><i class="fa fa-external-link"></i> CityJSON website</a>
+
+<a href="https://github.com/tudelft3d/cjio"><i class="fa fa-external-link"></i> cjio: Python CLI to process and manipulate CityJSON files</a>
+
 - - -
 
 ## Validation & automatic repair of geo-datasets
@@ -32,9 +49,19 @@ Some of these are also available as [web-applications](http://geovalidation.bk.t
 
 The aim of the research project is to integrate the multi-dimensional characteristics of geographical data (eg space, time and scale), together in one higher-dimensional model. We develop data structures and operations to realise such a model, and we apply this model to the integration of CityGML models at different scales for instance.
 
-The research project is funded by a Vidi grant from the [Dutch Technology Foundation STW](http://www.stw.nl) awarded to [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter). 
+<a href="https://3d.bk.tudelft.nl/projects/umnd/"><i class="fa fa-external-link"></i> Project website</a>
 
-<a href="http://3d.bk.tudelft.nl/projects/geo5d/"><i class="fa fa-external-link"></i> Project website</a>
+- - -
+
+## GeoBIM: Bridging the gap between Geo and BIM
+
+![]({{ site.baseurl }}/img/geobim.jpg)
+
+While there seems to be a natural integration between GIS and BIM/IFC models, the reality is rather different. 
+The disciplines of GIS and BIM are disconnected by their modelling paradigms, software tools and open standards.
+Our efforts are targeted at bulding software so that one can can convert IFC to CityGML, and vice-versa.
+
+<a href="https://3d.bk.tudelft.nl/projects/geobim/"><i class="fa fa-external-link"></i> Project website</a>
 
 - - -
 
@@ -52,7 +79,7 @@ While current methods often portray DSMs as 2D objects (and thus valuable inform
   1. use 3D tools and 3D data structures, specificially the 3D medial axis transform (MAT);
   2. permit us to define 3D features—buildings, dikes, etc—and consider these while simplifying. The knowledge of the features will permit us to remove unimportant points and focus only on those of interest for a given application.
 
-<a href="http://3d.bk.tudelft.nl/projects/3dsm/"><i class="fa fa-external-link"></i> Project website</a>
+<a href="https://3d.bk.tudelft.nl/projects/3dsm/"><i class="fa fa-external-link"></i> Project website</a>
 
 
 - - -
@@ -67,7 +94,7 @@ The [existing open-source database solutions](http://www.3dcitydb.org) for manag
 The biggest challenge is the management of massive TINs (triangulated irregular networks) in a database.
 We investigate, design and develop new data structures, implement them, and compare different alternatives (in terms of storage space, query time, etc).
 
-<a href="http://www.3d4em.nl"><i class="fa fa-external-link"></i> Project website</a>
+<a href="https://www.3d4em.nl"><i class="fa fa-external-link"></i> Project website</a>
 
 - - - 
 
