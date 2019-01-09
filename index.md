@@ -19,7 +19,7 @@ I strongly believe in implementing my research ideas, the source code of my proj
 
 I am currently working, among others, on [making CityGML better](https://www.cityjson.org), on the [storage and the analysis of massive TINs](http://www.3d4em.nl), the [validation and the automatic repair of polygons and polyhedra as found in GIS](http://geovalidation.bk.tudelft.nl), the [higher-dimensional modelling of geographical information](http://3dgeoinfo.bk.tudelft.nl/projects/umnd/) (ie 4D+), and the [integration of IFC and 3D GIS](https://3d.bk.tudelft.nl/projects/geobim/).
 
-Teaching-wise, I am the responsible lecturer for the courses *Digital terrain modelling* ([GEO1015](https://3d.bk.tudelft.nl/courses/geo1015/)) and *Geo-datasets and data quality* in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft.
+Teaching-wise, I am the responsible lecturer for the courses *Digital terrain modelling* ([course is open](https://3d.bk.tudelft.nl/courses/geo1015/)) and *Geo-datasets and data quality* in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft.
 For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [rasterio](https://github.com/mapbox/rasterio), [Shapely](https://github.com/Toblerity/Shapely), etc.
 
 - - -
