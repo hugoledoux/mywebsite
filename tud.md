@@ -1,7 +1,6 @@
-
 ---
 layout: page
-title: tud redirect
+title: tud-redirect
 permalink: /tud/
 ---
 
