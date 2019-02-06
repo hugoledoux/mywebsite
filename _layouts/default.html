@@ -19,10 +19,10 @@
         <br>
         {% assign pages_list = site.pages | sort:"url" %}
         {% for node in pages_list %}
-          {% if node.title != null %}
+          {% if node.title != 'tud-redirect' %}
             {% if node.layout == "page" %}
               <span><a class="linx" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a> 
-              {% if forloop.rindex > 1 %}
+              {% if forloop.rindex > 2 %}
               &bull; </span>
               {% endif %}
             {% endif %}
