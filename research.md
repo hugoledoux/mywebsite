@@ -25,7 +25,7 @@ The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, w
 CityJSON aims at being easy-to-use, both for reading datasets, and for creating them. 
 It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
 
-<a href="https://www.cityjson.org"><i class="fa fa-external-link"></i> CityJSON website</a>
+<a href="https://cityjson.org"><i class="fa fa-external-link"></i> CityJSON website</a>
 
 <a href="https://github.com/tudelft3d/cjio"><i class="fa fa-external-link"></i> cjio: Python CLI to process and manipulate CityJSON files</a>
 
