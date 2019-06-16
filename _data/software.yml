@@ -1,30 +1,10 @@
 
-# - name: cjio
-#   description: "Python CLI to process and manipulate CityJSON files"
-#   url: https://github.com/tudelft3d/cjio
-#   image: cjio.png
-  
-- name: val3dity
-  description: Geometric validation of 3D primitives according to ISO 19107
-  url: http://geovalidation.bk.tudelft.nl/val3dity
-  image: val3dity.png
 
-- name: 3dfier
-  description: "Takes 2D GIS datasets and '3dfies' them by lifting each polygon to its height (obtained with LiDAR)"
-  url: https://github.com/tudelft3d/3dfier
-  image: 3dfier.png
-
-- name: pprepair
-  description: Planar partition repair. It ensures that a set of polygons form a valid planar partition, made of valid polygons and having no gaps or overlaps.
-  url: https://github.com/tudelft3d/pprepair
-  image: pprepair.png
-
-- name: prepair
-  description: Automatic repair of GIS polygons according to the OGC Simple Features and ISO 19107 rules.
-  url: https://github.com/tudelft3d/prepair
-  image: prepair.png
-
-- name: CityJSON
-  description: JSON-based implementation of CityGML, easy-to-use and compact
-  url: http://www.cityjson.org
-  image: cityjson-logo.jpg
+- tudelft3d/val3dity
+- tudelft3d/cityjson
+- tudelft3d/cjio
+- tudelft3d/3dfier
+- tudelft3d/prepair
+- tudelft3d/pprepair
+- hugoledoux/startin
+- hugoledoux/startin_python

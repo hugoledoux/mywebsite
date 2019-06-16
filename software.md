@@ -12,16 +12,11 @@ Most of the software I write is available under a permissive licence. Here are l
 <i class="fa fa-exclamation-circle" aria-hidden="true"></i> My <a href="http://www.onlinemagazine.library.tudelft.nl/?p=2060">open-source efforts have been featured in the TU Delft library magazine</a> as a best practice for researchers.
 </div>
 
-{% assign s = site.data.software | sort: 'name' %}
 
-<div class="grid">
-  {% for i in s %}
-  <div class="unit one-third">
-    <a href="{{ i.url }}" title="{{ i.description }}">
-    <img src="{{ "/img/software/" | append: i.image | prepend: site.baseurl }}"/>
-    <p>{{ i.name }}</p>
-    </a>
-  </div>
-  {% endfor %}
-</div>
+{% assign s = site.data.software | sort %}
+
+{% for i in s %}
+  <a href="https://github.com/{{ i }}"><img src="https://gh-card.dev/repos/{{ i }}.svg"></a>
+{% endfor %}
+
 
