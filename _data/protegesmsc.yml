@@ -1,4 +1,21 @@
 
+- surname: Bouzas
+  name: Vasileios
+  title: "Structure-aware building mesh simplification"
+  url:  http://resolver.tudelft.nl/uuid:a0faf1a6-9815-4828-9186-a4a16119c71c
+  year: 2019
+
+- surname: Qu
+  name: Wang
+  title: "3D breakline extraction from point clouds with the medial axis transform"
+  url:  http://resolver.tudelft.nl/uuid:ba8e4bf4-e473-410b-a1f0-ef48e9c2fbf3
+  year: 2019
+
+- surname: Tzounakos
+  name: Nikos
+  title: "Robust interior: Exterior classification for 3D models"
+  url:  http://resolver.tudelft.nl/uuid:9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b
+  year: 2019
 
 - surname: Griffioen
   name: Simon
