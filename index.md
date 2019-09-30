@@ -17,9 +17,9 @@ Put simply, I often try to solve geographical problems---either in 2D or in 3D--
 My work involves developing topological data structures to store these tessellations, and designing algorithms to analyse and extract information from the datasets. 
 I strongly believe in implementing my research ideas, the source code of my projects is freely available under open-source licences (on [GitHub](https://github.com/tudelft3d)).
 
-I am currently working, among others, on [making CityGML better](https://www.cityjson.org), on the [storage and the analysis of massive TINs](http://www.3d4em.nl), the [validation and the automatic repair of polygons and polyhedra as found in GIS](http://geovalidation.bk.tudelft.nl), the [higher-dimensional modelling of geographical information](http://3dgeoinfo.bk.tudelft.nl/projects/umnd/) (ie 4D+), and the [integration of IFC and 3D GIS](https://3d.bk.tudelft.nl/projects/geobim/).
+I am currently working, among others, on storing efficiently 3D city models with [CityJSON](https://www.cityjson.org), on the [storage and the analysis of massive TINs](http://www.3d4em.nl), the [validation and the automatic repair of polygons and polyhedra as found in GIS](http://geovalidation.bk.tudelft.nl), the [higher-dimensional modelling of geographical information](http://3dgeoinfo.bk.tudelft.nl/projects/umnd/) (ie 4D+), and the [integration of IFC and 3D GIS](https://3d.bk.tudelft.nl/projects/geobim/).
 
-Teaching-wise, I am the responsible lecturer for the courses *Digital terrain modelling* ([course is open](https://3d.bk.tudelft.nl/courses/geo1015/)) and *Geo-datasets and data quality* in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft.
+Teaching-wise, I am the responsible lecturer for the course *Digital terrain modelling* ([course is open](https://3d.bk.tudelft.nl/courses/geo1015/)) in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft.
 For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [rasterio](https://github.com/mapbox/rasterio), [Shapely](https://github.com/Toblerity/Shapely), etc.
 
 - - -
