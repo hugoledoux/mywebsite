@@ -62,6 +62,6 @@ L.CRS.proj4js = (function () {
                 center: new L.LatLng(52.004713,4.370334),
                 zoom: 10
             });
-            var marker = L.marker([52.004713,4.370334]).addTo(map);
-            marker.bindPopup("<b>Faculty of the Built Environment & Architecture<br>Julianalaan 134, 2628BL Delft</b><br>my office (Room BG.West.010) is roughly where the arrow is, on the ground floor").openPopup();
+            var marker = L.marker([52.00560,4.36981]).addTo(map);
+            marker.bindPopup("<b>Faculty of the Built Environment & Architecture<br>Julianalaan 134, 2628BL Delft</b><br>my office is BG.West.550").openPopup();
 

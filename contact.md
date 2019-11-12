@@ -16,7 +16,7 @@ permalink: /contact/
   </div>
   <div class="unit half">
     <ul class="fa-ul">
-      <li><i class="fa-li fa fa-map-marker"></i>Room BG.West.010</li>
+      <li><i class="fa-li fa fa-map-marker"></i>Room BG.West.550</li>
       <li><i></i>Faculty of the Built Environment & Architecture</li>
       <li><i></i>(building #8)</li>
       <li><i></i>Delft University of Technology</li>
