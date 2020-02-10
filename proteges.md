@@ -13,9 +13,6 @@ permalink: /proteges/
 [**GAO Weixiao**](https://3d.bk.tudelft.nl/weixiao) (2017--now)<br>
 Automatic generation of semantic 3D city models from 3D textured meshes
 
-[**Bob Heester**](https://3d.bk.tudelft.nl/bheester/) (2017--now)<br>
-Integration of GIS and BIM through blockchain technology
-
 [**Anna Labetski**](https://3d.bk.tudelft.nl/alabetski) (2016--now)<br>
 Generalisation of 3D city models
 
