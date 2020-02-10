@@ -1,23 +1,21 @@
 import os
-import StringIO
 import datetime
 
 
 def write_pubs():
-  s = StringIO.StringIO()
+  s = ""
   header = "---\nlayout: page\ntitle: publications\npermalink: /pubs/\n---\n\n"
-  print >>s, header
+  s += header
   update = '<h1>Publications</h1>\n<span class="post-date">(last update: %s)</span>' % (datetime.date.today().isoformat())
-  print >>s, update
+  s += update
   toc = gettoc()
   warning = getwarning()
-  print >>s, warning
-  print >>s, toc
-  print >>s, "\n{% raw %}"
-
+  s += warning
+  s += toc
+  s += "\n{% raw %}"
   f = open('pubs.html')
-  print >>s, f.read()
-  print >>s, '{% endraw %}'
+  s += f.read()
+  s += '{% endraw %}'
   os.remove('pubs.html')
   return s 
 
@@ -44,15 +42,14 @@ def getwarning():
 
 def gettoc():    
     s = "\n|"
-    for year in reversed(range(2003, 2020)):
+    for year in reversed(range(2003, 2021)):
         s += ' <a href="#%s">%s</a> |' % (year, year)
     return s
 
 os.chdir("./_pubs/")
 os.system("php go.php > pubs.html")
 s = write_pubs()
-# print s.getvalue()
 f = open("../pubs.html", 'w')
-f.write(s.getvalue())
+f.write(s)
 f.close()
 
