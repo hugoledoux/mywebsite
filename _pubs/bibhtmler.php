@@ -505,6 +505,7 @@ class bibhtmler {
 			// if (array_key_exists('poster', $in)) $out .= ' <a href="'.$this->processtext($in['poster']).'"><i class="icon-picture"></i> '.$this->localisedtext[$this->options['lang']]['Poster'].'</a>';
 			// if (array_key_exists('slides', $in)) $out .= ' <a href="'.$this->processtext($in['slides']).'"><i class="icon-picture"></i></a>';
 			// if (array_key_exists('doi', $in)) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="fa fa-external-link"></i></a>';
+			if (array_key_exists('video', $in)) $out .= ' <a href="'.$this->processtext($in['video']).'"><i class="fa fa-youtube-play"></i></a>';
 			if (array_key_exists('repository', $in)) $out .= ' <a href="'.$this->processtext($in['repository']).'"><i class="fa fa-github"></i></a>';
 			if (array_key_exists('url', $in)) $out .= ' <a href="'.$this->processtext($in['url']).'"><i class="fa fa-external-link"></i></a>';
 			if (array_key_exists('doi', $in) and (array_key_exists('oa', $in) == FALSE) ) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="fa fa-bookmark"></i></a>';
