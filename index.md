@@ -17,9 +17,9 @@ Put simply, I often try to solve geographical problems---either in 2D or in 3D--
 My work involves developing topological data structures to store these tessellations, and designing algorithms to analyse and extract information from the datasets. 
 I strongly believe in implementing my research ideas, the source code of my projects is freely available under open-source licences ([overview of my project]({{ site.baseurl }}/software)).
 
-I am currently working, among others, on storing efficiently 3D city models with [CityJSON](https://www.cityjson.org), on the [storage and the analysis of massive TINs](http://www.3d4em.nl), the [validation and the automatic repair of polygons and polyhedra as found in GIS](http://geovalidation.bk.tudelft.nl), the semantic classification of textures meshes, and the [higher-dimensional modelling of geographical information](http://3dgeoinfo.bk.tudelft.nl/projects/umnd/) (ie 4D+).
+I am currently working, among others, on storing efficiently 3D city models with [CityJSON](https://www.cityjson.org), on the [storage and the analysis of massive TINs](http://www.3d4em.nl), the [validation and the automatic repair of polygons and polyhedra as found in GIS](http://geovalidation.bk.tudelft.nl), the [semantic classification of textures meshes](https://3d.bk.tudelft.nl/projects/mesh2lod/), and the [higher-dimensional modelling of geographical information](http://3dgeoinfo.bk.tudelft.nl/projects/umnd/) (ie 4D+).
 
-Teaching-wise, I am the in the courses [*Digital terrain modelling*](https://3d.bk.tudelft.nl/courses/geo1015/) and [*3D modelling of the built environments*](https://3d.bk.tudelft.nl/courses/geo1004/) (both courses are open, with YouTube videos and a book) in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft.
+Teaching-wise, I am involved in the courses [*Digital terrain modelling*](https://3d.bk.tudelft.nl/courses/geo1015/) and [*3D modelling of the built environments*](https://3d.bk.tudelft.nl/courses/geo1004/) (both courses are open, with YouTube videos and open-access books) in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft.
 For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [rasterio](https://github.com/mapbox/rasterio), [Shapely](https://github.com/Toblerity/Shapely), etc.
 
 - - -
