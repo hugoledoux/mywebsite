@@ -9,6 +9,8 @@ permalink: /proteges/
 
 ## PhD students
 
+[**Ivan Pađen**](https://3d.bk.tudelft.nl/ipaden/) (2020--now)<br>
+Automation of urban flow simulations with 3D city models
 
 [**GAO Weixiao**](https://3d.bk.tudelft.nl/weixiao) (2017--now)<br>
 Automatic generation of semantic 3D city models from 3D textured meshes
