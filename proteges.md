@@ -20,19 +20,23 @@ Generalisation of 3D city models
 
 [**Kavisha**](https://3d.bk.tudelft.nl/kavisha) (2015--now)
 <span class="label label">defense on 2020/10/14</span><br>
-[Storage and dissemination of massive 3D city models](http://www.3d4em.nl/rl2/)
+[Storage and dissemination of massive 3D city models](http://www.3d4em.nl/rl2/)<br>
+([now software engineer at ASML](https://www.asml.com))
 
 [**Ravi Peters**](http://3d.bk.tudelft.nl/rypeters) (2013--2018)
 <span class="label label">defended 2018/03/14</span><br> 
-[Geographical point cloud modelling with the 3D medial axis transform](http://dx.doi.org/10.4233/uuid:f3a5f5af-ea54-40ba-8702-e193a087f243)
+[Geographical point cloud modelling with the 3D medial axis transform](http://dx.doi.org/10.4233/uuid:f3a5f5af-ea54-40ba-8702-e193a087f243)<br>
+([now postdoc at TU Delft](https://3d.bk.tudelft.nl/rypeters))
 
 [**Filip Biljecki**](https://filipbiljecki.com/) (2012--2017)
 <span class="label label">defended 2017/05/01</span><br> 
-[Level of detail in 3D city models](http://doi.org/b463)
+[Level of detail in 3D city models](http://doi.org/b463)<br>
+([now assistant-prof at NUS](https://filipbiljecki.com/))
 
 [**Ken Arroyo Ohori**](http://3d.bk.tudelft.nl/ken) (2011--2016) 
 <span class="label label">defended 2016/04/06</span><br> 
-[Higher-dimensional modelling of geographic information](https://3d.bk.tudelft.nl/ken/en/thesis/)
+[Higher-dimensional modelling of geographic information](https://3d.bk.tudelft.nl/ken/en/thesis/)<br>
+([now postdoc at TU Delft](https://3d.bk.tudelft.nl/ken))
 
 - - -
 
