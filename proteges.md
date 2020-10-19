@@ -19,8 +19,8 @@ Automatic generation of semantic 3D city models from 3D textured meshes
 Generalisation of 3D city models
 
 [**Kavisha**](https://3d.bk.tudelft.nl/kavisha) (2015--now)
-<span class="label label">defense on 2020/10/14</span><br>
-[Storage and dissemination of massive 3D city models](http://www.3d4em.nl/rl2/)<br>
+<span class="label label">defended on 2020/10/14</span><br>
+[Modelling and managing massive 3D data of the built environment](https://doi.org/10.4233/uuid:47218911-c93d-4295-a3de-231d023c1743)<br>
 ([now software engineer at ASML](https://www.asml.com))
 
 [**Ravi Peters**](http://3d.bk.tudelft.nl/rypeters) (2013--2018)
