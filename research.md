@@ -100,5 +100,9 @@ We investigate, design and develop new data structures, implement them, and comp
 
 ## Some older research projects 
 
+  - [iNous: Building an Eco-System for Indoor Spatial Information](https://3d.bk.tudelft.nl/projects/inous/)
+  - [Automatic generation of semantic 3D city models from 3D textured meshes](https://3d.bk.tudelft.nl/projects/mesh2lod/)
+  - [5D geo-modelling](https://3d.bk.tudelft.nl/projects/geo5d/)
+  - [Automatic reconstruction of simulation-ready 3D city models](https://3d.bk.tudelft.nl/projects/simwind/)
   - [FieldGML]({{ site.baseurl }}/fieldgml): a GML-based representation for fields in 2D and 3D, my attempt at improving [ISO19123, the standard for coverages](http://www.iso.org/iso/catalogue_detail.htm?csnumber=40121)
   - [Modelling geoscientific data with the 3D Voronoi diagram]({{ site.baseurl }}/phdthesis): my PhD thesis on the topic.
