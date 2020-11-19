@@ -1,4 +1,11 @@
 
+- surname: Mastorakis
+  name:  Konstantinos
+  title: "An integrative workflow for 3D city model versioning"
+  github: https://github.com/cityjson/Up3date
+  url: http://resolver.tudelft.nl/uuid:a7f7f0c8-7a34-454e-973a-d55f5b8b0dfe
+  year: 2020
+
 - surname: van Liempt
   name:  Jordi
   title: "CityJSON: does (file) size matter?"
