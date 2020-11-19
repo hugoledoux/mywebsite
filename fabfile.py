@@ -12,7 +12,7 @@ def bibtex():
 
 
 def deploy():
-    local("bundle exec jekyll build")
+    local("jekyll build")
     remotedir = '/var/www/people/hledoux/site/'
     rsync_project(local_dir='./_site/', 
                   remote_dir=remotedir,
