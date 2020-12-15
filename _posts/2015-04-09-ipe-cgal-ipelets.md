@@ -6,7 +6,7 @@ category: blog
 comments: true
 ---
 
-*Update 2018-07-19:* this doesn't work anymore, go to the [new updated page]({{ site.url }}{{ site.baseurl }}{% post_url 2018-07-19-ipe-cgal-ipelets_part_deux %}).
+*Update 2018-07-19:* this doesn't work anymore, go to the [new updated page]({% post_url 2018-07-19-ipe-cgal-ipelets_part_deux %}).
 
 - - -
 
