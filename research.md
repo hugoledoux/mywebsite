@@ -94,7 +94,7 @@ The [existing open-source database solutions](http://www.3dcitydb.org) for manag
 The biggest challenge is the management of massive TINs (triangulated irregular networks) in a database.
 We investigate, design and develop new data structures, implement them, and compare different alternatives (in terms of storage space, query time, etc).
 
-<a href="https://www.3d4em.nl"><i class="fa fa-external-link"></i> Project website</a>
+<a href="https://3d4em.netlify.app/"><i class="fa fa-external-link"></i> Project website</a>
 
 - - - 
 
