@@ -1,8 +1,8 @@
 
 
 - tudelft3d/val3dity
-- tudelft3d/cityjson
-- tudelft3d/cjio
+- cityjson/specs
+- cityjson/cjio
 - tudelft3d/3dfier
 - tudelft3d/prepair
 - tudelft3d/pprepair
