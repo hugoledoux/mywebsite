@@ -18,7 +18,7 @@ Automatic generation of semantic 3D city models from 3D textured meshes
 [**Anna Labetski**](https://3d.bk.tudelft.nl/alabetski) (2016--now)<br>
 Generalisation of 3D city models
 
-[**Kavisha**](https://3d.bk.tudelft.nl/kavisha) (2015--now)
+[**Kavisha**](https://3d.bk.tudelft.nl/kavisha) (2015--2020)
 <span class="label label">defended on 2020/10/14</span><br>
 [Modelling and managing massive 3D data of the built environment](https://doi.org/10.4233/uuid:47218911-c93d-4295-a3de-231d023c1743)<br>
 ([now software engineer at ASML](https://www.asml.com))
