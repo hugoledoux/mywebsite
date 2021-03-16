@@ -1,4 +1,12 @@
 
+- surname: Vogiatzis
+  name:  Anastasios
+  title: "Automated railway object mapping using imagery and point clouds"
+  github: https://github.com/cityjson/Up3date
+  url: http://resolver.tudelft.nl/uuid:ddba89ed-61cd-478a-8f07-8e2bccdfb403
+  year: 2021
+
+
 - surname: Mastorakis
   name:  Konstantinos
   title: "An integrative workflow for 3D city model versioning"
