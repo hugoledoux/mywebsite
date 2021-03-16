@@ -1,0 +1,53 @@
+
+- surname: Nail
+  name:  Ibrahimli
+  title: "Learning-based 3D reconstruction of urban objects"
+  period: 2020@now
+  homepage: https://3d.bk.tudelft.nl/nibrahimli/
+
+- surname: Pađen
+  name:  Ivan
+  title: "Automation of urban flow simulations with 3D city models"
+  period: 2020@now
+  homepage: https://3d.bk.tudelft.nl/ipaden
+
+- surname: Gao
+  name:  Weixiao
+  title: "Automatic generation of semantic 3D city models from 3D textured meshes"
+  period: 2017@now
+  homepage: https://3d.bk.tudelft.nl/weixiao
+
+- surname: Labetski
+  name:  Anna
+  title: "A Framework for Application-Driven Modelling of Buildings and Roads in 3D City Models"
+  period: 2016@now
+  homepage: https://3d.bk.tudelft.nl/alabetski
+
+- surname: Kavisha
+  title: "Modelling and managing massive 3D data of the built environment"
+  thesis: https://doi.org/10.4233/uuid:47218911-c93d-4295-a3de-231d023c1743
+  period: 2015@2020
+  # homepage: https://3d.bk.tudelft.nl
+  now: "[dev at ASML](https://asml.com)"
+
+- surname: Peters
+  name: Ravi
+  title: "Geographical point cloud modelling with the 3D medial axis transform"
+  thesis: http://dx.doi.org/10.4233/uuid:f3a5f5af-ea54-40ba-8702-e193a087f243
+  period: 2013@2018
+  # homepage: https://3d.bk.tudelft.nl
+  now: "[postdoc at TUDelft](https://3d.bk.tudelft.nl/rypeters)"
+
+- surname: Biljecki
+  name: Filip
+  title: "Level of detail in 3D city models"
+  thesis: http://doi.org/b463
+  period: 2012@2017
+  now: "[ass-prof at NUS](https://filipbiljecki.com/)"
+
+- surname: Arroyo Ohori
+  name: Ken
+  title: "Higher-dimensional modelling of geographic information"
+  thesis: https://3d.bk.tudelft.nl/ken/en/thesis/
+  period: 2011@2016
+  now: "[postdoc at TUDelft](https://3d.bk.tudelft.nl/ken)"
