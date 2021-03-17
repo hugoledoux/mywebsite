@@ -9,7 +9,7 @@ permalink: /contact/
     <ul class="fa-ul">
       <li><i class="fa-li fa fa-envelope"></i>h.ledoux@tudelft.nl</li>
       <li><i class="fa-li fa fa-phone"></i>+31 15 27 86114</li>
-      <li><i class="fa-li fa fa-home"></i><a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a></li>
+      <li><i class="fa-li fa fa-home"></i><a href="https://3d.bk.tudelft.nl/hledoux">tudelft.nl/hledoux</a></li>
       <li><i class="fa-li fa fa-twitter"></i><a href="https://twitter.com/hugoledoux">hugoledoux</a></li>
       <li><i class="fa-li fa fa-github"></i><a href="https://github.com/hugoledoux">hugoledoux</a></li>
     </ul>

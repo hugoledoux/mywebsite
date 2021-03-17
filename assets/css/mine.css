@@ -225,12 +225,14 @@ pre.bibtex {
     border-radius: 3px;
 }
 .label.success {
-    background-color: #F19A08;
+    background-color: #13bb06;
 }
 .label.warning {
     background-color: #EA9E3E;
 }
-
+.label.info {
+    background-color: #c1c1c1;
+}
 
 /* bleu colour */
 .theme-base-bleu .sidebar,

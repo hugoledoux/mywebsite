@@ -98,7 +98,7 @@ We investigate, design and develop new data structures, implement them, and comp
 
 - - - 
 
-## Some older research projects 
+## Some other research projects (some finished, some not)
 
   - [iNous: Building an Eco-System for Indoor Spatial Information](https://3d.bk.tudelft.nl/projects/inous/)
   - [Automatic generation of semantic 3D city models from 3D textured meshes](https://3d.bk.tudelft.nl/projects/mesh2lod/)
