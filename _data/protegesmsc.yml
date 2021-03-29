@@ -2,10 +2,8 @@
 - surname: Vogiatzis
   name:  Anastasios
   title: "Automated railway object mapping using imagery and point clouds"
-  github: https://github.com/cityjson/Up3date
   url: http://resolver.tudelft.nl/uuid:ddba89ed-61cd-478a-8f07-8e2bccdfb403
   year: 2021
-
 
 - surname: Mastorakis
   name:  Konstantinos
@@ -44,6 +42,7 @@
   name: Vasileios
   title: "Structure-aware building mesh simplification"
   url:  http://resolver.tudelft.nl/uuid:a0faf1a6-9815-4828-9186-a4a16119c71c
+  paper: https://doi.org/10.1016/j.isprsjprs.2020.07.010
   year: 2019
 
 - surname: Qu
@@ -98,6 +97,7 @@
   name: Tom 
   title: Automatic identification of water courses from AHN3 in flat and engineered landscapes
   url: http://resolver.tudelft.nl/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
+  paper: http://dx.doi.org/10.1016/j.cageo.2017.06.003
   year: 2016
 
 - surname: Jonker
@@ -135,8 +135,10 @@
 - surname: Peters
   name: Ravi 
   year: 2012
+  note: "[Hydrographic Society Benelux best MSc thesis 2012!](https://www.hydro-international.com/content/article/hydrographic-society-benelux-51?output=pdf)"
   title: A Voronoi- and surface-based approach for the automatic generation of depth-contours for hydrographic charts
-  url : http://resolver.tudelft.nl/uuid:5977a99b-0875-44b4-abe1-09288bf2aed1
+  url: http://resolver.tudelft.nl/uuid:5977a99b-0875-44b4-abe1-09288bf2aed1
+  paper: http://dx.doi.org/10.1080/01490419.2014.902882
 
 - surname: Nedkov
   name: Simeon 
@@ -161,12 +163,14 @@
   year: 2010
   title: Validation and Automatic Repair of Planar Partitions using a Constrained Triangulation
   url : http://resolver.tudelft.nl/uuid:78807acb-4115-478c-93de-68b9db884c8e
+  paper: http://dx.doi.org/10.1016/j.cageo.2014.01.009
 
 - surname: Biljecki
   name: Filip 
   year: 2010
   title: Automatic segmentation and classification of movement trajectories for transportation modes
   url : http://resolver.tudelft.nl/uuid:654587d2-6e93-4619-ab9a-29d95f843f35
+  paper: http://dx.doi.org/10.1080/13658816.2012.692791
 
 - surname: Putte
   name: Tom
@@ -174,3 +178,4 @@
   year: 2009
   title: Using the discrete 3D Voronoi diagram for the modelling of 3D continuous information in geosciences
   url : http://resolver.tudelft.nl/uuid:b35ad433-067a-4b20-8067-e18a2de76490
+  paper: https://3d.bk.tudelft.nl/hledoux/pdfs/10_3dgeoinfo.pdf
