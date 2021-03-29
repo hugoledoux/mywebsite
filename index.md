@@ -15,7 +15,7 @@ I hold a [PhD]({{ site.baseurl }}/phdthesis) in computer science from the [Unive
 For my research, I am particularly interested in combining the fields of GIS and computational geometry. 
 Put simply, I often try to solve geographical problems---either in 2D or in 3D---by first decomposing the world into triangles/tetrahedra or into another tessellation such as the Voronoi diagram. 
 My work involves developing topological data structures to store these tessellations, and designing algorithms to analyse and extract information from the datasets. 
-I strongly believe in implementing my research ideas, the source code of my projects is freely available under open-source licences ([overview of my project]({{ site.baseurl }}/software)).
+I strongly believe in implementing my research ideas, the source code of my projects is freely available under open-source licences ([overview of my projects]({{ site.baseurl }}/software)).
 
 I am on the editorial board of two new journals that promote open source software: [The Journal of Open Source Software (JOSS)](https://joss.theoj.org/) and [Open Geospatial Data, Software and Standards](https://opengeospatialdata.springeropen.com/).
 
