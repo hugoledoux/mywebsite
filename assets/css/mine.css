@@ -231,8 +231,12 @@ pre.bibtex {
     background-color: #EA9E3E;
 }
 .label.info {
-    background-color: #c1c1c1;
+    background-color: #d3d3d3;
 }
+.label.note {
+    background-color: #33fffc;
+}
+
 
 /* bleu colour */
 .theme-base-bleu .sidebar,
