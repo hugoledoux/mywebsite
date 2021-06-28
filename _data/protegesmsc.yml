@@ -3,6 +3,7 @@
   name:  Camille
   title: "Automatic reconstruction of 3D city models from historical maps"
   url: http://resolver.tudelft.nl/uuid:0889e498-cdd6-4a19-bbcb-d3fb189560e1
+  github: https://github.com/CamilleMorlighem/histo3d
   year: 2021
 
 - surname: Vogiatzis
