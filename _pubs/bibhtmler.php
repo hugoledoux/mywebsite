@@ -510,7 +510,7 @@ class bibhtmler {
 			if (array_key_exists('url', $in)) $out .= ' <a href="'.$this->processtext($in['url']).'"><i class="fa fa-external-link"></i></a>';
 			if (array_key_exists('doi', $in) and (array_key_exists('oa', $in) == FALSE) ) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="fa fa-bookmark"></i></a>';
 			$out .= ' <a href="#bib'.$in['key'].'" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a>';
-			if (array_key_exists('info', $in)) $out .= '<span class="label success">'.trim($in['info'], '{}').'</span>';
+			if (array_key_exists('info', $in)) $out .= '<span class="label info">'.trim($in['info'], '{}').'</span>';
 			$out .= '<div id="bib'.$in['key'].'" class="collapse"  tabindex="-1"><pre class="bibtex">'.$this->getbibtex($in)."</pre></div>";
 		}
 	

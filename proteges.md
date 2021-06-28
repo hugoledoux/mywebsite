@@ -18,7 +18,7 @@ permalink: /proteges/
 {% if i.thesis %} 
   <span class="label success">{{ i.period }}</span>
 {% else %}
-  <span class="label label">{{ i.period }}</span>
+  <span class="label success">{{ i.period }}</span>
 {% endif %}
 {% if i.now %} 
   <span class="label info">now {{ i.now | markdownify | remove: '<p>' | remove: '</p>' }}</span>

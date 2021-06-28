@@ -225,16 +225,16 @@ pre.bibtex {
     border-radius: 3px;
 }
 .label.success {
-    background-color: #13bb06;
+    background-color: #1290d1;
 }
 .label.warning {
-    background-color: #EA9E3E;
+    background-color: #da8d63;
 }
 .label.info {
-    background-color: #d3d3d3;
+    background-color: #feb13e;
 }
 .label.note {
-    background-color: #33fffc;
+    background-color: #feb13e;
 }
 
 
