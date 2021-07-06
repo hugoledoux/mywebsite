@@ -1,3 +1,4 @@
 _site
 fabfile.pyc
 .jekyll-metadata
+.jekyll-cache
