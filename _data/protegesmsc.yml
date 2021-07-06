@@ -1,4 +1,18 @@
 
+- surname: de Jong
+  name: Maarten
+  title: Simplification of massive TINs with the streaming geometries paradigm
+  url: http://resolver.tudelft.nl/uuid:e7df1d5a-8819-40aa-a3d1-1f6d50b8a39e
+  github: https://github.com/mdjong1/simpliPy/
+  year: 2021
+
+- surname: Li
+  name: Xiaoai
+  title: 'CityREST: CityJSON in a database + RESTful access'
+  url: http://resolver.tudelft.nl/uuid:e6bb2142-c113-4add-a466-41bf0fea3b11
+  github: https://github.com/xiaoai-li/api_cityjson
+  year: 2021
+
 - surname: Morlighem
   name:  Camille
   title: "Automatic reconstruction of 3D city models from historical maps"
