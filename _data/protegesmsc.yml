@@ -1,4 +1,11 @@
 
+- surname: Roy
+  name: Ellie
+  title: Inferring the number of floors of building footprints in the Netherlands
+  url: http://resolver.tudelft.nl/uuid:6de4255c-ab2b-49c2-a282-ed779de092a1
+  github: https://github.com/ellieroy/no-floors-inference-NL
+  year: 2022
+
 - surname: de Jong
   name: Maarten
   title: Simplification of massive TINs with the streaming geometries paradigm
