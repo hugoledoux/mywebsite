@@ -606,8 +606,13 @@ class bibhtmler {
 			'ň',
 			'&'
 		);
-		$out = trim(preg_replace('/[{}]/', '', $in), ' ');
-		$out = htmlentities(preg_replace($patterns, $replacements, $out), ENT_COMPAT, 'UTF-8');
+		if ($in == NULL) {
+			$out = '';
+			// $out = htmlentities(preg_replace($patterns, $replacements, $out), ENT_COMPAT, 'UTF-8');
+		} else {
+			$out = trim(preg_replace('/[{}]/', '', $in), ' ');
+			$out = htmlentities(preg_replace($patterns, $replacements, $out), ENT_COMPAT, 'UTF-8');
+		}
 		return $out;
 	}
 	
@@ -643,8 +648,14 @@ class bibhtmler {
 			} 
 			
 			// Use keys for sorting
-			if ($this->options['order'] == 'inversechronological' or $this->options['order'] = 'chronological')
-				$docs[$newdoc['year'].$this->monthssortingorder[strtolower(preg_replace('/[{} ]/', '', $newdoc['month']))].$newdoc['key']] = $newdoc;
+			if ($this->options['order'] == 'inversechronological' or $this->options['order'] = 'chronological') {
+				// if ($newdoc['month'] == NULL) {
+				if (in_array('month', $newdoc) == false) {
+					$docs[$newdoc['year'].$this->monthssortingorder[strtolower(preg_replace('/[{} ]/', '', ''))].$newdoc['key']] = $newdoc;
+				} else {
+					$docs[$newdoc['year'].$this->monthssortingorder[strtolower(preg_replace('/[{} ]/', '', $newdoc['month']))].$newdoc['key']] = $newdoc;
+				}
+			}
 			if ($this->options['order'] == 'class')
 				$docs[$newdoc['class']] = $newdoc;
 		}
