@@ -7,12 +7,13 @@ jekyll serve --draft --baseurl ''
 
 to push to server
 ```
-fab deploy
+./deploy.sh
+./deploy_pdfs.sh
 ```
 
-to push PDFs to server (different folder)
+Update pub
 ```
-fab sync_pdfs
+python ./_pubs/buildpubs.py
 ```
 
 

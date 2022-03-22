@@ -23,11 +23,11 @@
   period: 2017@now
   homepage: https://3d.bk.tudelft.nl/weixiao
 
-- surname: Labetski
-  name:  Anna
-  title: "A Framework for Application-Driven Modelling of Buildings and Roads in 3D City Models"
-  period: 2016@now
-  homepage: https://3d.bk.tudelft.nl/alabetski
+# - surname: Labetski
+#   name:  Anna
+#   title: "A Framework for Application-Driven Modelling of Buildings and Roads in 3D City Models"
+#   period: 2016@now
+#   homepage: https://3d.bk.tudelft.nl/alabetski
 
 - surname: Kavisha
   title: "Modelling and managing massive 3D data of the built environment"
