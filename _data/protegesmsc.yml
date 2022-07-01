@@ -1,4 +1,18 @@
 
+- surname: Wu
+  name: Ziyan
+  title: "Estimating building height from ICESat-2 data: The case of the Netherlands"
+  github: https://github.com/Ziyan-Wu/master_thesis2022
+  url: http://resolver.tudelft.nl/uuid:bb13b322-1ad8-48d1-9baf-89f539e18adf
+  year: 2022
+
+- surname: Langhorst
+  name: Lars
+  title: Predicting sedimentation in Lake Alajuela
+  github: https://github.com/LMarinusL/MorphologyPredictor
+  # url: https://3d.bk.tudelft.nl/ken/files/22_lars.pdf
+  year: 2022  
+
 - surname: Roy
   name: Ellie
   title: Inferring the number of floors of building footprints in the Netherlands
