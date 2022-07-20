@@ -20,8 +20,8 @@ I would charasterise my research as an equal mix of:
 
 ![]({{ site.baseurl }}/img/cityjson.jpg)
 
-CityJSON is a format for encoding a subset of the CityGML data model (version 2.0.0) using JavaScript Object Notation (JSON). A CityJSON file represents both the geometry and the semantics of the city features of a given area, eg buildings, roads, rivers, the vegetation, and the city furniture.
-The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose, complex, and thus rather frustrating to work with. 
+CityJSON is a format for encoding a subset of the CityGML data model using JavaScript Object Notation (JSON). A CityJSON file represents both the geometry and the semantics of the city features of a given area, eg buildings, roads, rivers, the vegetation, and the city furniture.
+The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex, and thus rather frustrating to work with. 
 CityJSON aims at being easy-to-use, both for reading datasets, and for creating them. 
 It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
 
@@ -43,64 +43,25 @@ Some of these are also available as [web-applications](http://geovalidation.bk.t
 
 - - -
 
-## Higher-dimensional modelling of geoinformation
+## Segmentation of urban textured meshes
 
-![]({{ site.baseurl }}/img/geo5d.png)
+![]({{ site.baseurl }}/img/sum.jpg)
 
-The aim of the research project is to integrate the multi-dimensional characteristics of geographical data (eg space, time and scale), together in one higher-dimensional model. We develop data structures and operations to realise such a model, and we apply this model to the integration of CityGML models at different scales for instance.
+We develop (this is [Weixiao Gao](https://3d.bk.tudelft.nl/weixiao/) PhD project, which I supervise with [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)) algorithms and software to semantically segment very large urban textured meshes.
 
-<a href="https://3d.bk.tudelft.nl/projects/umnd/"><i class="fa fa-external-link"></i> Project website</a>
+We have annoted part of the open [Helsinki 3D dataset](https://www.hel.fi/helsinki/en/administration/information/general/3d/3d) and released it as open dataset ([code+dataset](https://3d.bk.tudelft.nl/projects/meshannotation/)).
 
-- - -
-
-## GeoBIM: Bridging the gap between Geo and BIM
-
-![]({{ site.baseurl }}/img/geobim.jpg)
-
-While there seems to be a natural integration between GIS and BIM/IFC models, the reality is rather different. 
-The disciplines of GIS and BIM are disconnected by their modelling paradigms, software tools and open standards.
-Our efforts are targeted at bulding software so that one can can convert IFC to CityGML, and vice-versa.
-
-<a href="https://3d.bk.tudelft.nl/projects/geobim/"><i class="fa fa-external-link"></i> Project website</a>
-
-- - -
-
-## Smart simplification of LiDAR datasets
-
-![]({{ site.baseurl }}/img/3dsm.jpg)
-
-The aim of this project, funded by the [Dutch Technology Foundation STW](http://www.stw.nl), is to investigate algorithms to simplify LiDAR datasets. 
-In recent years, these have considerably grown in size because of advances in acquisition technologies such as airborne laser-scanning. 
-A vivid example is the [AHN2 datasets](http://www.ahn.nl) in the Netherlands: it contains around 640 billion points (639,477,709,621 to be exact). 
-
-We reduce their size while keeping their main characteritics. 
-While current methods often portray DSMs as 2D objects (and thus valuable information is lost), we investigate new simplification algorithms that:
-
-  1. use 3D tools and 3D data structures, specificially the 3D medial axis transform (MAT);
-  2. permit us to define 3D features—buildings, dikes, etc—and consider these while simplifying. The knowledge of the features will permit us to remove unimportant points and focus only on those of interest for a given application.
-
-<a href="https://3d.bk.tudelft.nl/projects/3dsm/"><i class="fa fa-external-link"></i> Project website</a>
-
-
-- - -
-
-## Storage, update and dissemination of massive 3D city objects
-
-![]({{ site.baseurl }}/img/3d4em.png)
-
-The aim of this research project, also funded by the [Dutch Technology Foundation STW](http://www.stw.nl), is to investigate and develop methods to efficiently store and maintain 3DTOP10NL in a database, and to disseminate it to practitioners.
-The [existing open-source database solutions](http://www.3dcitydb.org) for managing 3D volumetric objects are being tested with massive datasets and improved, if necessary.
-
-The biggest challenge is the management of massive TINs (triangulated irregular networks) in a database.
-We investigate, design and develop new data structures, implement them, and compare different alternatives (in terms of storage space, query time, etc).
-
-<a href="https://3d4em.netlify.app/"><i class="fa fa-external-link"></i> Project website</a>
+Our methodology outperforms other segmentation methods, see our [paper](https://arxiv.org/abs/2202.03209).
 
 - - - 
 
-## Some other research projects (some finished, some not)
+## Some other research projects (completed)
 
+  - [UMnD: Urban modelling in higher dimensions](https://3d.bk.tudelft.nl/projects/umnd/)
   - [iNous: Building an Eco-System for Indoor Spatial Information](https://3d.bk.tudelft.nl/projects/inous/)
+  - [Point cloud modelling with the 3D MAT](https://3d.bk.tudelft.nl/projects/3dsm/)
+  - [3D4EM: Design and implementation of an SDI for integrated environmental modelling in 3D](https://3d4em.netlify.app/)
+  - [GeoBIM: Bridging the gap between Geo and BIM](https://3d.bk.tudelft.nl/projects/geobim/)
   - [Automatic generation of semantic 3D city models from 3D textured meshes](https://3d.bk.tudelft.nl/projects/mesh2lod/)
   - [5D geo-modelling](https://3d.bk.tudelft.nl/projects/geo5d/)
   - [Automatic reconstruction of simulation-ready 3D city models](https://3d.bk.tudelft.nl/projects/simwind/)
