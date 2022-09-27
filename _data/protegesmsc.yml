@@ -84,6 +84,7 @@
   name: Rob
   title: "Automatic construction of 3D tree models in multiple levels of detail from airborne LiDAR data "
   url:  http://resolver.tudelft.nl/uuid:3e169fc7-5336-4742-ab9b-18c158637cfe
+  github: https://github.com/RobbieG91/TreeConstruction
   year: 2020
 
 - surname: Bouzas
