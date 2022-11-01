@@ -1,4 +1,11 @@
 
+- surname: Fratzeskou
+  name: Christina
+  title: "From GIS to 3D flow simulations in urban environments"
+  github: https://github.com/cfratz/set_nonUniform_z0
+  url: http://resolver.tudelft.nl/uuid:a603d34f-997c-4fa2-8538-db018f5b6fec
+  year: 2022
+
 - surname: Wu
   name: Ziyan
   title: "Estimating building height from ICESat-2 data: The case of the Netherlands"
