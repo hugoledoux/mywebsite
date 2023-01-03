@@ -21,4 +21,4 @@ Hugo Ledoux is an associate-professor in 3D geoinformation at the Delft Universi
 
 ## Me in high-res 
 
-<img src="{{ site.baseurl }}/img/me_highres.png">
+<img src="{{ site.baseurl }}/img/me_highres.jpg">
