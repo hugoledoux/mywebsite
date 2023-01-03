@@ -26,3 +26,4 @@ For some years already, I've been using only free and open-source software for t
 
 - - -
 
+<a rel="me" href="https://fosstodon.org/@hugoledoux"></a>
