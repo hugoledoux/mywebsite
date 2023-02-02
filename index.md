@@ -22,7 +22,7 @@ I am on the editorial board of two new journals that promote open source softwar
 I am currently working, among others, on storing efficiently 3D city models with [CityJSON](https://www.cityjson.org), on the [reconstruction of massive TINs](https://github.com/hugoledoux/sst/), the [validation and the automatic repair of polygons and polyhedra as found in GIS](http://geovalidation.bk.tudelft.nl), the [semantic classification of urban textured meshes](https://3d.bk.tudelft.nl/projects/meshannotation/), and the [impact of buildings' LoDs in CFD predictions](https://3d.bk.tudelft.nl/projects/cfd+lods/).
 
 Teaching-wise, I am involved in the courses [*Digital terrain modelling*](https://3d.bk.tudelft.nl/courses/geo1015/) and [*3D modelling of the built environment*](https://3d.bk.tudelft.nl/courses/geo1004/) (both courses are open, with YouTube videos and open-access books) in the [MSc Geomatics programme](http://geomatics.tudelft.nl) at TU Delft.
-For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [rasterio](https://github.com/mapbox/rasterio), [Shapely](https://github.com/Toblerity/Shapely), [cjio](https://github.com/cityjson/cjio), etc.
+For some years already, I've been using only free and open-source software for the labs, eg [QGIS](http://www.qgis.org/), [rasterio](https://github.com/rasterio/rasterio), [CGAL](https://www.cgal.org), [cjio](https://github.com/cityjson/cjio), etc.
 
 - - -
 
