@@ -490,26 +490,26 @@ class bibhtmler {
 			if (array_key_exists('pdf', $in)) {
 				$t = $this->processtext($in['pdf']);
 				if (substr($t, 0, 4) <> 'http') 
-					$out .= ' <a href="/hledoux/pdfs/'.$t.'"><i class="fa fa-file-pdf-o"></i></a>';
+					$out .= ' <a href="/hledoux/pdfs/'.$t.'"><i class="bi bi-file-earmark-pdf"></i></a>';
 				else
-					$out .= ' <a href="'.$t.'"><i class="fa fa-file-pdf-o"></i></a>';
+					$out .= ' <a href="'.$t.'"><i class="bi bi-file-earmark-pdf"></i></a>';
 			}
 			if (array_key_exists('slides', $in)) {
 				$t = $this->processtext($in['slides']);
 				if (substr($t, 0, 4) <> 'http') 
-					$out .= ' <a href="/hledoux/pdfs/'.$t.'"><i class="fa fa-file-image-o"></i></a>';
+					$out .= ' <a href="/hledoux/pdfs/'.$t.'"><i class="bi bi-file-earmark-ppt"></i></a>';
 				else
-					$out .= ' <a href="'.$t.'"><i class="fa fa-file-image-o"></i></a>';
+					$out .= ' <a href="'.$t.'"><i class="bi bi-file-earmark-ppt"></i></a>';
 			}
 			// if (array_key_exists('paper', $in)) $out .= ' <a href="'.$this->processtext($in['paper']).'"><i class="icon-file-text-alt"></i> '.$this->localisedtext[$this->options['lang']]['Paper'].'</a>';
 			// if (array_key_exists('poster', $in)) $out .= ' <a href="'.$this->processtext($in['poster']).'"><i class="icon-picture"></i> '.$this->localisedtext[$this->options['lang']]['Poster'].'</a>';
 			// if (array_key_exists('slides', $in)) $out .= ' <a href="'.$this->processtext($in['slides']).'"><i class="icon-picture"></i></a>';
-			// if (array_key_exists('doi', $in)) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="fa fa-external-link"></i></a>';
-			if (array_key_exists('video', $in)) $out .= ' <a href="'.$this->processtext($in['video']).'"><i class="fa fa-youtube-play"></i></a>';
-			if (array_key_exists('repository', $in)) $out .= ' <a href="'.$this->processtext($in['repository']).'"><i class="fa fa-github"></i></a>';
-			if (array_key_exists('url', $in)) $out .= ' <a href="'.$this->processtext($in['url']).'"><i class="fa fa-external-link"></i></a>';
-			if (array_key_exists('doi', $in) and (array_key_exists('oa', $in) == FALSE) ) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="fa fa-bookmark"></i></a>';
-			$out .= ' <a href="#bib'.$in['key'].'" data-toggle="collapse"><i class="fa fa-toggle-down"></i></a>';
+			// if (array_key_exists('doi', $in)) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="bi bi-box-arrow-up-right"></i></a>';
+			if (array_key_exists('video', $in)) $out .= ' <a href="'.$this->processtext($in['video']).'"><i class="bi bi-youtube"></i></a>';
+			if (array_key_exists('repository', $in)) $out .= ' <a href="'.$this->processtext($in['repository']).'"><i class="bi bi-github"></i></a>';
+			if (array_key_exists('url', $in)) $out .= ' <a href="'.$this->processtext($in['url']).'"><i class="bi bi-box-arrow-up-right"></i></a>';
+			if (array_key_exists('doi', $in) and (array_key_exists('oa', $in) == FALSE) ) $out .= ' <a href="'.$this->processtext($in['doi']).'"><i class="bi bi-bookmark-fill"></i></a>';
+			$out .= ' <a href="#bib'.$in['key'].'" data-toggle="collapse"><i class="bi bi-caret-down-square-fill"></i></a>';
 			if (array_key_exists('info', $in)) $out .= '<span class="label info">'.trim($in['info'], '{}').'</span>';
 			$out .= '<div id="bib'.$in['key'].'" class="collapse"  tabindex="-1"><pre class="bibtex">'.$this->getbibtex($in)."</pre></div>";
 		}

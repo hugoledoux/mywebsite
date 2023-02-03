@@ -13,7 +13,7 @@ permalink: /proteges/
 
 <p><strong>{{ i.name }} {{ i.van }} {{ i.surname }}</strong>
 {% if i.homepage %} 
-  (<a href="{{ i.homepage }}"><i class="fa fa-home"></i></a>)
+  (<a href="{{ i.homepage }}"><i class="bi bi-house-door-fill"></i></a>)
 {% endif %}
 {% if i.thesis %} 
   <span class="label success">{{ i.period }}</span>
@@ -26,7 +26,7 @@ permalink: /proteges/
 <br>
 {{ i.title }}
 {% if i.thesis %} 
-  <a href="{{ i.thesis }}"><i class="fa fa-file-pdf-o"></i></a>
+  <a href="{{ i.thesis }}"><i class="bi bi-file-earmark-pdf"></i></a>
   {% if i.note %} 
     <span class="label note">{{ i.note | markdownify | remove: '<p>' | remove: '</p>' }}</span>
   {% endif %}
@@ -57,10 +57,10 @@ permalink: /proteges/
 <p>
   <strong>{{ i.name }} {{ i.van }} {{ i.surname }}</strong> <span class="label success">{{ i.year }}</span>
   {% if i.paper %}
-    <a href="{{ i.paper }}"><i class="fa fa-file-pdf-o" title="paper"></i></a>
+    <a href="{{ i.paper }}"><i class="bi bi-file-earmark-pdf" title="paper"></i></a>
   {% endif %}
   {% if i.github %}
-    <a href="{{ i.github }}"><i class="fa fa-github" title="github"></i></a>
+    <a href="{{ i.github }}"><i class="bi bi-github" title="github"></i></a>
   {% endif %}
   {% if i.note %} 
     <span class="label note">{{ i.note | markdownify | remove: '<p>' | remove: '</p>' }}</span>

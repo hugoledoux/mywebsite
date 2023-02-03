@@ -7,17 +7,18 @@ permalink: /contact/
 <div class="grid">
   <div class="unit half">
     <ul class="fa-ul">
-      <li><i class="fa-li fa fa-envelope"></i>h.ledoux@tudelft.nl</li>
-      <li><i class="fa-li fa fa-phone"></i>+31 15 27 86114</li>
-      <li><i class="fa-li fa fa-home"></i><a href="https://3d.bk.tudelft.nl/hledoux">3d.bk.tudelft.nl/hledoux</a></li>
-      <li><i class="fa-li fa fa-youtube"></i><a href="https://www.youtube.com/c/HugoLedouxTUD">hugoledouxtud</a></li>
-      <li><i class="fa-li fa fa-twitter"></i><a href="https://twitter.com/hugoledoux">hugoledoux</a></li>
-      <li><i class="fa-li fa fa-github"></i><a href="https://github.com/hugoledoux">hugoledoux</a></li>
+      <li><i class="fa-li bi bi-envelope-fill"></i>h.ledoux@tudelft.nl</li>
+      <li><i class="fa-li bi bi-telephone-fill"></i>+31 15 27 86114</li>
+      <li><i class="fa-li bi bi-house-door-fill"></i><a href="https://3d.bk.tudelft.nl/hledoux">3d.bk.tudelft.nl/hledoux</a></li>
+      <li><i class="fa-li bi bi-youtube"></i><a href="https://www.youtube.com/c/HugoLedouxTUD">hugoledouxtud</a></li>
+      <li><i class="fa-li bi bi-twitter"></i><a href="https://twitter.com/hugoledoux">hugoledoux</a></li>
+      <li><i class="fa-li bi bi-github"></i><a href="https://github.com/hugoledoux">hugoledoux</a></li>
+      <li><i class="fa-li bi bi-mastodon"></i><a href="https://github.com/hugoledoux">hugoledoux</a></li>
     </ul>
   </div>
   <div class="unit half">
     <ul class="fa-ul">
-      <li><i class="fa-li fa fa-map-marker"></i>Room BG.West.550</li>
+      <li><i class="fa-li bi bi-geo-alt-fill"></i>Room BG.West.550</li>
       <li><i></i>Faculty of the Built Environment & Architecture</li>
       <li><i></i>(building #8)</li>
       <li><i></i>Delft University of Technology</li>
