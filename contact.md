@@ -8,12 +8,12 @@ permalink: /contact/
   <div class="unit half">
     <ul class="icons">
       <li><i class="bi bi-envelope-fill"></i> h.ledoux@tudelft.nl</li>
-      <li><i class="fa-li bi bi-telephone-fill"></i> +31 15 27 86114</li>
-      <li><i class="fa-li bi bi-house-door-fill"></i> <a href="https://3d.bk.tudelft.nl/hledoux">3d.bk.tudelft.nl/hledoux</a></li>
-      <li><i class="fa-li bi bi-github"></i> <a href="https://github.com/hugoledoux">hugoledoux</a></li>
-      <li><i class="fa-li bi bi-youtube"></i> <a href="https://www.youtube.com/c/HugoLedouxTUD">hugoledouxtud</a></li>
+      <li><i class="bi bi-telephone-fill"></i> +31 15 27 86114</li>
+      <li><i class="bi bi-house-door-fill"></i> <a href="https://3d.bk.tudelft.nl/hledoux">3d.bk.tudelft.nl/hledoux</a></li>
+      <li><i class="bi bi-github"></i> <a href="https://github.com/hugoledoux">hugoledoux</a></li>
+      <li><i class="bi bi-youtube"></i> <a href="https://www.youtube.com/c/HugoLedouxTUD">hugoledouxtud</a></li>
       <!-- <li><i class="fa-li bi bi-twitter"></i> <a href="https://twitter.com/hugoledoux">hugoledoux</a></li> -->
-      <li><i class="fa-li bi bi-mastodon"></i> <a href="https://fosstodon.org/@hugoledoux">hugoledoux</a></li>
+      <li><i class="bi bi-mastodon"></i> <a href="https://fosstodon.org/@hugoledoux">hugoledoux</a></li>
     </ul>
   </div>
   <div class="unit half">
