@@ -23,7 +23,7 @@ permalink: /contact/
       <li>(building #8)</li>
       <li>Delft University of Technology</li>
       <li>Julianalaan 134, Delft 2628BL, the Netherlands</li>
-      <li><a href="https://iamap.tudelft.nl/en/poi/architecture/">How to get here</a></li>
+      <li><a href="https://map.tudelftcampus.nl/poi/bouwkunde-bk/">How to get here</a></li>
     </ul>
   </div>
 </div>
