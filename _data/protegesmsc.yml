@@ -1,9 +1,30 @@
 
+- surname: Dong
+  name: Haoyang
+  title: "Correcting global elevation models for canopy and infrastructure using a residual U-Net"
+  # url: 
+  # github: https://github.com/zfengyan/snapoly
+  year: 2023
+
+- surname: Zhang
+  name: Fengyan
+  title: "Snap rounding polygons with a triangulation"
+  url: http://resolver.tudelft.nl/uuid:295f89f6-445b-4f3c-a764-cb78d7e9b825
+  github: https://github.com/zfengyan/snapoly
+  year: 2023
+
+- surname: Meschin
+  name: Katrin
+  title: "Canopy gap fraction estimation from ICESat-2 ATL08 product"
+  url: http://resolver.tudelft.nl/uuid:4c44f0fb-bd69-44d8-8ba9-6ae0b9584828
+  github: https://github.com/Mschn-k/MSc_thesis
+  year: 2023
+
 - surname: Fratzeskou
   name: Christina
   title: "From GIS to 3D flow simulations in urban environments"
-  github: https://github.com/cfratz/set_nonUniform_z0
   url: http://resolver.tudelft.nl/uuid:a603d34f-997c-4fa2-8538-db018f5b6fec
+  github: https://github.com/cfratz/set_nonUniform_z0
   year: 2022
 
 - surname: Wu
