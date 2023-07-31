@@ -6,7 +6,7 @@ permalink: /research/
 
 # Research 
 
-I would charasterise my research as an equal mix of:
+I would characterise my research as an equal mix of:
 
   - __GIS__: preparing and crunching real-world datasets so that they can be used for spatial analysis;
   - __computational geometry__: extending and adapting theoretical results to real-world problems;
@@ -16,7 +16,7 @@ I would charasterise my research as an equal mix of:
 
 - - -
 
-## CityJSON: Making CityGML a useful format to exchange 3D city models
+## CityJSON: CityGML without the GML mess
 
 ![]({{ site.baseurl }}/img/cityjson.jpg)
 
@@ -27,18 +27,19 @@ It was designed with programmers in mind, so that tools and APIs supporting it c
 
 <a href="https://cityjson.org"><i class="bi bi-box-arrow-up-right"></i> CityJSON website</a>
 
-<a href="https://github.com/tudelft3d/cjio"><i class="bi bi-box-arrow-up-right"></i> cjio: Python CLI to process and manipulate CityJSON files</a>
+<a href="https://github.com/cityjson/cjio"><i class="bi bi-box-arrow-up-right"></i> cjio: Python CLI to process and manipulate CityJSON files</a>
 
 - - -
 
-## Validation & automatic repair of geo-datasets
+## Automatic reconstruction of 3D city models for CFD
 
-![]({{ site.baseurl }}/img/repair3d.png)
+![]({{ site.baseurl }}/img/city4cfd.png)
 
-A few years ago, out of frustration at the poor quality of GIS datasets and of 3D city models I obtained, I have focussed my efforts on the validation and the *automatic* repair of polygons and polyhedra. This has lead to different programs that have matured enough to not be called prototypes anymore: [prepair](https://github.com/tudelft3d/prepair), [pprepair](https://github.com/tudelft3d/pprepair) and [val3dity](https://github.com/tudelft3d/val3dity). 
-I hope these will help practitioners who often spend hundreds of hours manually repairing their datasets. 
+We develop (this is [Ivan Pađen](https://3d.bk.tudelft.nl/ipaden/) PhD project, which I supervise with [Clara García-Sánchez](http://3d.bk.tudelft.nl/gsclara)) methods and software to reconstruct 3D city models that are ready to be imported in [OpenFOAM](https://openfoam.org/).
 
-Some of these are also available as [web-applications](http://geovalidation.bk.tudelft.nl).
+The open-source software [City4CFD](https://github.com/tudelft3d/city4cfd) takes building footprints and a point cloud, and creates valid/watertight geometries that can be used for microscale urban flow simulations.
+
+<a href="https://doi.org/10.3389/fbuil.2022.899332"><i class="bi bi-box-arrow-up-right"></i> Article: Towards automatic reconstruction of 3D city models tailored for urban flow simulations</a>
 
 
 - - -
@@ -51,7 +52,24 @@ We develop (this is [Weixiao Gao](https://3d.bk.tudelft.nl/weixiao/) PhD project
 
 We have annoted part of the open [Helsinki 3D dataset](https://www.hel.fi/helsinki/en/administration/information/general/3d/3d) and released it as open dataset ([code+dataset](https://3d.bk.tudelft.nl/projects/meshannotation/)).
 
-Our methodology outperforms other segmentation methods, see our [paper](https://arxiv.org/abs/2202.03209).
+Our methodology outperforms other segmentation methods, see our two papers: 
+
+<a href="http://dx.doi.org/10.1016/j.isprsjprs.2021.07.008"><i class="bi bi-box-arrow-up-right"></i> SUM: A benchmark dataset of Semantic Urban Meshes</a>
+
+<a href="https://doi.org/10.1016/j.isprsjprs.2022.12.020"><i class="bi bi-box-arrow-up-right"></i> PSSNet: Planarity-sensible Semantic Segmentation of large-scale urban meshes</a>.
+
+
+- - -
+
+## Validation & automatic repair of geo-datasets
+
+![]({{ site.baseurl }}/img/repair3d.png)
+
+A few years ago, out of frustration at the poor quality of GIS datasets and of 3D city models I obtained, I have focussed my efforts on the validation and the *automatic* repair of polygons and polyhedra. This has lead to different programs that have matured enough to not be called prototypes anymore: [prepair](https://github.com/tudelft3d/prepair), [pprepair](https://github.com/tudelft3d/pprepair) and [val3dity](https://github.com/tudelft3d/val3dity). 
+I hope these will help practitioners who often spend hundreds of hours manually repairing their datasets. 
+
+
+<a href="http://geovalidation.bk.tudelft.nl/val3dity"><i class="bi bi-box-arrow-up-right"></i> Validation of 3D geometries as a web-application</a>.
 
 - - - 
 
