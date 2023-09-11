@@ -244,6 +244,11 @@ class bibhtmler {
 	function processtitle($in) {
 		$words = $this->splitusing(substr($in, strpos($in, '{')+1, -1), ' ');
 		$out = '';
+		$firstcap = True;
+		if (strpos($words[0], '{') === 0) {
+			$firstcap = False;
+		}
+		// echo "FirstCap? " , $firstcap;
 		foreach ($words as $word) {
 			if (strpos($word[0], '{') !== FALSE) $word = preg_replace('/[{}]/', '', $word);
 			else {
@@ -251,7 +256,11 @@ class bibhtmler {
 				if ($this->options['capitalisation'] == 'headline' and !in_array($word, $this->wordsnottocapitalise))
 					$word = ucfirst($word);
 			} $out .= $word.' ';
-		} if ($this->options['capitalisation'] == 'headline' or $this->options['capitalisation'] == 'firstonly') $out = ucfirst($out);
+		} 
+		if ($this->options['capitalisation'] == 'headline' or $this->options['capitalisation'] == 'firstonly') {
+			if ($firstcap == True)
+				$out = ucfirst($out);
+		}
 		$out = substr($out, 0, -1);
 		$tmp = $this->processtext($out);
 		return $tmp;
