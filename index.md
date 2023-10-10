@@ -5,6 +5,7 @@ title: Home
 
 <div style='width:200px;margin:0 auto;'> 
   <img class="centre" alt="image" src="{{ site.baseurl }}/img/me.jpg">
+  <a rel="me" href="https://fosstodon.org/@hugoledoux"></a>
 </div>
 
 
@@ -26,4 +27,3 @@ For some years already, I've been using only free and open-source software for t
 
 - - -
 
-<a rel="me" href="https://fosstodon.org/@hugoledoux"></a>
