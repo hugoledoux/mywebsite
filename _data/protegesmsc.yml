@@ -41,6 +41,13 @@
   url: http://resolver.tudelft.nl/uuid:6421019c-50e0-42ab-ae43-3c20e1b2f3e2
   year: 2022  
 
+- surname: Hurkmans
+  name: Robin
+  title: "Efficient Solar Potential Estimation of 3D Buildings: 3D BAG as use case"
+  url: http://resolver.tudelft.nl/uuid:0d6fe201-5676-48c0-850f-942d1ee9a353
+  github: https://github.com/robinjo78/solarBAG
+  year: 2022
+
 - surname: Roy
   name: Ellie
   title: Inferring the number of floors of building footprints in the Netherlands
