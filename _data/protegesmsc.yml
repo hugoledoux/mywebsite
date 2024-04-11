@@ -1,4 +1,12 @@
 
+- surname: Dinklo
+  name: Constaintijn
+  title: "Visualizing massive CFD outputs in game engines using voxelization and dynamic loading"
+  url: http://resolver.tudelft.nl/uuid:605302d7-8939-416a-8488-ff48842b02ec
+  # github: https://github.com/leowlk/RF_Terrain
+  year: 2024
+
+
 - surname: Kan
   name: Leo
   title: "Spatial height prediction of ICESat-2 data using random forest regression"
