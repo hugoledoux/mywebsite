@@ -26,9 +26,11 @@
 
 - surname: Gao
   name:  Weixiao
-  title: "Automatic generation of semantic 3D city models from 3D textured meshes"
-  period: 2017@now
-  homepage: https://3d.bk.tudelft.nl/weixiao
+  title: "Semantic understanding of urban scenes from textured meshes"
+  period: 2017@2024
+  thesis: https://doi.org/10.4233/uuid:75ffb577-05a6-465f-8d71-92fb3e3f960c
+  # homepage: https://3d.bk.tudelft.nl/weixiao
+  now: "[postdoc at TUDelft](https://3d.bk.tudelft.nl)"
 
 # - surname: Labetski
 #   name:  Anna
@@ -46,7 +48,7 @@
 - surname: Peters
   name: Ravi
   title: "Geographical point cloud modelling with the 3D medial axis transform"
-  thesis: http://dx.doi.org/10.4233/uuid:f3a5f5af-ea54-40ba-8702-e193a087f243
+  thesis: http://doi.org/10.4233/uuid:f3a5f5af-ea54-40ba-8702-e193a087f243
   period: 2013@2018
   # homepage: https://3d.bk.tudelft.nl
   now: "[co-founder 3DGI](https://3dgi.xyz)"
@@ -62,6 +64,6 @@
 - surname: Arroyo Ohori
   name: Ken
   title: "Higher-dimensional modelling of geographic information"
-  thesis: https://3d.bk.tudelft.nl/ken/en/thesis/
+  thesis: https://resolver.tudelft.nl/uuid:39c5b176-398b-4a6f-8578-1dc46e9f37ed
   period: 2011@2016
   now: "[lecturer at TUDelft](https://3d.bk.tudelft.nl/ken)"
