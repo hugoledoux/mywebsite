@@ -29,8 +29,7 @@
   title: "Semantic understanding of urban scenes from textured meshes"
   period: 2017@2024
   thesis: https://doi.org/10.4233/uuid:75ffb577-05a6-465f-8d71-92fb3e3f960c
-  # homepage: https://3d.bk.tudelft.nl/weixiao
-  now: "[postdoc at TUDelft](https://3d.bk.tudelft.nl)"
+  now: "[postdoc at TUDelft](https://3d.bk.tudelft.nl/weixiao/)"
 
 # - surname: Labetski
 #   name:  Anna
@@ -42,7 +41,6 @@
   title: "Modelling and managing massive 3D data of the built environment"
   thesis: https://doi.org/10.4233/uuid:47218911-c93d-4295-a3de-231d023c1743
   period: 2015@2020
-  # homepage: https://3d.bk.tudelft.nl
   now: "[dev at ASML](https://asml.com)"
 
 - surname: Peters
@@ -50,7 +48,6 @@
   title: "Geographical point cloud modelling with the 3D medial axis transform"
   thesis: http://doi.org/10.4233/uuid:f3a5f5af-ea54-40ba-8702-e193a087f243
   period: 2013@2018
-  # homepage: https://3d.bk.tudelft.nl
   now: "[co-founder 3DGI](https://3dgi.xyz)"
 
 - surname: Biljecki
