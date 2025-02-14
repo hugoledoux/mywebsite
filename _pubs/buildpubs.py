@@ -1,26 +1,29 @@
-import os
 import datetime
+import os
 
 
 def write_pubs():
-  s = ""
-  header = "---\nlayout: page\ntitle: publications\npermalink: /pubs/\n---\n\n"
-  s += header
-  update = '<h1>Publications</h1>\n<span class="post-date">(last update: %s)</span>' % (datetime.date.today().isoformat())
-  s += update
-  toc = gettoc()
-  warning = getwarning()
-  s += warning
-  s += toc
-  s += "\n{% raw %}"
-  f = open('pubs.html')
-  s += f.read()
-  s += '{% endraw %}'
-  os.remove('pubs.html')
-  return s 
+    s = ""
+    header = "---\nlayout: page\ntitle: publications\npermalink: /pubs/\n---\n\n"
+    s += header
+    update = (
+        '<h1>Publications</h1>\n<span class="post-date">(last update: %s)</span>'
+        % (datetime.date.today().isoformat())
+    )
+    s += update
+    toc = gettoc()
+    warning = getwarning()
+    s += warning
+    s += toc
+    s += "\n{% raw %}"
+    f = open("pubs.html")
+    s += f.read()
+    s += "{% endraw %}"
+    os.remove("pubs.html")
+    return s
 
 
-def getwarning():    
+def getwarning():
     s = """<div class="message">
       I provide here the author's version of most of my papers. 
       These are for <em>personal use only</em>, and not for redistribution or commercial use. 
@@ -40,16 +43,16 @@ def getwarning():
     return s
 
 
-def gettoc():    
+def gettoc():
     s = "\n|"
-    for year in reversed(range(2003, 2025)):
+    for year in reversed(range(2003, 2026)):
         s += ' <a href="#%s">%s</a> |' % (year, year)
     return s
+
 
 os.chdir("./_pubs/")
 os.system("php go.php > pubs.html")
 s = write_pubs()
-f = open("../pubs.html", 'w')
+f = open("../pubs.html", "w")
 f.write(s)
 f.close()
-
