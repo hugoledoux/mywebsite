@@ -1,5 +1,3 @@
-
-
 - surname: Baba
   name: Hidemichi
   title: "FlatCityBuf: A new cloud-optimised CityJSON format"
@@ -10,26 +8,32 @@
 - surname: Monahan
   name: Jessica
   title: "Cool by Design. SOLFD: Extending SOLWEIG for Urban Design Decision-Making on Outdoor Thermal Comfort"
-  # url: https://resolver.tudelft.nl/uuid:4893ca9e-5cce-42ba-8ded-7cff98258cce
+  url: https://resolver.tudelft.nl/uuid:02dbba26-0535-4c05-a39b-e5b09c3d0712
   github: https://github.com/jsscmnhn/SOLWEIG_SOLFD
   year: 2025
 
 - surname: Zhao
   name: Xiaduo
   title: "Structure guided roof heightmap completion"
-  # url: https://resolver.tudelft.nl/uuid:6727c979-5e46-4fe0-9349-a7803e825d02
-  # github: https://github.com/HideBa/flatcitybuf
+  url: https://resolver.tudelft.nl/uuid:7ffafb9f-2c91-4ee0-9f02-6a597d438214
+  github: https://github.com/xdzhaooo/msc_roof_completion
   year: 2025
 
+- surname: Gan
+  name: Haohua
+  title: "Exploration of algorithms for extracting wireframe models from man-made urban linear object point clouds"
+  url: https://resolver.tudelft.nl/uuid:148178a4-f7ce-4f09-b4bd-267e4d7f15bc
+  github: https://github.com/Ganbusier/final_thesis
+  year: 2025
 
-- surname: Brouwer  
+- surname: Brouwer
   name: Gees
   title: "Automated data-driven generation of 3D coral reef models: Assessing and integrating empirical data sources"
   url: https://resolver.tudelft.nl/uuid:4893ca9e-5cce-42ba-8ded-7cff98258cce
   github: https://github.com/GGBRW/CoralGenerator
   year: 2024
 
-- surname: Mantas 
+- surname: Mantas
   name: Dimitris
   title: "CNN-based roofing material segmentation using aerial imagery and LiDAR data fusion"
   url: https://resolver.tudelft.nl/uuid:c463e920-61e6-40c5-89e9-25354fadf549
@@ -57,7 +61,6 @@
   # github: https://github.com/leowlk/RF_Terrain
   year: 2024
 
-
 - surname: Kan
   name: Leo
   title: "Spatial height prediction of ICESat-2 data using random forest regression"
@@ -71,7 +74,6 @@
   url: http://resolver.tudelft.nl/uuid:4bfbc01f-1681-4640-9b00-c1a800a4f74d
   github: https://github.com/MarenHengelmolen/thesis
   year: 2024
-
 
 - surname: Dong
   name: Haoyang
@@ -113,7 +115,7 @@
   title: Predicting sedimentation in Lake Alajuela
   github: https://github.com/LMarinusL/MorphologyPredictor
   url: http://resolver.tudelft.nl/uuid:6421019c-50e0-42ab-ae43-3c20e1b2f3e2
-  year: 2022  
+  year: 2022
 
 - surname: Hurkmans
   name: Robin
@@ -139,13 +141,13 @@
 
 - surname: Li
   name: Xiaoai
-  title: 'CityREST: CityJSON in a database + RESTful access'
+  title: "CityREST: CityJSON in a database + RESTful access"
   url: http://resolver.tudelft.nl/uuid:e6bb2142-c113-4add-a466-41bf0fea3b11
   github: https://github.com/xiaoai-li/api_cityjson
   year: 2021
 
 - surname: Morlighem
-  name:  Camille
+  name: Camille
   title: "Automatic reconstruction of 3D city models from historical maps"
   url: http://resolver.tudelft.nl/uuid:0889e498-cdd6-4a19-bbcb-d3fb189560e1
   github: https://github.com/CamilleMorlighem/histo3d
@@ -153,20 +155,20 @@
   year: 2021
 
 - surname: Vogiatzis
-  name:  Anastasios
+  name: Anastasios
   title: "Automated railway object mapping using imagery and point clouds"
   url: http://resolver.tudelft.nl/uuid:ddba89ed-61cd-478a-8f07-8e2bccdfb403
   year: 2021
 
 - surname: Mastorakis
-  name:  Konstantinos
+  name: Konstantinos
   title: "An integrative workflow for 3D city model versioning"
   github: https://github.com/cityjson/Up3date
   url: http://resolver.tudelft.nl/uuid:a7f7f0c8-7a34-454e-973a-d55f5b8b0dfe
   year: 2020
 
 - surname: van Liempt
-  name:  Jordi
+  name: Jordi
   title: "CityJSON: does (file) size matter?"
   github: https://github.com/jliempt/CityJSON-does-file-size-matter-
   url: https://repository.tudelft.nl/islandora/object/uuid:4aad07f4-8f64-46b1-aad3-3d4abe36c5bf?collection=education
@@ -175,11 +177,11 @@
 - surname: Zhao
   name: Yifang
   title: Outer surface extraction for complex 3D building models
-  url: https://repository.tudelft.nl/islandora/object/uuid%3Ab0dac42c-6d7a-4dbf-a11b-ce851d573862?collection=education 
- 
+  url: https://repository.tudelft.nl/islandora/object/uuid%3Ab0dac42c-6d7a-4dbf-a11b-ce851d573862?collection=education
+
   year: 2020
 - surname: Lánský
-  name:  Imke
+  name: Imke
   title: Height inference for all USA building footprints in the absence of height data
   url: http://resolver.tudelft.nl/uuid:ddcae7d1-6cc8-42a7-8c1d-a922ec7551f0
   github: https://github.com/ImkeLansky/USA-BuildingHeightInference
@@ -188,14 +190,14 @@
 - surname: de Groot
   name: Rob
   title: "Automatic construction of 3D tree models in multiple levels of detail from airborne LiDAR data "
-  url:  http://resolver.tudelft.nl/uuid:3e169fc7-5336-4742-ab9b-18c158637cfe
+  url: http://resolver.tudelft.nl/uuid:3e169fc7-5336-4742-ab9b-18c158637cfe
   github: https://github.com/RobbieG91/TreeConstruction
   year: 2020
 
 - surname: Bouzas
   name: Vasileios
   title: "Structure-aware building mesh simplification"
-  url:  http://resolver.tudelft.nl/uuid:a0faf1a6-9815-4828-9186-a4a16119c71c
+  url: http://resolver.tudelft.nl/uuid:a0faf1a6-9815-4828-9186-a4a16119c71c
   paper: https://doi.org/10.1016/j.isprsjprs.2020.07.010
   github: https://github.com/VasileiosBouzas/MeshPolygonization
   year: 2019
@@ -203,25 +205,25 @@
 - surname: Qu
   name: Wang
   title: "3D breakline extraction from point clouds with the medial axis transform"
-  url:  http://resolver.tudelft.nl/uuid:ba8e4bf4-e473-410b-a1f0-ef48e9c2fbf3
+  url: http://resolver.tudelft.nl/uuid:ba8e4bf4-e473-410b-a1f0-ef48e9c2fbf3
   year: 2019
 
 - surname: Tzounakos
   name: Nikos
   title: "Robust interior: Exterior classification for 3D models"
-  url:  http://resolver.tudelft.nl/uuid:9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b
+  url: http://resolver.tudelft.nl/uuid:9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b
   year: 2019
 
 - surname: Griffioen
   name: Simon
   title: "A voxel-based methodology to detect (clustered) outliers in aerial lidar point clouds"
-  url:  http://resolver.tudelft.nl/uuid:2ffa73f4-34cc-4ea0-82df-11e61cb47bea
+  url: http://resolver.tudelft.nl/uuid:2ffa73f4-34cc-4ea0-82df-11e61cb47bea
   year: 2018
 
 - surname: Dukai
   name: Balázs
   title: "Exploring the automatic Level of Detail inference for the validation of buildings in 3D city models"
-  url:  http://resolver.tudelft.nl/uuid:5e9ed2f0-ec9e-4d9e-9a6b-57488ddd0222
+  url: http://resolver.tudelft.nl/uuid:5e9ed2f0-ec9e-4d9e-9a6b-57488ddd0222
   year: 2018
 
 - surname: Vermeer
@@ -235,21 +237,21 @@
   title: Bidirectional enrichment of CityGML and Multi-View Stereo Mesh models
   url: http://resolver.tudelft.nl/uuid:560bd9fb-7688-492f-b1c0-799644707be9
   year: 2017
-    
-- surname: Kang 
+
+- surname: Kang
   name: Yuxuan
   title: Straightening and simplifying a multi-view stereo mesh of a city
   url: http://resolver.tudelft.nl/uuid:8f3a74c2-3264-4433-adc9-217dfa94754a
   year: 2017
 
-- surname: Heeres 
-  name: Erik 
+- surname: Heeres
+  name: Erik
   title: "Exploring the 3D BAG: How to define it and to what extent can it automatically be created using open data"
   url: http://resolver.tudelft.nl/uuid:bb4a1667-1d6f-41ac-b12e-fb70c0013881
   year: 2016
 
-- surname: Broersen 
-  name: Tom 
+- surname: Broersen
+  name: Tom
   title: Automatic identification of water courses from AHN3 in flat and engineered landscapes
   url: http://resolver.tudelft.nl/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
   paper: http://dx.doi.org/10.1016/j.cageo.2017.06.003
@@ -265,13 +267,13 @@
 - surname: Mulder
   name: Damien
   title: Automatic repair of 3D city building models using a voxel-based repair method
-  url: http://resolver.tudelft.nl/uuid:8ef4459d-b940-4007-bc3c-d87349015129 
+  url: http://resolver.tudelft.nl/uuid:8ef4459d-b940-4007-bc3c-d87349015129
   image: damien.jpg
   github: https://github.com/dtmulder/VoxelRepair
   year: 2015
 
 - surname: Pronk
-  name: Maarten 
+  name: Maarten
   title: Storing massive TINs in a DBMS - A comparison and a prototype implementation of the multistar approach
   url: http://resolver.tudelft.nl/uuid:da6b7329-f45b-4560-8374-bb522e78121f
   image: maarten.png
@@ -279,7 +281,7 @@
   year: 2015
 
 - surname: Donkers
-  name: Sjors 
+  name: Sjors
   title: Automatic generation of CityGML LoD3 building models from IFC models
   url: http://resolver.tudelft.nl/uuid:31380219-f8e8-4c66-a2dc-548c3680bb8d
   image: sjors.png
@@ -288,7 +290,7 @@
   year: 2013
 
 - surname: Peters
-  name: Ravi 
+  name: Ravi
   year: 2012
   note: "[Hydrographic Society Benelux best MSc thesis 2012!](https://www.hydro-international.com/content/article/hydrographic-society-benelux-51?output=pdf)"
   title: A Voronoi- and surface-based approach for the automatic generation of depth-contours for hydrographic charts
@@ -296,35 +298,35 @@
   paper: http://dx.doi.org/10.1080/01490419.2014.902882
 
 - surname: Nedkov
-  name: Simeon 
+  name: Simeon
   year: 2012
   title: Knowledge-based optimisation of three-dimensional city models for car navigation devices
-  url : http://resolver.tudelft.nl/uuid:b429e899-9955-4a23-9ceb-66ffb6210b30
+  url: http://resolver.tudelft.nl/uuid:b429e899-9955-4a23-9ceb-66ffb6210b30
 
 - surname: Bhattacharya
-  name: Prajna 
+  name: Prajna
   year: 2012
   title: Quality assessment  and  object matching of OpenStreetMap in combination with  the Dutch topographic map TOP10NL
-  url : http://resolver.tudelft.nl/uuid:e1501114-d947-4278-8612-1e249e4dc02f
+  url: http://resolver.tudelft.nl/uuid:e1501114-d947-4278-8612-1e249e4dc02f
 
 - surname: Commandeur
-  name: Tom 
+  name: Tom
   year: 2012
   title: Footprint decomposition combined with point cloud segmentation for producing valid 3D models
-  url : http://resolver.tudelft.nl/uuid:c0c665f7-0254-42c6-895b-cb59acc079f2
+  url: http://resolver.tudelft.nl/uuid:c0c665f7-0254-42c6-895b-cb59acc079f2
 
 - surname: Arroyo Ohori
-  name: Ken 
+  name: Ken
   year: 2010
   title: Validation and Automatic Repair of Planar Partitions using a Constrained Triangulation
-  url : http://resolver.tudelft.nl/uuid:78807acb-4115-478c-93de-68b9db884c8e
+  url: http://resolver.tudelft.nl/uuid:78807acb-4115-478c-93de-68b9db884c8e
   paper: http://dx.doi.org/10.1016/j.cageo.2014.01.009
 
 - surname: Biljecki
-  name: Filip 
+  name: Filip
   year: 2010
   title: Automatic segmentation and classification of movement trajectories for transportation modes
-  url : http://resolver.tudelft.nl/uuid:654587d2-6e93-4619-ab9a-29d95f843f35
+  url: http://resolver.tudelft.nl/uuid:654587d2-6e93-4619-ab9a-29d95f843f35
   paper: http://dx.doi.org/10.1080/13658816.2012.692791
 
 - surname: Putte
@@ -332,5 +334,5 @@
   van: van der
   year: 2009
   title: Using the discrete 3D Voronoi diagram for the modelling of 3D continuous information in geosciences
-  url : http://resolver.tudelft.nl/uuid:b35ad433-067a-4b20-8067-e18a2de76490
+  url: http://resolver.tudelft.nl/uuid:b35ad433-067a-4b20-8067-e18a2de76490
   paper: https://3d.bk.tudelft.nl/hledoux/pdfs/10_3dgeoinfo.pdf
