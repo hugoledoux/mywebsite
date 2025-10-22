@@ -23,13 +23,13 @@ permalink: /proteges/
 {% if i.now %} 
   <span class="label info">now {{ i.now | markdownify | remove: '<p>' | remove: '</p>' }}</span>
 {% endif %}
+{% if i.note %} 
+  <span class="label note">{{ i.note | markdownify | remove: '<p>' | remove: '</p>' }} </span>
+{% endif %}
 <br>
 {{ i.title }}
 {% if i.thesis %} 
   <a href="{{ i.thesis }}"><i class="bi bi-file-earmark-pdf"></i></a>
-  {% if i.note %} 
-    <span class="label note">{{ i.note | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-  {% endif %}
 {% endif %}
 </p>
 
@@ -71,8 +71,3 @@ permalink: /proteges/
 
 {% endif %}
 {% endfor %}
-
-
-
-
-  
