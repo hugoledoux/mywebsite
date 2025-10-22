@@ -11,17 +11,22 @@ body {
   border-top: 4px solid #128dd7;
 }
 
-ul.icons li
-{
-    list-style-type: none;
+ul.icons li {
+  list-style-type: none;
 }
 
-html, h1, h2, h3, h4, h5, h6 {
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   /*font-family: "UntitledSans";*/
   font-family: "InterUI";
   /*font-weight: 400;*/
   color: #313131;
-  letter-spacing: -.025rem;
+  letter-spacing: -0.025rem;
 }
 
 /* Code */
@@ -33,39 +38,37 @@ pre {
   font-family: "source-code-pro";
 }
 
-
 @font-face {
-  font-family: 'InterUI';
-  src: url('../fonts/Inter-UI-Regular.woff') format('woff');
+  font-family: "InterUI";
+  src: url("../fonts/Inter-UI-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'InterUI';
-  src: url('../fonts/Inter-UI-Italic.woff') format('woff');
+  font-family: "InterUI";
+  src: url("../fonts/Inter-UI-Italic.woff") format("woff");
   font-weight: italic;
   font-style: italic;
 }
 
-
 @font-face {
-  font-family: 'InterUI';
-  src: url('../fonts/Inter-UI-SemiBold.woff') format('woff');
+  font-family: "InterUI";
+  src: url("../fonts/Inter-UI-SemiBold.woff") format("woff");
   font-weight: bold;
   font-style: bold;
 }
 
 @font-face {
-  font-family: 'InterUI';
+  font-family: "InterUI";
   src: url("../fonts/Inter-UI-Bold.woff") format("woff");
-  font-style:  normal;
+  font-style: normal;
   font-weight: 800;
 }
 
 @font-face {
-  font-family: 'source-code-pro';
-  src: url('../fonts/SourceCodePro-Regular.otf.woff') format('woff');
+  font-family: "source-code-pro";
+  src: url("../fonts/SourceCodePro-Regular.otf.woff") format("woff");
   /*font-weight: bold;*/
   /*font-style: bold;*/
 }
@@ -76,12 +79,12 @@ pre {
 
 .grid .unit small {
   text-align: center;
-  color: #83F275;
+  color: #83f275;
 }
 
 .grid img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /*
@@ -89,7 +92,6 @@ pre {
  *
  * Center the page content.
  */
-
 
 .container {
   max-width: 28rem;
@@ -113,14 +115,13 @@ pre {
  */
 
 .masthead {
-  padding-top:    1rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
   text-align: center;
   color: #c0c0c0;
 }
-
 
 .masthead-title > a.meheader {
   margin-top: 0;
@@ -148,7 +149,6 @@ pre {
   letter-spacing: 0;
 }
 
-
 /*.masthead-title small a {
   color: #c0c0c0;
 }
@@ -162,7 +162,6 @@ pre {
     display: none;
   }
 }
-
 
 ul#markdown-toc {
   list-style: none;
@@ -182,13 +181,11 @@ img.cc {
   border-radius: 0px;
 }
 
-
-
 div .collapse {
   display: none;
 }
 
-.footnotes { 
+.footnotes {
   border-top: 1px solid #969696;
   margin-top: 4em;
   font-size: 70%;
@@ -213,34 +210,32 @@ pre.bibtex {
   color: #9a9a9a;
 }
 
-
 /* labels à la Bootstrap */
 .label {
-    padding: 1px 3px 2px;
-    /*font-size: 9.75px;*/
-    font-size: 65%;
-    font-weight: bold;
-    color: #ffffff;
-    /*text-transform: uppercase;*/
-    white-space: nowrap;
-    background-color: #128dd7;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+  padding: 1px 3px 2px;
+  /*font-size: 9.75px;*/
+  font-size: 65%;
+  font-weight: bold;
+  color: #ffffff;
+  /*text-transform: uppercase;*/
+  white-space: nowrap;
+  background-color: #128dd7;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 .label.success {
-    background-color: #1290d1;
+  background-color: #1290d1;
 }
 .label.warning {
-    background-color: #da8d63;
+  background-color: #da8d63;
 }
 .label.info {
-    background-color: #feb13e;
+  background-color: #ddd658;
 }
 .label.note {
-    background-color: #feb13e;
+  background-color: #f1eeb8;
 }
-
 
 /* bleu colour */
 .theme-base-bleu .sidebar,

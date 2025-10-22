@@ -1,37 +1,35 @@
-
 - surname: Baba
-  name:  Hidemichi
-  title: "Modelling of 3D roofs in cities"
+  name: Hidemichi
+  title: "Reconstruction, processing, and dissemination of massive 3D city models"
   period: 2025@now
   homepage: https://3d.bk.tudelft.nl/hideba/
 
-
 - surname: Beuster
-  name:  Lukas
+  name: Lukas
   title: "Throwing shade: Scalable solutions for urban climate change adaptation"
   period: 2023@now
   homepage: https://3d.bk.tudelft.nl/lbeuster/
 
-- surname: Pronk  
-  name:  Maarten
+- surname: Pronk
+  name: Maarten
   title: "Generating an accurate global terrain model using spaceborne lidar"
   period: 2021@now
   homepage: https://www.evetion.nl
 
 - surname: Ibrahimli
-  name:  Nail
+  name: Nail
   title: "Learning-based 3D reconstruction of urban objects"
   period: 2020@now
   homepage: https://3d.bk.tudelft.nl/nibrahimli/
 
 - surname: Pađen
-  name:  Ivan
+  name: Ivan
   title: "Automatic reconstruction of 3D city models tailored to urban flow simulations"
   period: 2020@now
   homepage: https://3d.bk.tudelft.nl/ipaden
 
 - surname: Gao
-  name:  Weixiao
+  name: Weixiao
   title: "Semantic understanding of urban scenes from textured meshes"
   period: 2017@2024
   thesis: https://doi.org/10.4233/uuid:75ffb577-05a6-465f-8d71-92fb3e3f960c
