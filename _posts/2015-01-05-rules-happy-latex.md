@@ -100,7 +100,7 @@ The other fields are not affected by this. LaTeX does this to uniformise the cap
 {% endhighlight %} 
 
 
-### 9. You shall not add any commands to change the format until the the paper is finished
+### 9. You shall not add any commands to change the format until the paper is finished
 
 `\vspace` and `\newpage` are thus forbidden.
 
