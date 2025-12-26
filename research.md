@@ -35,7 +35,7 @@ It was designed with programmers in mind, so that tools and APIs supporting it c
 
 ![]({{ site.baseurl }}/img/city4cfd.png)
 
-We develop (this is [Ivan Pađen](https://3d.bk.tudelft.nl/ipaden/) PhD project, which I supervise with [Clara García-Sánchez](http://3d.bk.tudelft.nl/gsclara)) methods and software to reconstruct 3D city models that are ready to be imported in [OpenFOAM](https://openfoam.org/).
+We develop methods and software to reconstruct 3D city models that are ready to be imported in [OpenFOAM](https://openfoam.org/) (this is [Ivan Pađen](https://3d.bk.tudelft.nl/ipaden/)'s PhD project, which I supervise with [Clara García-Sánchez](http://3d.bk.tudelft.nl/gsclara)).
 
 The open-source software [City4CFD](https://github.com/tudelft3d/city4cfd) takes building footprints and a point cloud, and creates valid/watertight geometries that can be used for microscale urban flow simulations.
 
@@ -48,9 +48,9 @@ The open-source software [City4CFD](https://github.com/tudelft3d/city4cfd) takes
 
 ![]({{ site.baseurl }}/img/sum.jpg)
 
-We develop (this is [Weixiao Gao](https://3d.bk.tudelft.nl/weixiao/) PhD project, which I supervise with [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)) algorithms and software to semantically segment very large urban textured meshes.
+We develop algorithms and software to semantically segment very large urban textured meshes (this is [Weixiao Gao](https://3d.bk.tudelft.nl/weixiao/)'s PhD project, which I supervise with [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)).
 
-We have annoted part of the open [Helsinki 3D dataset](https://www.hel.fi/helsinki/en/administration/information/general/3d/3d) and released it as open dataset ([code+dataset](https://3d.bk.tudelft.nl/projects/meshannotation/)).
+We have annotated part of the open [Helsinki 3D dataset](https://www.hel.fi/helsinki/en/administration/information/general/3d/3d) and released it as open dataset ([code+dataset](https://3d.bk.tudelft.nl/projects/meshannotation/)).
 
 Our methodology outperforms other segmentation methods, see our two papers: 
 
