@@ -1,3 +1,10 @@
+- surname: Sárkány
+  name: Ákos
+  title: "Voronoi mesh generation tailored for urban flow simulations"
+  url: https://resolver.tudelft.nl/uuid:38622300-9903-4502-8311-d2d41f2bd1dd
+  github: https://github.com/akossarkany/geomatics-thesis
+  year: 2026
+
 - surname: Alting
   name: Noah
   title: "From point clouds to porous crowns: A scalable approach for CFD-ready urban tree reconstruction"
