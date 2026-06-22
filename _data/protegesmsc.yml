@@ -1,3 +1,10 @@
+- surname: Rotteveel
+  name: Heiko
+  title: "Automatic water detection using ICESat-2 measurements"
+  url: https://resolver.tudelft.nl/uuid:2fd2a861-a1f8-4b64-a02e-17a804b04bc6
+  github: https://github.com/HeikoRotteveel/ICESat-2_automatic_water_detection
+  year: 2026
+
 - surname: Sárkány
   name: Ákos
   title: "Voronoi mesh generation tailored for urban flow simulations"
