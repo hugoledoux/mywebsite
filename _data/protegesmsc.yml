@@ -40,6 +40,7 @@
   title: "FlatCityBuf: A new cloud-optimised CityJSON format"
   url: https://resolver.tudelft.nl/uuid:6727c979-5e46-4fe0-9349-a7803e825d02
   github: https://github.com/HideBa/flatcitybuf
+  paper: http://doi.org/10.5194/isprs-archives-xlviii-4-w15-2025-17-2025
   year: 2025
 
 - surname: Monahan
