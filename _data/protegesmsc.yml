@@ -1,7 +1,13 @@
+- surname: Bry
+  name: Alexandre
+  title: "From points to prints -- Generating building roofprints and footprints from airborne lidar data and inaccurate outlines"
+  url: https://resolver.tudelft.nl/uuid:101ba3d8-1988-4025-b041-fafb12d2d2f3
+  github: https://github.com/alexandre-bry/MSc_Thesis-Code
+  year: 2026
+
 - surname: Jonker
   name: Luc
   title: "Automated generation of tree-aware urban shade maps using deep learning"
-  image: LucJonker.jpg
   url: https://resolver.tudelft.nl/uuid:d2954f9d-f996-43ae-81f0-a587c34ed715
   github: https://github.com/lucjonker/Shady_Shenanigans
   year: 2026
@@ -9,7 +15,6 @@
 - surname: Singh
   name: Neelabh
   title: "Identifying Sidewalks from Crowdsourced SVI"
-  image: NeelabhSingh.jpg
   url: https://resolver.tudelft.nl/uuid:47f57012-2d9b-4bca-8d72-c31ffd2db163
   github: https://github.com/neelabhz/pixel2sidewalk/
   year: 2026
@@ -298,7 +303,6 @@
 - surname: Jonker
   name: Kees
   title: Automatic generation of raster-based height data for the Netherlands based on the AHN2 data set
-  image: jonker.png
   url: http://resolver.tudelft.nl/uuid:b1d1c50d-24bf-4a12-b0e5-3c2479907d66
   year: 2016
 
