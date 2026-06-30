@@ -41,18 +41,13 @@ permalink: /proteges/
 
 ## MSc students 
 
-{% assign msc = site.data.protegesmsc | sort: 'year' %}
+{% assign ongoing = site.data.protegesmsc | where_exp: 'item', 'item.year == nil' | sort: 'surname' %}
+{% assign completed = site.data.protegesmsc | where_exp: 'item', 'item.year != nil' %}
+{% assign groups = completed | group_by: 'year' | sort: 'name' | reverse %}
 
-{% for i in msc %}
-{% if i.year == null %}
-
-<p><strong>{{ i.name }} {{ i.van }} {{ i.surname }}</strong> (ongoing)<br>{{ i.title }}</p>
-
-{% endif %}
-{% endfor %}
-
-{% for i in msc reversed %}
-{% if i.year != null %}
+{% for group in groups %}
+  {% assign sorted = group.items | sort: 'surname' %}
+  {% for i in sorted %}
 
 <p>
   <strong>{{ i.name }} {{ i.van }} {{ i.surname }}</strong> <span class="label success">{{ i.year }}</span>
@@ -66,8 +61,14 @@ permalink: /proteges/
     <span class="label note">{{ i.note | markdownify | remove: '<p>' | remove: '</p>' }}</span>
   {% endif %}
   <br>
-  <a href="{{ i.url }}">{{ i.title }}</a>
+  <a href="{{ i.link }}">{{ i.title }}</a>
 </p>
 
-{% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% for i in ongoing %}
+
+<p><strong>{{ i.name }} {{ i.van }} {{ i.surname }}</strong> (ongoing)<br>{{ i.title }}</p>
+
 {% endfor %}
