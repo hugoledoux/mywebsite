@@ -81,6 +81,7 @@
   title: "Exploration of algorithms for extracting wireframe models from man-made urban linear object point clouds"
   link: https://resolver.tudelft.nl/uuid:148178a4-f7ce-4f09-b4bd-267e4d7f15bc
   github: https://github.com/Ganbusier/final_thesis
+  paper: http://doi.org/10.5194/isprs-annals-xii-4-w1-2026-145-2026
   year: 2025
 
 - surname: Brouwer
@@ -110,6 +111,7 @@
   title: "The City Stack: A morphology-based city analysis and generation framework"
   link: https://repository.tudelft.nl/record/uuid:d6dc629c-c75e-4578-b1a1-8ac741133751
   github: https://github.com/OliverJPost/CityStack
+  paper: http://doi.org/10.5194/isprs-annals-xii-4-w1-2026-277-2026
   year: 2024
 
 - surname: Dinklo
