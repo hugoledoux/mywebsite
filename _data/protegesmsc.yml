@@ -59,7 +59,7 @@
   title: "FlatCityBuf: A new cloud-optimised CityJSON format"
   link: https://resolver.tudelft.nl/uuid:6727c979-5e46-4fe0-9349-a7803e825d02
   github: https://github.com/HideBa/flatcitybuf
-  paper: http://doi.org/10.5194/isprs-archives-xlviii-4-w15-2025-17-2025
+  paper: https://doi.org/10.5194/isprs-archives-xlviii-4-w15-2025-17-2025
   year: 2025
 
 - surname: Monahan
@@ -81,7 +81,7 @@
   title: "Exploration of algorithms for extracting wireframe models from man-made urban linear object point clouds"
   link: https://resolver.tudelft.nl/uuid:148178a4-f7ce-4f09-b4bd-267e4d7f15bc
   github: https://github.com/Ganbusier/final_thesis
-  paper: http://doi.org/10.5194/isprs-annals-xii-4-w1-2026-145-2026
+  paper: https://doi.org/10.5194/isprs-annals-xii-4-w1-2026-145-2026
   year: 2025
 
 - surname: Brouwer
@@ -262,8 +262,8 @@
   github: https://github.com/VasileiosBouzas/MeshPolygonization
   year: 2019
 
-- surname: Qu
-  name: Wang
+- surname: Wang
+  name: Qu
   title: "3D breakline extraction from point clouds with the medial axis transform"
   link: http://resolver.tudelft.nl/uuid:ba8e4bf4-e473-410b-a1f0-ef48e9c2fbf3
   year: 2019
@@ -314,7 +314,7 @@
   name: Tom
   title: Automatic identification of water courses from AHN3 in flat and engineered landscapes
   link: http://resolver.tudelft.nl/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
-  paper: http://dx.doi.org/10.1016/j.cageo.2017.06.003
+  paper: https://doi.org/10.1016/j.cageo.2017.06.003
   year: 2016
 
 - surname: Jonker
@@ -342,7 +342,7 @@
   title: Automatic generation of CityGML LoD3 building models from IFC models
   link: http://resolver.tudelft.nl/uuid:31380219-f8e8-4c66-a2dc-548c3680bb8d
   github: https://github.com/tudelft3d/ifc2citygml
-  paper: http://doi.org/10.1111/tgis.12162
+  paper: https://doi.org/10.1111/tgis.12162
   year: 2013
 
 - surname: Peters
@@ -350,7 +350,7 @@
   note: "[Hydrographic Society Benelux best MSc thesis 2012!](https://www.hydro-international.com/content/article/hydrographic-society-benelux-51?output=pdf)"
   title: A Voronoi- and surface-based approach for the automatic generation of depth-contours for hydrographic charts
   link: http://resolver.tudelft.nl/uuid:5977a99b-0875-44b4-abe1-09288bf2aed1
-  paper: http://dx.doi.org/10.1080/01490419.2014.902882
+  paper: https://doi.org/10.1080/01490419.2014.902882
   year: 2012
 
 - surname: Nedkov
@@ -375,14 +375,14 @@
   name: Ken
   title: Validation and Automatic Repair of Planar Partitions using a Constrained Triangulation
   link: http://resolver.tudelft.nl/uuid:78807acb-4115-478c-93de-68b9db884c8e
-  paper: http://dx.doi.org/10.1016/j.cageo.2014.01.009
+  paper: https://doi.org/10.1016/j.cageo.2014.01.009
   year: 2010
 
 - surname: Biljecki
   name: Filip
   title: Automatic segmentation and classification of movement trajectories for transportation modes
   link: http://resolver.tudelft.nl/uuid:654587d2-6e93-4619-ab9a-29d95f843f35
-  paper: http://dx.doi.org/10.1080/13658816.2012.692791
+  paper: https://doi.org/10.1080/13658816.2012.692791
   year: 2010
 
 - surname: Putte
