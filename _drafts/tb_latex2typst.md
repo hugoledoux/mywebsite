@@ -5,10 +5,10 @@ title: Converting a complex LaTeX book to Typst
 
 {:toc}
 
-The [book "Computational modelling of terrains"](https://tudelft3d.github.io/terrainbook/) (below just the "terrainbook") was released in 2019 as an open book.
-My colleagues and I chose to self-publish it directly on GitHub/Zenodo because we know how to use a typesetter (LaTeX) and publisher would not bring much (or would just bring more trouble).
+<img src="{{ site.baseurl }}/img/tb/cover.png" alt="" style="max-width:400px;">
 
-![](/img/tb_cover.jpg)
+The [book "Computational modelling of terrains"](https://tudelft3d.github.io/terrainbook/) (below just the "terrainbook") was released in 2019 as an open book.
+My colleagues and I chose to self-publish it directly on GitHub/Zenodo because we knew how to use a typesetter (LaTeX back then), and having a publisher would not bring much (or would just bring more trouble...).
 
 We first wrote the book using LaTeX and the great [kaobook](https://github.com/fmarotta/kaobook) class, which is based on the [PhD thesis of Ken](https://3d.bk.tudelft.nl/ken/en/thesis/) (Arroyo Ohori, my colleague and co-author of the terrainbook).
 For years it was perfect: pretty, efficient use of the space, distinctive look, etc. 
@@ -17,39 +17,70 @@ But the complexity of the kaobook class was visible: often there would be clashe
 
 That was until ~2024 when I noticed that suddenly I couldn't compile anymore the book... New dependencies broke something, and since the kaobook is not super well maintained ([the last official release is 5 years ago](https://github.com/fmarotta/kaobook/releases)) there were no (easy) solution. Ouch.
 
-In short, the terrainbook was more or less holding with duct tape, and I was fearing the day where I wouldn't be able to compile it (or spend a lot of time each time).
+In short, the terrainbook was more or less holding with duct tape, and I was fearing the day where I wouldn't be able to compile it (or the day where I would need to reinstall LaTeX and fix dependencies just to compile an updated version of the book).
 
 
-At the same time, I got very interested in [Typst](https://typst.app) as a LaTeX replacement. 
-It's written in Rust, is super fast, and testing it was a joy. 
+Around the same time, I got very interested in [Typst](https://typst.app) as a potential LaTeX replacement. 
+It's written in Rust, it's super fast, and testing it was a joy. 
 Compiling the terrainbook in LaTeX from scratch was long (about 1min15sec on my laptop), so modifying something meant a lot of waiting.
+By comparison, Typst seemed to be able to compile complex and long document in mere seconds!
 
 Until last year, Typst was for me something to tinker with and to test, it wasn't a serious option to write a book. 
-However, the beginning of 2026, I got more interested and wrote an MSc Geomatics thesis template with it, and  I noticed that many of the MSc theses in Geomatics here were suddenly in Typst. And they looked fine and students reported very few bugs or hiccups.
+However, the beginning of 2026, I got more interested and wrote an [MSc Geomatics thesis template](https://github.com/tudelft3d/msc_geomatics_thesis_typst) with it, and  I noticed that many of the [MSc theses in Geomatics](https://geomatics.bk.tudelft.nl/geo2022/theses/) here were suddenly in Typst. 
+And they looked fine and students reported very few bugs or hiccups and looked generally happy about having written their thesis with Typst.
 
-So last summer I decided to try to convert the terrainbook from LaTeX to Typst. I report here on the process.
+So last summer I decided to try to convert the terrainbook from LaTeX to Typst. 
+I report here on the process, the good, and the bad.
 
 
 ## The final outcome
 
-But let's start with the result: it is in my opinion *great*, probably nicer than what we obtained with  the kaobook.
+But let's start with the result: it is in my opinion *great*, probably nicer than what we obtained with the kaobook.
+Here left is the original LaTeX book, and right is the result in Typst:
 
+![]({{ site.baseurl }}/img/tb/final_1.png)
+
+![]({{ site.baseurl }}/img/tb/final_2.png)
+
+![]({{ site.baseurl }}/img/tb/final_3.png)
+
+![]({{ site.baseurl }}/img/tb/final_4.png)
+
+I think the new book looks nicer actually, but this has potentially to do with the fast that the font is different and the first page of a chapter looks nicer with bolder fonts.
+
+
+## The fonts: IBM Plex superfamily
+
+For the font, I wasn't sure if I wanted to keep Palatino. 
+In the end, I asked several people (colleagues, family, students) which one they liked the most and the version with the [IBM Plex superfamily](https://github.com/IBM/plex) of fonts won. 
+This is the result you see in the printscreens here.
+I liked that the serif is great, the sans-serif not bad, but also that the mono font fits with the rest, and ditto for the math font. 
+In hindsight: an easy choice.
+
+The font is free and openly available, and it is bundled with the source of the book (in folder `./fonts/`) so that the PDF renders identically on every machine (macOS, Linux, CI).
+
+
+## The design and testing process is FAST 🚀
 
 It's fun to test options, it's almost like Word where you get instant feedback.
-By using `typst watch myfile.typ` you can write the template/code of the book, and upon saving a file of the project the PDF gets recompiled on-the-fly. 
+If you use the web-application you get WYSIWYG but for a complex book I wanted to work locally and use Git and test things. 
+
+By using `typst watch myfile.typ` you can write the template/code of the book with your favourite text editor (mine is [Zed](https://zed.dev)), and upon saving a file of the project the PDF gets recompiled on-the-fly. 
 It takes <1s to see the results, which I deem instant feedback here (especially coming from LaTeX!).
 
-This has to do with the different fonts and the fact that I could more freely test options since the compilation takes <1s when testing different options. 
+This means that when testing options for fonts or layout, you can simply try things quickly and see instantly the results. 
+A game changer really.
 
 
 ## Complex LaTeX means that no standard conversion tool will work
 
-I tried pandoc, tylax, the builtin one from Typst, but none could handle the specific and non-standard tags that are in the terrainbook.
+I tried pandoc, tylax, the builtin one from Typst, but none could handle the specific and non-standard tags that are in the terrainbook:
 
-- marginnote
-- marginfigure
-- I used a lot of sub-figures (different files get figure a) b) c) etc.) using the subcaption package
-- specific algorithms written with 'algorithm2e'
+- `marginnote`
+- `marginfigure`
+- I used a lot of sub-figures (different files get figure a) b) c) etc.) using the `subcaption` package
+- specific algorithms written with `algorithm2e`
+- etc
 
 ```tex
 \begin{marginfigure}
@@ -89,16 +120,18 @@ Some figures took the full width, including the margin:
 \end{figure*}
 ```
 
-I ended up writing my own specific Python converter for each chapter using regex. 
-I say "I", but I basically converted 2-3 chapters manually with the packages in Typst I wanted to use (more on this below), and then used a LLM to write Python code.
+I ended up writing my own specific Python converter using regex. 
+I say "I", but I basically converted 2-3 chapters manually with the packages in Typst I wanted to use (more on this below), and then used a LLM to write Python code by giving it the input and the output.
 This took a few hours of trying and tweaking, and the result is `tex2typ_v2.py`.
-It uses tylax for the mathematical equations, and the rest is the regex to convert the text to the specific Typst commands I wanted to use. 
+It uses [tylax](https://github.com/scipenai/tylax) for the mathematical equations, and the rest is handled with regex to convert the text to the specific Typst commands I wanted to use. 
 
-It skips the algorithms, which I rewrote manually. There are not that many and I thought that automatic those would take more time then manual rewrite.
+It skips the algorithms/pseudo-code, which I rewrote manually. 
+There are not that many and I thought that I would spend more time to develop the script than to convert them manually.
 
-The Python script is also not perfect, I used it to convert the other chapters but for each I need to manually fix errors and a few commands escaped the conversion (eg LaTeX commands inside a caption of a subfigure).
+The final Python script is also not perfect, I used it to convert the other chapters but for each I needed to manually fix small errors and a few commands escaped the conversion (eg LaTeX commands inside a caption of a subfigure).
 
-But in general it went pretty well, and for each chapter the amount of manual was certainly <1h per chapter.
+But in general it went pretty well, and for each chapter the amount of manual was certainly <1h per chapter (after I had converted the first 3 manually).
+
 
 ## The template
 
@@ -108,21 +141,9 @@ Most of it was written manually while verifying visually the results in the PDF.
 
 I tried to use a LLM to help me, and it was really hit-and-miss.
 Some parts like numbering the subfigures and applying a specific format to the caption, the LLM proved great and saved me a lot of time.
-For many other things it was hopeless and I ended up testing and googling.
+For many other things it was hopeless and I ended up testing and googling and fixing it myself.
 
-### The fonts: IBM Plex superfamily
-
-For the font, I wasn't sure if I wanted to keep Palatino. 
-In the end, I asked several people (colleagues, family, students) which one they liked the most and the version with the [IBM Plex superfamily](https://github.com/IBM/plex) of fonts won. 
-This is the result you see in the printscreens here.
-I liked that the serif is great, the sans-serif not bad, but also that the mono font fits with the rest, and ditto for the math font. 
-In hindsight: an easy choice.
-
-The font is free and openly available, and it is bundled with the source of the book (in folder `./fonts/`) so that the PDF renders identically on every machine (macOS, Linux, CI).
-
-### The Typst packages 
-
-The main packages I used are the following
+The Typst packages I used are the following
 
 ```typ
 //-- engine for the page setup and margins
@@ -149,7 +170,14 @@ The main packages I used are the following
 
 #### marginalia
 The package marginalia proved to be *great*. 
-One can easily decide on the proportion, and since with Typst you can test and marginalia lets you show the frame lines it was rather easy to iterate.
+One can easily decide on the size/proportion for the margins, and since with Typst you can test and marginalia lets you show the frame lines it was rather easy to iterate.
+See 3 pages from the book where we have a wide-figure, a margin-figure, and some notes in the margin.
+
+![]({{ site.baseurl }}/img/tb/marginalia_1.png)
+
+![]({{ site.baseurl }}/img/tb/marginalia_2.png)
+
+![]({{ site.baseurl }}/img/tb/marginalia_3.png)
 
 For the figure/table/algorithm captions, I tried to imitate the behaviour of kaobook and for this I had to write several lines of custom commands; those can be seen in `template.typ`.
 
@@ -166,6 +194,8 @@ In LaTeX, there were sometimes clashes between the many margin notes and the fig
 It is essentially the same with Typst, there are only a handful of figures where I had to manually moved them manually up or down (`dy: 100pt` can be seen in some floats).
 I enforce figures and widefigures (those using also the margin) to be placed at the top or bottom of a page (`placement: auto` in Typst) but this can create some issues like this one if margin-figures are used. 
 Notice that the numbering is not in order in this case...
+
+![]({{ site.baseurl }}/img/tb/noconverge.png)
 
 However, when compiling the book in Typst, one gets a very long warning stating the the optimal placement of figures hasn't converged after 5 attempts. 
 I get a warning and I am referred to this page: [https://typst.app/help/state-convergence](https://typst.app/help/state-convergence).
@@ -186,3 +216,69 @@ Pretty easy and straightforward.
 Notice that I wouldn't know how difficult these things are to do in LaTeX since I basically just "used" kaobook as is, and I have never really had to implement new functions or modify them.
 But I was always fearing doing this, as I see LaTeX as very complex (and when modifying something one has to wait minutes to see the results, which makes me stop after 20min...).
 With Typst, it was doable and mostly fun.
+
+#### subfigures with subpar
+
+I used [subpar](https://typst.app/universe/package/subpar) to create subfigures.
+
+I created a new function called "subfigure":
+```typ
+#let subfigure = subpar.grid.with(
+  numbering: figure-numbering,
+  numbering-sub-ref: sub-figure-numbering,
+  show-sub-caption: (number, caption) => {
+    text(size: 8pt, style: "normal", weight: "regular")[#caption]
+  },
+)
+```
+
+and then I can use it by listing the figures and the number of columns; captions and labels for subfigures are possible.
+This can also be used to have a wide-figure (equivalent to `figure*` in LaTeX) this way:
+
+```typ
+#place(float:true, auto,
+  wideblock[
+    #subfigure(
+      figure(image("figs/ahn1_d.png", width: 100%), caption: [AHN1 (1996--2003)]),
+      figure(image("figs/ahn2_d.png", width: 100%), caption: [AHN2 (2008)]),
+      figure(image("figs/ahn3_d.png", width: 100%), caption: [AHN3 (2014)]),
+      figure(image("figs/rdam16_d.png", width: 100%), caption: [City of Rotterdam (2016)]),
+      columns: (1fr, 1fr),
+      caption: [Several lidar point clouds for the same area in the city of Rotterdam. Point distribution and occlusion effects vary.],
+      placement: auto,
+      label: <fig:pcd:ahn1>,
+    )
+  ]
+)
+```
+
+Which results in this:
+
+![]({{ site.baseurl }}/img/tb/subfigures.png)
+
+
+## What was really annoying
+
+So in LaTeX if you have a cross-reference that doesn't resolve you just get a warning during the compilation and in the PDF you get a warning.
+
+In Typst, you cannot compile the document.
+It's very annoying if you are converting a large document and want to work only on one chapter at a time, a cross-reference needs to exist!?
+
+So I had to add this to my doc while working on the book, useful to others I reckon:
+
+```typ
+//-- TODO: remove the red-missing-refs
+#let possible-missing-ref(it) = {
+  if it.element != none {
+    it
+  } else {
+    text(fill: red)[\<Target not found: #emph(str(it.target))\>]
+  }
+}
+#show ref: possible-missing-ref
+```
+
+and remove it at the end.
+While working, the PDF will compile and generate in red a "Target not found: "
+
+![]({{ site.baseurl }}/img/tb/targetnotfound.png)
