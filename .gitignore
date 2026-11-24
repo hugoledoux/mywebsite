@@ -2,3 +2,4 @@ _site
 fabfile.pyc
 .jekyll-metadata
 .jekyll-cache
+Gemfile.lock

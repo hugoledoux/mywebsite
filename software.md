@@ -22,7 +22,5 @@ My code is spread mostly over:
 {% assign s = site.data.software | sort %}
 
 {% for i in s %}
-  <a href="https://github.com/{{ i }}"><img src="https://gh-card.dev/repos/{{ i }}.svg"></a>
+  <a href="https://github.com/{{ i }}"><img src="https://github-stats-extended.vercel.app/api/pin?username=hugoledoux&repo={{ i }}&show_owner=true&theme=light_github_repocard"></a>
 {% endfor %}
-
-
