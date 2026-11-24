@@ -1081,7 +1081,7 @@ class bibhtmler
         $t = $this->processtext($in["pdf"]);
         if (substr($t, 0, 4) != "http") {
           $out .=
-            ' <a href="/hledoux/pdfs/' .
+            ' <a href="https://pub-7c2e45b500704572aa8935b0daf995b2.r2.dev/' .
             $t .
             '"><i class="bi bi-file-earmark-pdf"></i></a>';
         } else {
@@ -1093,7 +1093,7 @@ class bibhtmler
         $t = $this->processtext($in["slides"]);
         if (substr($t, 0, 4) != "http") {
           $out .=
-            ' <a href="/hledoux/pdfs/' .
+            ' <a href="https://pub-7c2e45b500704572aa8935b0daf995b2.r2.dev/' .
             $t .
             '"><i class="bi bi-file-earmark-ppt"></i></a>';
         } else {
